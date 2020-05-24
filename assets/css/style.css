@@ -93,7 +93,27 @@ button.BtnCity {
     margin-top:auto;
     position: fixed;
     bottom: 0;
+    left:0;
+    padding-left: 20px;
+
 }
+strong {
+    color: #6083CD;;
+}
+.social {
+    color:#77B800;
+    text-align:center;
+    font-size:14px;
+}
+.fa {
+    color: #77B800;
+}
+
 .banner-bottom {
     border-radius: 10px 0 0 0;
+}
+footer {
+    font-size:8px;
+    margin-top:30px;
+    padding:5px;
 }

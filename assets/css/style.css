@@ -1,0 +1,99 @@
+html {
+    font-family: Letter Gothic;
+}
+div.container-fluid{
+    padding: 0px;
+}
+
+.top {
+    padding-right:20px;
+}
+p {
+    font-family: Letter Gothic;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: justify;
+    text-align-last:center;
+    padding:5px;   
+}
+img {
+    max-width: 100%;
+    min-height:100%;
+    display: block;
+    object-fit: cover;
+}
+.banner-top {
+    border-radius: 0 0 0 10px;
+    transform: rotateY(180deg);
+    
+}
+.site-title {
+    text-align:center;
+    margin-top: 30px;
+    margin-bottom:20px;
+    color:#77B800;
+    font-family:Letter Gothic;
+    font-size:24px;   
+}
+
+.col-2 {
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.middle {
+    margin:30px;
+    text-align:center;
+}
+.getReady {
+    color: #6083CD;
+    font-family:Letter Gothic;
+    Font-size:18px;
+}
+.explore {
+    color:#77B800;
+    font-family:Letter Gothic;
+    font-size:16px;
+    margin-bottom:20px;
+}
+
+.FirstBtns {
+    margin-top:20px;
+}
+
+button.BtnSuburbs {
+    background-size: cover;
+    width: 90px;
+    height:90px;
+    border-radius:5px;
+    border: 3px solid #6083CD;
+    display: inline-block;
+    text-align:center;
+    font-size:10px;
+    line-height:10px;
+    font-family:arial;
+    color:rgba(0, 0, 0, 0);
+}
+button.BtnCity {
+    background-size: cover;
+    width: 90px;
+    height:90px;
+    border-radius:5px;
+    border: 3px solid #6083CD;
+    display: inline-block;
+    text-align:center;
+    font-size:10px;
+    line-height:10px;
+    font-family:arial;
+    color:rgba(0, 0, 0, 0);
+}
+
+.bottom {
+    margin-top:auto;
+    position: fixed;
+    bottom: 0;
+}
+.banner-bottom {
+    border-radius: 10px 0 0 0;
+}

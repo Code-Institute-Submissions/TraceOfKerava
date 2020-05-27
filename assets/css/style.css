@@ -117,3 +117,11 @@ footer {
     margin-top:30px;
     padding:5px;
 }
+.suburb_first {
+    width:350px;
+    position:center;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+}

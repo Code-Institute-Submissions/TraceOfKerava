@@ -138,3 +138,39 @@ footer {
     color:rgba(0, 0, 0, 0);
     margin:5px;
 }
+.horsies {
+    background-image: url(../images/horse-2649609_1920.jpg);
+    background-size: cover;
+}
+.hiking {
+    background-image: url(../images/forest-4901664_1280.jpg);
+    background-size: cover;
+}
+.mansion {
+    background-image: url(../images/furniture-2436907_640.jpg);
+    background-size: cover;
+}
+.cricket {
+    background-image: url(../images/grass-2616911_640.jpg);
+    background-size: cover;
+}
+
+h3 {
+    color: #6083CD;
+}
+.foodie {
+    background-image: url(../images/appetizer-1386743_1280.jpg);
+    background-size: cover;
+}
+.story {
+    background-image: url(../images/library-4556542_1280.jpg);
+    background-size: cover;
+}
+.cafe {
+    background-image: url(../images/coffee-2319122_1280.jpg);
+    background-size: cover;
+}
+.shop {
+    background-image: url(../images/woman-standing-374679.jpg);
+    background-size: cover;
+}

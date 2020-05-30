@@ -155,8 +155,10 @@ footer {
     background-size: cover;
 }
 
-h3 {
+.moikka {
     color: #6083CD;
+    font-size: 20px;
+    text-align: center;
 }
 .foodie {
     background-image: url(../images/appetizer-1386743_1280.jpg);
@@ -173,4 +175,7 @@ h3 {
 .shop {
     background-image: url(../images/woman-standing-374679.jpg);
     background-size: cover;
+}
+.subheader {
+    padding: 15px;
 }

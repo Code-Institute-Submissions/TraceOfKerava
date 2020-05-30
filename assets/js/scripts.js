@@ -1,21 +1,23 @@
 // Actions for landing page buttons
 $(document).ready(function(){
-  $(".BtnSuburbs").click(function(){
-    $(".BtnCity").replaceWith("<div class=cong><p>Congratulations for having taken the first step! Get ready to explore the suburbs with us..</p></div>");
-  $(".top p").hide();
-  $(".middle h2").replaceWith("<h3>Welcome to the suburbs!</h3>")
-  $("<br><br>").appendTo(".middle");
+$(".BtnSuburbs").one("click", function() {
+    $(".BtnCity").hide();
+  $(".getStarted").text("The areas outside the town center offer various options for both relaxation and physical activities. We have selected a few for this route but suggest you take a looka at the official Kerava website for more inspiration");
+  $(".welcome").text("Congratulations for having taken the first step! Get ready to explore the suburbs with us..");
   $("<button>hey</button>").addClass("test1").addClass("horsies").appendTo(".middle");
   $("<button>hola</button>").addClass("test1").addClass("hiking").appendTo(".middle");
   $("<button>hello</button>").addClass("test1").addClass("mansion").appendTo(".middle");
   $("<button>moi</button>").addClass("test1").addClass("cricket").appendTo(".middle");
+  $(".BtnSuburbs").hide();
+  $(".getReady").text("So lets see what is in store of us today!");
+  $(".explore").text("Go ahead, click on the most appealing photo:");
 });
 });
 $(document).ready(function(){
-    $(".BtnCity").click(function(){
+$(".BtnCity").one("click", function() {
     $(".BtnSuburbs").replaceWith("<div class=cong><p>Congratulations for having taken the first step! Let's visit the town center today..</p></div>");
   $(".top p").hide();
-  $(".middle h2").replaceWith("<h3>Welcome to the center!</h3>")
+  $(".middle h2").replaceWith("<div class=moikka>Welcome to the center!</div>");
   $("<br><br>").appendTo(".middle");
   $("<button>hey</button>").addClass("test1").addClass("foodie").appendTo(".middle");
   $("<button>hola</button>").addClass("test1").addClass("story").appendTo(".middle");
@@ -24,31 +26,61 @@ $(document).ready(function(){
   });
 });
 // Actions for Suburb route buttons
-    $(document).on("click", ".cricket", function() {
+$(document).on("click", ".cricket", function() {
   $(".mansion").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
   $(".instr").addClass("test1");
   $(".horsies").replaceWith("<button class=test1>map</button>");
   $(".hiking").replaceWith("<button class=chal>challenge</button>");
   $(".chal").addClass("test1");
-    });
-      $(document).on("click", ".mansion", function() {
+});
+$(document).on("click", ".mansion", function() {
   $(".cricket").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
   $(".instr").addClass("test1");
   $(".horsies").replaceWith("<button class=test1>map</button>");
   $(".hiking").replaceWith("<button class=chal>challenge</button>");
   $(".chal").addClass("test1");
-    });
-      $(document).on("click", ".hiking", function() {
+});
+$(document).on("click", ".horsies", function() {
+   $(".BtnSuburbs").hide(); 
+  $(".mansion").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
+  $(".instr").addClass("test1");
+  $(".cricket").replaceWith("<button class=test1>map</button>");
+  $(".hiking").replaceWith("<button class=chal>challenge</button>");
+  $(".chal").addClass("test1");
+});
+$(document).on("click", ".hiking", function() {
   $(".mansion").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
   $(".instr").addClass("test1");
   $(".horsies").replaceWith("<button class=test1>map</button>");
   $(".cricket").replaceWith("<button class=chal>challenge</button>");
   $(".chal").addClass("test1");
-    });
-      $(document).on("click", ".horsies", function() {
-  $(".cricket").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
+});
+// Actions for City route buttons
+$(document).on("click", ".foodie", function() {
+  $(".story").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
   $(".instr").addClass("test1");
-  $(".mansion").replaceWith("<button class=test1>map</button>");
-  $(".hiking").replaceWith("<button class=chal>challenge</button>");
+  $(".cafe").replaceWith("<button class=test1>map</button>");
+  $(".shop").replaceWith("<button class=chal>challenge</button>");
   $(".chal").addClass("test1");
-    });  
+});
+$(document).on("click", ".story", function() {
+  $(".foodie").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
+  $(".instr").addClass("test1");
+  $(".cafe").replaceWith("<button class=test1>map</button>");
+  $(".shop").replaceWith("<button class=chal>challenge</button>");
+  $(".chal").addClass("test1");
+});
+$(document).on("click", ".cafe", function() {
+  $(".story").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
+  $(".instr").addClass("test1");
+  $(".foodie").replaceWith("<button class=test1>map</button>");
+  $(".shop").replaceWith("<button class=chal>challenge</button>");
+  $(".chal").addClass("test1");
+});
+$(document).on("click", ".shop", function() {
+  $(".story").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
+  $(".instr").addClass("test1");
+  $(".cafe").replaceWith("<button class=test1>map</button>");
+  $(".foodie").replaceWith("<button class=chal>challenge</button>");
+  $(".chal").addClass("test1");
+});

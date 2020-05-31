@@ -18,7 +18,6 @@ $(".BtnCity").one("click", function() {
     $(".BtnSuburbs").hide();
   $(".getStarted").text("The town center, while compact, has a variety of cultural, culinary and other leisure time activities to offer. We will explore some of these here but be sure to check out others as well later on.");
   $(".welcome").text("Congratulations for having taken the first step! Get ready to explore the center with us..");
-  $("<br><br>").appendTo(".middle");
   $("<button>hey</button>").addClass("test1").addClass("foodie").appendTo(".middle");
   $("<button>hola</button>").addClass("test1").addClass("story").appendTo(".middle");
   $("<button>hello</button>").addClass("test1").addClass("cafe").appendTo(".middle");
@@ -74,34 +73,42 @@ $(document).on("click", ".hiking", function() {
 });
 // Actions for City route buttons
 $(document).on("click", ".foodie", function() {
-  $(".story").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
-  $(".instr").addClass("test1");
+  $(".story").hide();
   $(".cafe").replaceWith("<button class=test1>map</button>");
-  $(".shop").replaceWith("<button class=chal>challenge</button>");
+  $(".shop").replaceWith("<button class=chal>Your Challenge</button>");
   $(".chal").addClass("test1");
   $(".foodie").hide();
+  $(".getStarted").text("Located at the very center of the town, Prisma shopping center and grocery store offers a large variety of consurmer goods for a reasonable price. We will get familiar with their food aisles today so grab your wallet and head over there!");
+  $(".welcome").text("Time to explore the shops in town!");
+  $(".explore").text("Click below to reveal your challenge!");
 });
 $(document).on("click", ".story", function() {
-  $(".foodie").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
-  $(".instr").addClass("test1");
+  $(".foodie").hide();
   $(".cafe").replaceWith("<button class=test1>map</button>");
-  $(".shop").replaceWith("<button class=chal>challenge</button>");
+  $(".shop").replaceWith("<button class=chal>Your Challenge</button>");
   $(".chal").addClass("test1");
   $(".story").hide();
+  $(".getStarted").text("Founded back in 1925, Kerava library situated close to the railway station is a perfect destination to find something to read or to simply enjoy a bit of peace and quite. So get your library card, an open mind and head over there..");
+  $(".welcome").text("As you must have guessed, for this option we will need to find a book!");
+  $(".explore").text("Click below to reveal your challenge!");
 });
 $(document).on("click", ".cafe", function() {
-  $(".story").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
-  $(".instr").addClass("test1");
+  $(".story").hide();
   $(".foodie").replaceWith("<button class=test1>map</button>");
   $(".shop").replaceWith("<button class=chal>challenge</button>");
   $(".chal").addClass("test1");
   $(".cafe").hide();
+  $(".getStarted").text("The Kerava center offers multiple little cafes for meeting up friends or taking a break from shopping. One of the more establised cafes is Kulmakonditoria, also known as Kulmis. Lets go visit them this time!");
+  $(".welcome").text("This is the time to take it easy and enjoy a small break");
+  $(".explore").text("Click below to reveal your challenge!");
 });
 $(document).on("click", ".shop", function() {
-  $(".story").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
-  $(".instr").addClass("test1");
+  $(".story").hide();
   $(".cafe").replaceWith("<button class=test1>map</button>");
   $(".foodie").replaceWith("<button class=chal>challenge</button>");
   $(".chal").addClass("test1");
   $(".shop").hide();
+  $(".getStarted").text("Next to various department stores, Kerava also has a number of secondhand stores with interesting collections of used items. Today we will go visit Fida secondhand to see what they have on offer");
+  $(".welcome").text("Let's go find an old treasure and give it a new home!");
+  $(".explore").text("Click below to reveal your challenge!");
 });

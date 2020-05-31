@@ -15,14 +15,17 @@ $(".BtnSuburbs").one("click", function() {
 });
 $(document).ready(function(){
 $(".BtnCity").one("click", function() {
-    $(".BtnSuburbs").replaceWith("<div class=cong><p>Congratulations for having taken the first step! Let's visit the town center today..</p></div>");
-  $(".top p").hide();
-  $(".middle h2").replaceWith("<div class=moikka>Welcome to the center!</div>");
+    $(".BtnSuburbs").hide();
+  $(".getStarted").text("The town center, while compact, has a variety of cultural, culinary and other leisure time activities to offer. We will explore some of these here but be sure to check out others as well later on");
+  $(".welcome").text("Congratulations for having taken the first step! Get ready to explore the center with us..");
   $("<br><br>").appendTo(".middle");
   $("<button>hey</button>").addClass("test1").addClass("foodie").appendTo(".middle");
   $("<button>hola</button>").addClass("test1").addClass("story").appendTo(".middle");
   $("<button>hello</button>").addClass("test1").addClass("cafe").appendTo(".middle");
   $("<button>moi</button>").addClass("test1").addClass("shop").appendTo(".middle");
+  $(".BtnCity").hide();
+  $(".getReady").text("So lets see what is in store of us today!");
+  $(".explore").text("Go ahead, click on the most appealing photo:");
   });
 });
 // Actions for Suburb route buttons

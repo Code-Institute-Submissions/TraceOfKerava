@@ -35,6 +35,7 @@ $(document).on("click", ".cricket", function() {
   $(".horsies").replaceWith("<button class=test1>map</button>");
   $(".hiking").replaceWith("<button class=chal>challenge</button>");
   $(".chal").addClass("test1");
+  $(".cricket").hide();
 });
 $(document).on("click", ".mansion", function() {
   $(".cricket").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
@@ -42,6 +43,7 @@ $(document).on("click", ".mansion", function() {
   $(".horsies").replaceWith("<button class=test1>map</button>");
   $(".hiking").replaceWith("<button class=chal>challenge</button>");
   $(".chal").addClass("test1");
+  $(".mansion").hide();
 });
 $(document).on("click", ".horsies", function() {
    $(".BtnSuburbs").hide(); 
@@ -50,6 +52,7 @@ $(document).on("click", ".horsies", function() {
   $(".cricket").replaceWith("<button class=test1>map</button>");
   $(".hiking").replaceWith("<button class=chal>challenge</button>");
   $(".chal").addClass("test1");
+  $(".horsies").hide();
 });
 $(document).on("click", ".hiking", function() {
   $(".mansion").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
@@ -57,6 +60,7 @@ $(document).on("click", ".hiking", function() {
   $(".horsies").replaceWith("<button class=test1>map</button>");
   $(".cricket").replaceWith("<button class=chal>challenge</button>");
   $(".chal").addClass("test1");
+  $(".hiking").hide()
 });
 // Actions for City route buttons
 $(document).on("click", ".foodie", function() {
@@ -65,6 +69,7 @@ $(document).on("click", ".foodie", function() {
   $(".cafe").replaceWith("<button class=test1>map</button>");
   $(".shop").replaceWith("<button class=chal>challenge</button>");
   $(".chal").addClass("test1");
+  $(".foodie").hide();
 });
 $(document).on("click", ".story", function() {
   $(".foodie").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
@@ -72,6 +77,7 @@ $(document).on("click", ".story", function() {
   $(".cafe").replaceWith("<button class=test1>map</button>");
   $(".shop").replaceWith("<button class=chal>challenge</button>");
   $(".chal").addClass("test1");
+  $(".story").hide();
 });
 $(document).on("click", ".cafe", function() {
   $(".story").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
@@ -79,6 +85,7 @@ $(document).on("click", ".cafe", function() {
   $(".foodie").replaceWith("<button class=test1>map</button>");
   $(".shop").replaceWith("<button class=chal>challenge</button>");
   $(".chal").addClass("test1");
+  $(".cafe").hide();
 });
 $(document).on("click", ".shop", function() {
   $(".story").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
@@ -86,4 +93,5 @@ $(document).on("click", ".shop", function() {
   $(".cafe").replaceWith("<button class=test1>map</button>");
   $(".foodie").replaceWith("<button class=chal>challenge</button>");
   $(".chal").addClass("test1");
+  $(".shop").hide();
 });

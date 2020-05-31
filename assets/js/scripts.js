@@ -30,12 +30,15 @@ $(".BtnCity").one("click", function() {
 });
 // Actions for Suburb route buttons
 $(document).on("click", ".cricket", function() {
-  $(".mansion").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
+  $(".mansion").hide();
   $(".instr").addClass("test1");
   $(".horsies").replaceWith("<button class=test1>map</button>");
-  $(".hiking").replaceWith("<button class=chal>challenge</button>");
+  $(".hiking").replaceWith("<button class=chal>Your Challenge</button>");
   $(".chal").addClass("test1");
   $(".cricket").hide();
+  $(".getStarted").text("Finlan's National Cricket Ground in Kerava has been in active use for years. Located about 2km from central station the field is available under reservation. Make sure to register and pay for your time if you wish to use these grounds!");
+  $(".welcome").text("Time to get active and enter the world of cricket!");
+  $(".explore").text("Click below to reveal your challenge!");
 });
 $(document).on("click", ".mansion", function() {
   $(".cricket").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");

@@ -49,22 +49,28 @@ $(document).on("click", ".mansion", function() {
   $(".welcome").text("Let's fly back in time and enjoy the beauty of Kerava Manor today!");
   $(".explore").text("Click below to reveal your challenge!");
 });
-$(document).on("click", ".horsies", function() {
-   $(".BtnSuburbs").hide(); 
-  $(".mansion").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
+$(document).on("click", ".horsies", function() { 
+  $(".mansion").hide();
   $(".instr").addClass("test1");
-  $(".cricket").replaceWith("<button class=test1>map</button>");
-  $(".hiking").replaceWith("<button class=chal>challenge</button>");
+  $(".hiking").replaceWith("<button class=test1>map</button>");
+  $(".cricket").replaceWith("<button class=chal>Your Challenge</button>");
   $(".chal").addClass("test1");
   $(".horsies").hide();
+  $(".getStarted").text("Kerava Riding School (Keravan Ratsastuskoulu) has been operating in Ahjo, Kerava since 1975. The school offers lessons for all levels and ages. The grounds include a riding hall, two riding fields and a cafe for those looking for refreshments.");
+  $(".welcome").text("Time time see some animal friends and enjoy fresh air!");
+  $(".explore").text("Click below to reveal your challenge!");
+
 });
 $(document).on("click", ".hiking", function() {
-  $(".mansion").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
+  $(".mansion").hide();
   $(".instr").addClass("test1");
   $(".horsies").replaceWith("<button class=test1>map</button>");
-  $(".cricket").replaceWith("<button class=chal>challenge</button>");
+  $(".cricket").replaceWith("<button class=chal>Your Challenge</button>");
   $(".chal").addClass("test1");
   $(".hiking").hide()
+  $(".getStarted").text("Haukkavuori nature reserve offers a great walk along the nature and is easy reach either from Lahdentie or Kaskelantie. As this is a protected environmnent do stay on the marked paths. The wildlife in this area like their homes undisturbed!");
+  $(".welcome").text("Put on your confortable shoes, time to get active!");
+  $(".explore").text("Click below to reveal your challenge!");
 });
 // Actions for City route buttons
 $(document).on("click", ".foodie", function() {

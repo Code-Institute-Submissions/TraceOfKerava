@@ -2,7 +2,7 @@
 $(document).ready(function(){
 $(".BtnSuburbs").one("click", function() {
     $(".BtnCity").hide();
-  $(".getStarted").text("The areas outside the town center offer various options for both relaxation and physical activities. We have selected a few for this route but suggest you take a looka at the official Kerava website for more inspiration");
+  $(".getStarted").text("The areas outside the town center offer various options for both relaxation and physical activities. We have selected a few for this route but suggest you take a look at the official Kerava website for more inspiration.");
   $(".welcome").text("Congratulations for having taken the first step! Get ready to explore the suburbs with us..");
   $("<button>hey</button>").addClass("test1").addClass("horsies").appendTo(".middle");
   $("<button>hola</button>").addClass("test1").addClass("hiking").appendTo(".middle");
@@ -16,7 +16,7 @@ $(".BtnSuburbs").one("click", function() {
 $(document).ready(function(){
 $(".BtnCity").one("click", function() {
     $(".BtnSuburbs").hide();
-  $(".getStarted").text("The town center, while compact, has a variety of cultural, culinary and other leisure time activities to offer. We will explore some of these here but be sure to check out others as well later on");
+  $(".getStarted").text("The town center, while compact, has a variety of cultural, culinary and other leisure time activities to offer. We will explore some of these here but be sure to check out others as well later on.");
   $(".welcome").text("Congratulations for having taken the first step! Get ready to explore the center with us..");
   $("<br><br>").appendTo(".middle");
   $("<button>hey</button>").addClass("test1").addClass("foodie").appendTo(".middle");
@@ -31,22 +31,23 @@ $(".BtnCity").one("click", function() {
 // Actions for Suburb route buttons
 $(document).on("click", ".cricket", function() {
   $(".mansion").hide();
-  $(".instr").addClass("test1");
   $(".horsies").replaceWith("<button class=test1>map</button>");
   $(".hiking").replaceWith("<button class=chal>Your Challenge</button>");
   $(".chal").addClass("test1");
   $(".cricket").hide();
-  $(".getStarted").text("Finlan's National Cricket Ground in Kerava has been in active use for years. Located about 2km from central station the field is available under reservation. Make sure to register and pay for your time if you wish to use these grounds!");
+  $(".getStarted").text("Finland's National Cricket Ground in Kerava has been in active use for years. Located about two kilometers from central station the field is available under reservation. Make sure to register and pay for your time if you wish to use these grounds!");
   $(".welcome").text("Time to get active and enter the world of cricket!");
   $(".explore").text("Click below to reveal your challenge!");
 });
 $(document).on("click", ".mansion", function() {
-  $(".cricket").replaceWith("<button class=instr>Click on the Challenge button to discover your task for today</button>");
-  $(".instr").addClass("test1");
+  $(".cricket").hide();
   $(".horsies").replaceWith("<button class=test1>map</button>");
-  $(".hiking").replaceWith("<button class=chal>challenge</button>");
+  $(".hiking").replaceWith("<button class=chal>Your Challenge</button>");
   $(".chal").addClass("test1");
   $(".mansion").hide();
+  $(".getStarted").text("Although the housing in this hill dates much further back in history, the current look of Kerava Manor is from 1928. Since 1991 the Manor has been under the town ownership and is used to host various cultural events.");
+  $(".welcome").text("Let's fly back in time and enjoy the beauty of Kerava Manor today!");
+  $(".explore").text("Click below to reveal your challenge!");
 });
 $(document).on("click", ".horsies", function() {
    $(".BtnSuburbs").hide(); 

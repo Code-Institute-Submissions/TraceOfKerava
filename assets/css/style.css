@@ -1,5 +1,17 @@
 html {
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+body {
     font-family: Letter Gothic;
+    position: relative;
+    margin: 0;
+    min-height: 100%;
 }
 div.container-fluid{
     padding: 0px;
@@ -8,7 +20,6 @@ div.container-fluid{
     padding-right:20px;
 }
 p {
-    font-family: Letter Gothic;
     font-size: 13px;
     line-height: 15px;
     text-align: justify;
@@ -25,13 +36,12 @@ img {
     border-radius: 0 0 0 10px;
     transform: rotateY(180deg);
 }
-.site-title {
+.site-title{
     text-align:center;
-    margin-top: 30px;
+    margin-top: 30PX;
     margin-bottom:20px;
     color:#77B800;
-    font-family:Letter Gothic;
-    font-size:24px;   
+    font-size:24px;
 }
 .col-2 {
     height: 200px;
@@ -39,17 +49,15 @@ img {
     margin: 0;
 }
 .middle {
-    margin:30px;
     text-align:center;
+    margin: 30px;
 }
 .getReady {
     color: #6083CD;
-    font-family:Letter Gothic;
     Font-size:18px;
 }
 .explore {
     color:#77B800;
-    font-family:Letter Gothic;
     font-size:16px;
     margin-bottom:20px;
 }
@@ -61,17 +69,14 @@ img {
 button.BtnSuburbs {
     background-image: url(../images/worms-eyeview-of-green-trees-957024.jpg);
     background-size: cover;
-    width: 90px;
+    width:90px;
     height:90px;
     border-radius:5px;
     border: 3px solid #6083CD;
     display: inline-block;
-    text-align:center;
-    font-size:10px;
-    line-height:10px;
-    font-family:arial;
-    color:rgba(0, 0, 0, 0);
+
 }
+
 button.BtnCity {
     background-image: url(../images/bakery-1868925_1920.jpg);
     background-size: cover;
@@ -80,16 +85,14 @@ button.BtnCity {
     border-radius:5px;
     border: 3px solid #6083CD;
     display: inline-block;
-    text-align:center;
-    font-size:10px;
-    line-height:10px;
-    font-family:arial;
-    color:rgba(0, 0, 0, 0);
 }
 .bottom {
-    margin-top:30px;
-    left:0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
     padding-left: 20px;
+    height: 100px;
 }
 strong {
     color: #6083CD;;
@@ -102,6 +105,10 @@ strong {
 .fa {
     color: #77B800;
 }
+.row3{
+    position: absolute;
+    bottom: 0;
+}
 .banner-bottom {
     border-radius: 10px 0 0 0;
 }
@@ -109,6 +116,7 @@ footer {
     font-size:8px;
     margin-top:30px;
     padding:5px;
+    text-align: center;
 }
 .suburb_first {
     width:350px;
@@ -174,4 +182,117 @@ footer {
 .chal {
     background-color: #77B800;
     color: #212529;
+}
+@media (max-width: 320px) {
+    .col-2 {
+        height: 180px;
+    }
+    p {
+        font-size: 10px;
+        line-height: 12px;
+        margin: 0px;
+    }
+    .site-title {
+        font-size: 20px;
+        margin-top: 20PX;
+        margin-bottom: 15px;
+    }
+    .getReady {
+    Font-size: 14px;
+    }
+    .explore {
+    font-size: 12px;
+    }
+    button.BtnSuburbs {
+        width:75px;
+        height:75px;
+    }
+    button.BtnCity {
+        width: 75px;
+        height:75px;
+    }
+}
+
+@media (min-width: 480px) {
+    p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .site-title {
+        font-size: 27px;
+    }
+    .getReady {
+    Font-size: 18px;
+    
+    }
+    .explore {
+    font-size: 16px;
+    }
+    button.BtnSuburbs {
+        width:100px;
+        height:100px;
+    }
+    button.BtnCity {
+        width: 100px;
+        height:100px;
+    }
+}
+@media (min-width:640px) {
+    p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .site-title {
+        font-size: 29px;
+    }
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width:1024px) {
+    p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .site-title {
+        font-size: 32px;
+    }
+    .bottom {
+    height: 300px;
+    margin-bottom: -20px;
+}
+}
+
+@media (min-width:1280px) {
+.site-title {
+    font-size: 36px;
+}
+.row-banner {
+    height: 230px;
+}
+img {
+    height: 230px;
+} 
+.bottom {
+    padding-bottom: 2px;
+    height: 230px;
+    margin: 2px;
+}
+    button.BtnSuburbs {
+        width:150px;
+        height:150px;
+    }
+    button.BtnCity {
+        width: 150px;
+        height:150px;
+    }
+.getReady{
+    Font-size: 22px;
+    margin-bottom: 30px;
+    }
+.explore {
+    font-size: 18px;
+    margin-bottom: 16px;
 }

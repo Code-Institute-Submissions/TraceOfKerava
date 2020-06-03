@@ -49,8 +49,9 @@ img {
     margin: 0;
 }
 .middle {
-    text-align:center;
-    margin: 30px;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 100px;
 }
 .getReady {
     color: #6083CD;
@@ -64,6 +65,7 @@ img {
 
 .FirstBtns {
     margin-top:20px;
+    margin-bottom: 20px;
 }
 
 button.BtnSuburbs {
@@ -105,18 +107,20 @@ strong {
 .fa {
     color: #77B800;
 }
+.row1{
+    margin-bottom: 20px;
+}
 .row3{
-    position: absolute;
+    position: relative;
     bottom: 0;
+    margin-top:20px;
 }
 .banner-bottom {
     border-radius: 10px 0 0 0;
 }
 footer {
     font-size:8px;
-    margin-top:30px;
     padding:5px;
-    text-align: center;
 }
 .suburb_first {
     width:350px;

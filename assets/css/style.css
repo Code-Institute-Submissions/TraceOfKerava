@@ -13,14 +13,15 @@ body {
     margin: 0;
     min-height: 100%;
 }
-div.container-fluid{
+.container-fluid {
     padding: 0px;
+    margin: 0px
 }
 .top {
     padding-right:20px;
 }
 p {
-    font-size: 13px;
+    font-size: 12px;
     line-height: 15px;
     text-align: justify;
     text-align-last:center;
@@ -50,7 +51,7 @@ img {
 }
 .middle {
     text-align: center;
-    margin: 10px;
+    margin:50px 10px 10px 0px;
     padding-bottom: 100px;
 }
 .getReady {
@@ -219,7 +220,7 @@ footer {
 
 @media (min-width: 480px) {
     p {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 18px;
     }
     .site-title {
@@ -243,8 +244,8 @@ footer {
 }
 @media (min-width:640px) {
     p {
-        font-size: 20px;
-        line-height: 22px;
+        font-size: 16px;
+        line-height: 20px;
     }
     .site-title {
         font-size: 29px;
@@ -257,8 +258,8 @@ footer {
 
 @media (min-width:1024px) {
     p {
-        font-size: 18px;
-        line-height: 22px;
+        font-size: 16px;
+        line-height: 20px;
     }
     .site-title {
         font-size: 32px;
@@ -279,18 +280,21 @@ footer {
 img {
     height: 230px;
 } 
+.middle {
+    padding-bottom: 10px;
+}
 .bottom {
     padding-bottom: 2px;
     height: 230px;
     margin: 2px;
 }
     button.BtnSuburbs {
-        width:150px;
-        height:150px;
+        width:130px;
+        height:130px;
     }
     button.BtnCity {
-        width: 150px;
-        height:150px;
+        width: 130px;
+        height:130px;
     }
 .getReady{
     Font-size: 22px;

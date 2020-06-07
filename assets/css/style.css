@@ -101,8 +101,8 @@ button.BtnCity {
 .bottom {
     position: absolute;
     right: 0;
-    bottom: 0;
     left: 0;
+    bottom: 0;
     padding-left: 20px;
     padding-top:60px;
 }
@@ -267,19 +267,66 @@ strong {
 }
 
 @media (min-width: 768px) {
-
+    p {
+        font-size: 14px;
+    }
+    .middle {
+    padding-bottom: 0px;
+}
+.getReady{
+    Font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    }
+.explore {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.footer {
+    font-size: 8px;
+    margin-top: 20px;
 }
 
-@media (min-width:1024px) {
+@media (min-width:1025px) {
+    .site-title {
+    font-size: 32px;
+    margin-bottom: 36px;
+    }
     p {
         font-size: 16px;
     }
     .site-title {
         font-size: 32px;
     }
+    .hidden {
+    display: contents;
+}
+    .middle {
+    padding-bottom: 100px;
+    margin-top: 30px;
+    }
+    button.BtnSuburbs {
+        width:100px;
+        height:100px;
+        margin-right: 5px;
+        }
+    button.BtnCity {
+        width: 100px;
+        height:100px;
+        }
+    .row1 {
+    padding-top: 20px;
+    }
+    .social {
+    font-size: 16px;
+}
+.footer {
+    font-size: 9px;
+    margin-top: 20px;
+}
 }
 
-@media (min-width:1280px) {
+@media (min-width:1281px) {
 .site-title {
     font-size: 36px;
     margin-bottom: 40px;
@@ -311,9 +358,7 @@ strong {
     margin-top: 20px;
     margin-bottom: 40px;
 }
-.hidden {
-    display: contents;
-}
+
 .game {
     padding:15px;
 }
@@ -329,12 +374,8 @@ strong {
     margin-top: 25px;
     margin-bottom: 20px;
 }
-
 .footer {
     font-size: 10px;
     margin-top: 30px;
-}
-.row1 {
-    padding-top: 20px;
 }
 }

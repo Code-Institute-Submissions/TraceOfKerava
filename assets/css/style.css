@@ -1,381 +1,429 @@
-html {
-    box-sizing: border-box;
-    height: 100%;
+	html {
+	box-sizing: border-box;
+	height: 100%;
 }
+
 *,
 *:before,
 *:after {
-    box-sizing: inherit;
+	box-sizing: inherit;
 }
+
 body {
-    font-family: Letter Gothic;
-    position: relative;
-    margin: 0;
-    height: auto;
-    min-height: 100%;
+	font-family: Letter Gothic;
+	position: relative;
+	margin: 0;
+	height: auto;
+	min-height: 100%;
+	border: #6083CD;
+	border-style: groove;
+	border-width: 10px;
 }
+
 .container-fluid {
-    padding: 0px;
-    margin: 0px
+	padding: 0px;
+	margin: 0px
 }
+
 .top {
-    padding-right:20px;
+	padding-right: 20px;
 }
+
+h1,
+h1 {
+	text-shadow: 2px 2px #6083CD;
+}
+
 p {
-    font-size: 12px;
-    text-align: justify;
-    text-align-last:center;
-    padding:5px;   
+	font-size: 12px;
+	text-align: justify;
+	text-align-last: center;
+	padding: 5px;
+	color: #2f4f4f;
 }
+
 img {
-    max-width: 100%;
-    min-height:100%;
-    display: block;
-    object-fit: cover;
+	max-width: 100%;
+	min-height: 100%;
+	display: block;
+	object-fit: cover;
 }
+
 .banner-top {
-    border-radius: 0 0 0 10px;
-    transform: rotateY(180deg);
+	border-radius: 0 0 0 10px;
+	transform: rotateY(180deg);
 }
-.site-title{
-    text-align:center;
-    margin-top: 30PX;
-    margin-bottom:20px;
-    color:#77B800;
-    font-size:24px;
+
+.site-title {
+	text-align: center;
+	margin-top: 30PX;
+	margin-bottom: 20px;
+	color: #77B800;
+	font-size: 24px;
 }
+
 .col-2 {
-    padding: 0;
-    margin: 0;
+	padding: 0;
+	margin: 0;
 }
+
 .hidden {
-    display: none;
+	display: none;
 }
+
 .middle {
-    text-align: center;
-    margin:10px 10px 10px 0px;
-    padding-bottom: 120px;
+	text-align: center;
+	margin: 10px 10px 10px 0px;
+	padding-bottom: 120px;
 }
+
 .lets-play {
-    color:#6083CD;
-    font-size: 22px;
+	color: #6083CD;
+	font-size: 22px;
 }
+
 .getReady {
-    color: #77B800;
-    Font-size:18px;
+	color: #77B800;
+	Font-size: 18px;
 }
+
 .explore {
-    font-size:16px;
-    margin-bottom:20px;
+	font-size: 16px;
+	margin-bottom: 20px;
 }
+
 .game {
-    border-style: double;
-    border-color:#6083CD;
-    padding: 10px;
+	border-style: double;
+	border-color: #6083CD;
+	padding: 10px;
 }
+
 .FirstBtns {
-    margin-top:20px;
-    margin-bottom: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 button.BtnSuburbs {
-    background-image: url(../images/worms-eyeview-of-green-trees-957024.jpg);
-    background-size: cover;
-    width:90px;
-    height:90px;
-    border-radius:5px;
-    border: 3px solid #6083CD;
-    display: inline-block;
-
+	background-image: url(../images/worms-eyeview-of-green-trees-957024.jpg);
+	background-size: cover;
+	width: 90px;
+	height: 90px;
+	border-radius: 5px;
+	border: 3px solid #6083CD;
+	display: inline-block;
 }
 
 button.BtnCity {
-    background-image: url(../images/bakery-1868925_1920.jpg);
-    background-size: cover;
-    width: 90px;
-    height:90px;
-    border-radius:5px;
-    border: 3px solid #6083CD;
-    display: inline-block;
+	background-image: url(../images/bakery-1868925_1920.jpg);
+	background-size: cover;
+	width: 90px;
+	height: 90px;
+	border-radius: 5px;
+	border: 3px solid #6083CD;
+	display: inline-block;
 }
+
 .bottom {
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    padding-left: 20px;
-    padding-top:60px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	padding-left: 20px;
+	padding-top: 60px;
 }
+
 strong {
-    color: #6083CD;;
+	color: #6083CD;
+	;
 }
+
 .social {
-    color:#77B800;
-    text-align:center;
-    font-size:14px;
+	color: #77B800;
+	text-align: center;
+	font-size: 14px;
 }
+
 .fa {
-    color: #77B800;
+	color: #77B800;
 }
-.row1{
-    margin-bottom: 20px;
+
+.row1 {
+	margin-bottom: 20px;
 }
-.row3{
-    position: relative;
-    bottom: 0;
-    margin-top:20px;
+
+.row3 {
+	position: relative;
+	bottom: 0;
+	margin-top: 20px;
 }
+
 .banner-bottom {
-    border-radius: 10px 0 0 0;
+	border-radius: 10px 0 0 0;
 }
+
 .footer {
-    font-size:8px;
-    padding:5px;
+	font-size: 8px;
+	padding: 5px;
 }
+
 .suburb_first {
-    width:350px;
-    position:center;
-    margin-top: 25px;
-    margin-right: auto;
-    margin-bottom: 25px;
-    margin-left: auto;
+	width: 350px;
+	position: center;
+	margin-top: 25px;
+	margin-right: auto;
+	margin-bottom: 25px;
+	margin-left: auto;
 }
-.test1{
-    width: 100px;
-    height:100px;
-    border-radius:5px;
-    border: 3px solid #6083CD;
-    display: inline-block;
-    text-align:center;
-    font-size:10px;
-    font:arial;
-    color:rgba(0, 0, 0, 0);
-    margin:5px;
+
+.test1 {
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+	border: 3px solid #6083CD;
+	display: inline-block;
+	text-align: center;
+	font-size: 10px;
+	font: arial;
+	color: rgba(0, 0, 0, 0);
+	margin: 5px;
 }
+
 .horsies {
-    background-image: url(../images/horse-2649609_1920.jpg);
-    background-size: cover;
+	background-image: url(../images/horse-2649609_1920.jpg);
+	background-size: cover;
 }
+
 .hiking {
-    background-image: url(../images/forest-4901664_1280.jpg);
-    background-size: cover;
+	background-image: url(../images/forest-4901664_1280.jpg);
+	background-size: cover;
 }
+
 .mansion {
-    background-image: url(../images/furniture-2436907_640.jpg);
-    background-size: cover;
+	background-image: url(../images/furniture-2436907_640.jpg);
+	background-size: cover;
 }
+
 .cricket {
-    background-image: url(../images/grass-2616911_640.jpg);
-    background-size: cover;
+	background-image: url(../images/grass-2616911_640.jpg);
+	background-size: cover;
 }
+
 .moikka {
-    color: #6083CD;
-    font-size: 20px;
-    text-align: center;
+	color: #6083CD;
+	font-size: 20px;
+	text-align: center;
 }
+
 .foodie {
-    background-image: url(../images/appetizer-1386743_1280.jpg);
-    background-size: cover;
+	background-image: url(../images/appetizer-1386743_1280.jpg);
+	background-size: cover;
 }
+
 .story {
-    background-image: url(../images/library-4556542_1280.jpg);
-    background-size: cover;
+	background-image: url(../images/library-4556542_1280.jpg);
+	background-size: cover;
 }
+
 .cafe {
-    background-image: url(../images/coffee-2319122_1280.jpg);
-    background-size: cover;
+	background-image: url(../images/coffee-2319122_1280.jpg);
+	background-size: cover;
 }
+
 .shop {
-    background-image: url(../images/woman-standing-374679.jpg);
-    background-size: cover;
+	background-image: url(../images/woman-standing-374679.jpg);
+	background-size: cover;
 }
+
 .subheader {
-    padding: 15px;
+	padding: 15px;
 }
+
 .chal {
-    background-color: #77B800;
-    color: #212529;
+	background-color: #77B800;
+	color: #212529;
 }
+
 @media (max-width: 320px) {
-    p {
-        font-size: 10px;
-        margin: 0px;
-    }
-    .site-title {
-        font-size: 20px;
-        margin-top: 20PX;
-        margin-bottom: 15px;
-    }
-    .getReady {
-    Font-size: 14px;
-    }
-    .explore {
-    font-size: 12px;
-    }
-    button.BtnSuburbs {
-        width:75px;
-        height:75px;
-    }
-    button.BtnCity {
-        width: 75px;
-        height:75px;
-    }
-    .row1 {
-        margin: 0px;
-    }
-    .row3 {
-        margin:0px;
-    }
+	p {
+		font-size: 10px;
+		margin: 0px;
+	}
+	.site-title {
+		font-size: 20px;
+		margin-top: 20PX;
+		margin-bottom: 15px;
+	}
+	.getReady {
+		Font-size: 14px;
+	}
+	.explore {
+		font-size: 12px;
+	}
+	button.BtnSuburbs {
+		width: 75px;
+		height: 75px;
+	}
+	button.BtnCity {
+		width: 75px;
+		height: 75px;
+	}
+	.row1 {
+		margin: 0px;
+	}
+	.row3 {
+		margin: 0px;
+	}
 }
 
 @media (min-width: 480px) {
-    p {
-        font-size: 14px;
-    }
-    .site-title {
-        font-size: 27px;
-    }
-    .getReady {
-    Font-size: 18px;
-    
-    }
-    .explore {
-    font-size: 16px;
-    }
-    button.BtnSuburbs {
-        width:100px;
-        height:100px;
-    }
-    button.BtnCity {
-        width: 100px;
-        height:100px;
-    }
-    .row1 {
-        margin: 0px;
-    }
-    .row3 {
-        margin:0px;
-    }
+	p {
+		font-size: 14px;
+	}
+	.site-title {
+		font-size: 27px;
+	}
+	.getReady {
+		Font-size: 18px;
+	}
+	.explore {
+		font-size: 16px;
+	}
+	button.BtnSuburbs {
+		width: 100px;
+		height: 100px;
+	}
+	button.BtnCity {
+		width: 100px;
+		height: 100px;
+	}
+	.row1 {
+		margin: 0px;
+	}
+	.row3 {
+		margin: 0px;
+	}
 }
+
 @media (min-width:640px) {
-    p {
-        font-size: 16px;
-    }
-    .site-title {
-        font-size: 29px;
-    }
+	p {
+		font-size: 16px;
+	}
+	.site-title {
+		font-size: 29px;
+	}
 }
 
-@media (min-width: 768px) {
-    p {
-        font-size: 14px;
-    }
-    .middle {
-    padding-bottom: 0px;
-}
-.getReady{
-    Font-size: 18px;
-    margin-bottom: 15px;
-    margin-top: 10px;
-    }
-.explore {
-    font-size: 14px;
-    margin-bottom: 12px;
-}
-.footer {
-    font-size: 8px;
-    margin-top: 20px;
-}
-
-@media (min-width:1025px) {
-    .site-title {
-    font-size: 32px;
-    margin-bottom: 36px;
-    }
-    p {
-        font-size: 16px;
-    }
-    .site-title {
-        font-size: 32px;
+@media (min-width: 768px) and (min-height:900px) {
+	p {
+		font-size: 16px;
+	}
+    .top {
+    padding-bottom: 30px;
     }
     .hidden {
-    display: contents;
-}
-    .middle {
-    padding-bottom: 100px;
-    margin-top: 30px;
-    }
-    button.BtnSuburbs {
-        width:100px;
-        height:100px;
-        margin-right: 5px;
-        }
-    button.BtnCity {
-        width: 100px;
-        height:100px;
-        }
+		display: contents;
+		}
+    .site-title {
+        margin-bottom: 40px;
+        font-size: 40px;
+    }    
+	.middle {
+		padding-bottom: 0px;
+	}
+	.getReady {
+		Font-size: 18px;
+		margin-bottom: 15px;
+		margin-top: 10px;
+	}
+	.explore {
+		font-size: 14px;
+		margin-bottom: 12px;
+	}
     .row1 {
-    padding-top: 20px;
+        padding-top:20px;
     }
-    .social {
-    font-size: 16px;
+		.social {
+			font-size: 16px;
+		}
+		.footer {
+			font-size: 9px;
+			margin-top: 20px;
+		}
 }
-.footer {
-    font-size: 9px;
-    margin-top: 20px;
-}
-}
-
-@media (min-width:1281px) {
-.site-title {
-    font-size: 36px;
-    margin-bottom: 40px;
-}
-.middle {
-    padding-bottom: 10px;
-    margin-top: 40px;
-}
-    button.BtnSuburbs {
-        width:130px;
-        height:130px;
-        margin-right: 5px;
-    }
-    button.BtnCity {
-        width: 130px;
-        height:130px;
-        margin-left: 5px;
-    }
-.getReady{
-    Font-size: 22px;
-    margin-bottom: 30px;
-    margin-top: 10px;
-    }
-.explore {
-    font-size: 16px;
-    margin-bottom: 16px;
-}
-.FirstBtns {
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-.game {
-    padding:15px;
-}
-.game-border{
-    border-style: double;
-    border-color:#77B800;
-}
-.social {
-    font-size:16px;
-}
-.lets-play {
-    font-size: 24px;
-    margin-top: 25px;
-    margin-bottom: 20px;
-}
-.footer {
-    font-size: 10px;
-    margin-top: 30px;
-}
-}
+	@media (min-width:1025px) {
+		.site-title {
+			font-size: 32px;
+			margin-bottom: 36px;
+		}
+		.hidden {
+			display: contents;
+		}
+		.middle {
+			padding-bottom: 100px;
+			margin-top: 30px;
+		}
+		button.BtnSuburbs {
+			width: 100px;
+			height: 100px;
+			margin-right: 5px;
+		}
+		button.BtnCity {
+			width: 100px;
+			height: 100px;
+		}
+		.row1 {
+			padding-top: 20px;
+		}
+	}
+	@media (min-width:1281px) and (min-height:950px) {
+		.site-title {
+			font-size: 36px;
+			margin-bottom: 40px;
+		}
+		.middle {
+			padding-bottom: 10px;
+			margin-top: 40px;
+		}
+		button.BtnSuburbs {
+			width: 130px;
+			height: 130px;
+			margin-right: 5px;
+		}
+		button.BtnCity {
+			width: 130px;
+			height: 130px;
+			margin-left: 5px;
+		}
+		.getReady {
+			Font-size: 22px;
+			margin-bottom: 30px;
+			margin-top: 10px;
+		}
+		.explore {
+			font-size: 16px;
+			margin-bottom: 16px;
+		}
+		.FirstBtns {
+			margin-top: 20px;
+			margin-bottom: 40px;
+		}
+		.game {
+			padding: 15px;
+		}
+		.game-border {
+			border-style: double;
+			border-color: #77B800;
+		}
+		.social {
+			font-size: 16px;
+		}
+		.lets-play {
+			font-size: 24px;
+			margin-top: 25px;
+			margin-bottom: 20px;
+		}
+		.footer {
+			font-size: 10px;
+			margin-top: 30px;
+		}
+	}

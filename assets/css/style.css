@@ -254,6 +254,31 @@ strong {
 	color: #212529;
 }
 
+@media (max-height:450px) and (max-width:900px) {
+    .site-title {
+        margin-bottom: 25px;
+    }
+    .middle {
+    padding-bottom: 0;
+    }
+    .bottom {
+	position: relative;
+	padding-top: 0;
+    }    
+    .row1 {
+	padding-top: 15px;
+	padding-bottom: 10px;
+    }
+    .row3 {
+        margin-top:20px;
+    }
+    .footer {
+        margin-top:10px;
+    }
+    p {
+        font-size: 12px;
+    }
+}
 @media (max-width: 320px) {
 	p {
 		font-size: 10px;
@@ -298,38 +323,13 @@ strong {
  .footer{
      margin-bottom: 0;
  }
+ .bottom{
+     position: absolute;
+     bottom:0;
+ }
 }
 
-@media (min-width: 480px) {
-	p {
-		font-size: 14px;
-	}
-	.site-title {
-		font-size: 27px;
-	}
-	.getReady {
-		Font-size: 18px;
-	}
-	.explore {
-		font-size: 16px;
-	}
-	button.BtnSuburbs {
-		width: 100px;
-		height: 100px;
-	}
-	button.BtnCity {
-		width: 100px;
-		height: 100px;
-	}
-	.row1 {
-		margin: 0px;
-	}
-	.row3 {
-		margin: 0px;
-	}
-}
-
-@media (min-width:640px) {
+@media (min-width:640px) AND (min-height:451px){
 	p {
 		font-size: 16px;
 	}

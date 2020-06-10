@@ -66,7 +66,13 @@ img {
 	padding: 0;
 	margin: 0;
 }
-
+.welcome {
+    padding: 0;
+    margin-bottom: 5px;
+}
+.getStarted {
+    margin-bottom: 10px;
+}
 .hidden {
 	display: none;
 }
@@ -78,17 +84,21 @@ img {
 }
 
 .lets-play {
-	color: #6083CD;
-	font-size: 22px;
+    color: #6083CD;
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 5px;
 }
 
 .getReady {
 	color: #77B800;
-	Font-size: 18px;
+	Font-size: 14px;
+    margin-bottom: 0;
 }
 
 .explore {
-	font-size: 16px;
+    color: #2f4f4f;   
+	font-size: 14px;
 	margin-bottom: 20px;
 }
 
@@ -148,7 +158,7 @@ strong {
 }
 
 .row1 {
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 
 .row3 {
@@ -163,7 +173,8 @@ strong {
 
 .footer {
 	font-size: 8px;
-	padding: 5px;
+	padding: 5px 5px 0px 5px;
+    margin-bottom: 2px;
 }
 
 .suburb_first {
@@ -253,26 +264,40 @@ strong {
 		margin-top: 20PX;
 		margin-bottom: 15px;
 	}
+    .lets-play {
+    font-size: 14px;
+    margin-bottom: 10px;
+    }
 	.getReady {
-		Font-size: 14px;
+		Font-size: 12px;
+        margin-bottom: 0;
 	}
 	.explore {
 		font-size: 12px;
 	}
 	button.BtnSuburbs {
-		width: 75px;
-		height: 75px;
+		width: 70px;
+		height: 70px;
 	}
 	button.BtnCity {
-		width: 75px;
-		height: 75px;
+		width: 70px;
+		height: 70px;
 	}
-	.row1 {
-		margin: 0px;
-	}
-	.row3 {
-		margin: 0px;
-	}
+    .game {
+    padding: 5px;
+    }
+    .social {
+    font-size: 12px;    
+    }
+    .row1 {
+        margin-bottom: 0;
+    }
+ .hidden{
+     display: none;
+ }
+ .footer{
+     margin-bottom: 0;
+ }
 }
 
 @media (min-width: 480px) {

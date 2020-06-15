@@ -2,7 +2,8 @@
 $(document).ready(function(){
 $(".BtnSuburbs").one("click", function() {
     $(".BtnCity").hide();
-  $(".getStarted").text("The areas outside the town center offer various options for both relaxation and physical activities. We have selected a few for this route but suggest you take a look at the official Kerava website for more inspiration.");
+  $(".getStarted").text("The areas outside the town center offer various options for both relaxation and physical activities."); 
+  $("<p>We have selected a few for this route but suggest you take a look at the official Kerava website for more inspiration.</p>").addClass("hidden");
   $(".welcome").text("Congratulations for having taken the first step! Get ready to explore the suburbs with us..");
   $("<button>hey</button>").addClass("test1").addClass("horsies").appendTo(".game-border");
   $("<button>hola</button>").addClass("test1").addClass("hiking").appendTo(".game-border");
@@ -16,7 +17,8 @@ $(".BtnSuburbs").one("click", function() {
 $(document).ready(function(){
 $(".BtnCity").one("click", function() {
     $(".BtnSuburbs").hide();
-  $(".getStarted").text("The town center, while compact, has a variety of cultural, culinary and other leisure time activities to offer. We will explore some of these here but be sure to check out others as well later on.");
+  $(".getStarted").text("The town center, while compact, has a variety of cultural, culinary and other leisure time activities to offer.");
+  $("<p>We will explore some of these here but be sure to check out others as well later on.</p>").addClass("hidden");
   $(".welcome").text("Congratulations for having taken the first step! Get ready to explore the center with us..");
   $("<button>hey</button>").addClass("test1").addClass("foodie").appendTo(".game-border");
   $("<button>hola</button>").addClass("test1").addClass("story").appendTo(".game-border");

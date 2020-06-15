@@ -79,7 +79,7 @@ img {
 
 .middle {
 	text-align: center;
-	margin: 10px 10px 10px 0px;
+	margin: 2.5%;
 	padding-bottom: 120px;
 }
 
@@ -107,6 +107,10 @@ img {
 	border-color: #6083CD;
 	padding: 10px;
 }
+		.game-border {
+			border-style: double;
+			border-color: #77B800;
+        }
 
 .FirstBtns {
 	margin-top: 20px;
@@ -116,8 +120,8 @@ img {
 button.BtnSuburbs {
 	background-image: url(../images/worms-eyeview-of-green-trees-957024.jpg);
 	background-size: cover;
-	width: 90px;
-	height: 90px;
+	width: 120px;
+	height: 120px;
 	border-radius: 5px;
 	border: 3px solid #6083CD;
 	display: inline-block;
@@ -126,8 +130,8 @@ button.BtnSuburbs {
 button.BtnCity {
 	background-image: url(../images/bakery-1868925_1920.jpg);
 	background-size: cover;
-	width: 90px;
-	height: 90px;
+	width: 120px;
+	height: 120px;
 	border-radius: 5px;
 	border: 3px solid #6083CD;
 	display: inline-block;
@@ -187,8 +191,8 @@ strong {
 }
 
 .test1 {
-	width: 100px;
-	height: 100px;
+	width: 70px;
+	height: 70px;
 	border-radius: 5px;
 	border: 3px solid #6083CD;
 	display: inline-block;
@@ -254,6 +258,7 @@ strong {
 	color: #212529;
 }
 
+/*Small devices in horizontal mode*/
 @media (max-height:450px) and (max-width:900px) {
     .site-title {
         margin-bottom: 25px;
@@ -261,6 +266,14 @@ strong {
     .middle {
     padding-bottom: 0;
     }
+    button.BtnSuburbs {
+    width: 100px;
+    height: 100px;
+}
+button.BtnCity {
+    width: 100px;
+    height: 100px;
+}
     .bottom {
 	position: relative;
 	padding-top: 0;
@@ -279,6 +292,8 @@ strong {
         font-size: 12px;
     }
 }
+
+/*Extra small devices*/
 @media (max-width: 320px) {
 	p {
 		font-size: 10px;
@@ -289,6 +304,9 @@ strong {
 		margin-top: 20PX;
 		margin-bottom: 15px;
 	}
+    .getStarted {
+    margin-bottom: 0px;
+}
     .lets-play {
     font-size: 14px;
     margin-bottom: 10px;
@@ -311,24 +329,43 @@ strong {
     .game {
     padding: 5px;
     }
+    .FirstBtns {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
     .social {
-    font-size: 12px;    
+    font-size: 10px;    
     }
     .row1 {
-        margin-bottom: 0;
+        margin-bottom: 10px;
+    }
+    .row3 {
+        margin-top:5px;
     }
  .hidden{
      display: none;
  }
+ p.reduced-gutters{
+     padding: 0px;
+     margin-bottom:0px;
+ }
+ .col-1{
+     display: none;
+ }
+ .col-10.game {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+        flex-grow: 0;
+        flex-shrink: 0;
+        flex-basis: 100%;
+    max-width: 100%;
+}
  .footer{
      margin-bottom: 0;
- }
- .bottom{
-     position: absolute;
-     bottom:0;
+     font-size: 7px;
  }
 }
-
+/*medium devices in horizontal mode*/
 @media (min-width:640px) AND (min-height:451px){
 	p {
 		font-size: 16px;
@@ -336,8 +373,18 @@ strong {
 	.site-title {
 		font-size: 29px;
 	}
+    .middle {
+    margin-top: 20px;
 }
-
+.lets-play {
+    font-size: 20px;
+}
+.getReady {
+    Font-size: 18px;
+}
+.explore {
+    font-size: 16px;
+}
 @media (min-width: 768px) and (min-height:900px) {
 	p {
 		font-size: 16px;
@@ -434,10 +481,6 @@ strong {
 		}
 		.game {
 			padding: 15px;
-		}
-		.game-border {
-			border-style: double;
-			border-color: #77B800;
 		}
 		.social {
 			font-size: 16px;

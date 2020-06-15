@@ -79,7 +79,7 @@ img {
 
 .middle {
 	text-align: center;
-	margin: 2.5%;
+	margin: 10% 2.5%;
 	padding-bottom: 120px;
 }
 
@@ -148,7 +148,6 @@ button.BtnCity {
 
 strong {
 	color: #6083CD;
-	;
 }
 
 .social {
@@ -304,6 +303,9 @@ button.BtnCity {
 		margin-top: 20PX;
 		margin-bottom: 15px;
 	}
+    .middle {
+        margin: 10%;
+    }
     .getStarted {
     margin-bottom: 0px;
 }
@@ -365,6 +367,24 @@ button.BtnCity {
      font-size: 7px;
  }
 }
+/*small devices in portrait mode*/
+@media (max-width:450px) AND (max-height:670px) {
+.middle {
+    margin: 2.5%;
+}
+.bottom {
+    bottom:0;
+}
+button.BtnSuburbs {
+    width: 90px;
+    height: 90px;
+}
+button.BtnCity {
+    width: 90px;
+    height: 90px;
+}
+}
+
 /*medium devices in horizontal mode*/
 @media (min-width:640px) AND (min-height:451px){
 	p {

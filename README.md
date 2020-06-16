@@ -1,39 +1,112 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Trace of Kerava
 
-Welcome VAhola,
+This is a website made for the **2nd Milestone Project** of the Code Institute Full Stack Web Developer Course.  It represents a website made for a **fictional campaign** to promote a Finnish town called Kerava. 
+The main purpose is to showcase the different aspects for the town and its surroundings and to help promote the town in a fun way.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+_All activity and location details in this site are real but the site is not associated with any party mentioned. This is made purely for the purpose of MileStone Project 2_
 
-## Gitpod Reminders
+## Demo
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Here is the [Live Demo]()
+![static Demo](Documents/Layout/xxx.jpg)
 
-`python3 -m http.server`
+## UX
+The website is intended for users who are interested in Kerava and want to know more about what the town has to offer. It is not made to be a standalone website but one that is accessable via links from the official website of the city and the participating companies and organisations.
+The aim is to broaden the visibility of the town and the services and activities available both for people planning to move there and for those already living there but wanting to experience the area in a different way.
 
-A blue button should appear to click: *Make Public*,
+Color scheme chosen is a combination of green, blue and white with yellow used as a highlighter to draw attention to the game area of the page.
+The green was selected as this is the color of the official town logo and the blue is one of the shades in the picture selected for the top and bottom sections.
 
-Another blue button should appear to click: *Open Browser*.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### User Stories:
 
-A blue button should appear to click: *Make Public*,
+- As a user, I want to 
+- As a user, I want to 
+- As a user, I want to 
+- As a user, I want to  
 
-Another blue button should appear to click: *Open Browser*.
+### Design documents 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+Design documents are located [here](https://github.com/VAhola/xxx)
 
-## Updates Since The Instructional Video
+## Features
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Existing Features
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The site uses bottoms that allow users to access chosen options.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The footer is sticky, placed at the bottom of the page for more balanced look accross different screen sizes however for small sized devices in horizontal mode this feature is removed to allow sufficient space for the game section of the site.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+There are links to the various social media accounts in the bottom of the page to allow users to quickly access official Kerava social media.
 
---------
+Due to the nature of the site, a navigation bar is not included but a link back to start is accessable at every stage.
 
-Happy coding!
+The bottons on the site reflect the options presented to the users:
+
+-Landing page has 2 buttons:
+    - Visitor can select a center botton or 
+    - Visitor can select a suburban botton
+- Each selection leads to 4 bottons from which the user should select one to see the challange chosen for this item.
+
+In addition a feature is added to help local companies and organisations to express their interest in being featured in the site:
+- The bottom of the page includes a link to contact in case a company wants to be included in the site.
+    - Visitors can leave their contact request, by clicking on "here" and hyperlink and filling out the form.
+
+### Features Left to Implement
+
+A few features that were excluded from the current version:
+- An API feature for map for each of the challenges to make it easier to find the locations for people who are not familiar with the town. This was skipped due to lack of time.
+- Adding alternative options in each challenge so that returning users can opt for a new version of the challenge and users with travel limitations have an option to choose something closer to them.
+- An image gallery of the pictures posted in social media with tag
+
+## Technologies Used
+-	Bootstrapcdn
+    -	Bootstrap for modifiable design elements
+    -   Font-awesome for adding icons
+- JQuery
+- HTML
+- CSS
+
+## Testing
+
+The follow tests were made to ensure the buttons and forms are working properly:
+1. Landing page
+    1. Click on botton for Center
+	1. Check that landing page buttons are no longer available and four new button are now visible
+	1. Check that the text at the top of the page has been replaced with the text designated for the center route
+    2. Click on botton for Suburb
+	1. Check that landing page buttons are no longer available and four new button are now visible
+	1. Check that the text at the top of the page has been replaced with the text designated for the center route
+
+
+In addition, social media links at the bottom were all tested to make sure they work as expected.
+
+The site was reviewed on laptop, mobile phone and a large monitor using 1E11, Chrome, Edge and FireFox.
+
+## Deployment
+
+The project is hosted on GitHub pages and is deployed directly from the master branch. As is required by GitHub pages the landing page file naming is kept as index.html.
+Any new commits to the master branch will automatically reflect on the deployed site.
+
+## Credits
+
+The textual content on this site is written by me.
+
+The image collages where made based on code in [this](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
+
+The sticky footer was made based on the instructions [here](https://css-tricks.com/couple-takes-sticky-footer/)
+
+
+### Media
+
+The photos used in this site roaylty free photos obtained from:
+- pexels.com 
+- pixabay.com and 
+
+
+### Acknowledgements
+
+I want to say special thank you to the following parties for making this project possible:
+- Code Institute by providing me the training materials and support
+- And a special thank you to my menter seun_mentor

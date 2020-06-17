@@ -98,13 +98,14 @@ $(document).on("click", ".foodie-challenge", function() {
   }); 
 $(document).on("click", ".story", function() {
   $(".foodie").hide();
-  $(".cafe").replaceWith("<button class=test1>map</button>");
+  $(".cafe").hide();
   $(".shop").replaceWith("<button class=chal>Your Challenge</button>");
   $(".chal").addClass("test1").addClass("story-challenge");
   $(".story").hide();
   $(".getStarted").text("Founded back in 1925, Kerava library situated close to the railway station is a perfect destination to find something to read or to simply enjoy a bit of peace and quite. So get your library card, an open mind and head over there..");
   $(".welcome").text("As you must have guessed, for this option we will need to find a book!");
   $(".explore").text("Click below to reveal your challenge!");
+  $("#map").removeClass("hide").appendTo(".game-border").addClass("test1");
 });
 $(document).on("click", ".story-challenge", function() {
   $("<div><p>Read the first book available from an author who’s last name begings with the same letter as yours.  If you‘ve read that book, go on to the next until you find one you haven't.<br></br>For an extra challenge write a review of the chosen book and remember to tag it with #traceofkerava</p></div>").appendTo(".middle");

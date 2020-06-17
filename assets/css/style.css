@@ -256,6 +256,13 @@ strong {
 	background-color: #77B800;
 	color: #212529;
 }
+#map {
+    height: 100px;
+    width: 200px;
+}
+.hide {
+    display: none;
+}
 
 /*Small devices in horizontal mode*/
 @media (max-height:450px) and (max-width:900px) {

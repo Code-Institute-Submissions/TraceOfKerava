@@ -30,7 +30,7 @@ $(".BtnCity").one("click", function() {
   });
 });
 // Actions for Suburb route buttons
-$(document).on("click", ".cricket", function() {
+$(document).one("click", ".cricket", function() {
   $(".mansion").hide();
   $(".horsies").replaceWith("<button class=test1>map</button>");
   $(".hiking").replaceWith("<button class=chal>Your Challenge</button>");
@@ -40,10 +40,10 @@ $(document).on("click", ".cricket", function() {
   $(".welcome").text("Time to get active and enter the world of cricket!");
   $(".explore").text("Click below to reveal your challenge!");
 });
-$(document).on("click", ".cricket-challange", function() {
+$(document).one("click", ".cricket-challange", function() {
   $("<div><p>Walk over to the Kerava National Cricket Ground Pavilion and take a picture of yourself infront of the building. Post it online with tag #traceofkerava <br></br>For additional challenge sign up for session of Cricket with KCC to test your skills!</p></div>").appendTo(".middle");
   });  
-$(document).on("click", ".mansion", function() {
+$(document).one("click", ".mansion", function() {
   $(".cricket").hide();
   $(".horsies").replaceWith("<button class=test1>map</button>");
   $(".hiking").replaceWith("<button class=chal>Your Challenge</button>");
@@ -53,10 +53,10 @@ $(document).on("click", ".mansion", function() {
   $(".welcome").text("Let's fly back in time and enjoy the beauty of Kerava Manor today!");
   $(".explore").text("Click below to reveal your challenge!");
 });
-$(document).on("click", ".mansion-challenge", function() {
+$(document).one("click", ".mansion-challenge", function() {
   $("<div><p>Support the manor and buy yourself a snack or a drink from the cafe located on ground floor. Take a walk inside to view the art pieces on display.<br></br>For additional challange write and post a review of the experience with tagging it with #traceofkerava.</p></div>").appendTo(".middle");
   }); 
-$(document).on("click", ".horsies", function() { 
+$(document).one("click", ".horsies", function() { 
   $(".mansion").hide();
   $(".hiking").replaceWith("<button class=test1>map</button>");
   $(".cricket").replaceWith("<button class=chal>Your Challenge</button>");
@@ -66,10 +66,10 @@ $(document).on("click", ".horsies", function() {
   $(".welcome").text("Time time see some animal friends and enjoy fresh air!");
   $(".explore").text("Click below to reveal your challenge!");
 });
-$(document).on("click", ".horsies-challenge", function() {
+$(document).one("click", ".horsies-challenge", function() {
   $("<div><p>Walk over to the fields next to the school. On most days you will be able to a few horses or ponies standing around. Take a selfie with a horse on the background and post it online with #traceofkerava.<br></br>For additional challenge sign up for a riding lesson with the school</p></div>").appendTo(".middle");
   }); 
-$(document).on("click", ".hiking", function() {
+$(document).one("click", ".hiking", function() {
   $(".mansion").hide();
   $(".horsies").replaceWith("<button class=test1>map</button>");
   $(".cricket").replaceWith("<button class=chal>Your Challenge</button>");
@@ -79,11 +79,11 @@ $(document).on("click", ".hiking", function() {
   $(".welcome").text("Put on your confortable shoes, time to get active!");
   $(".explore").text("Click below to reveal your challenge!");
 });
-$(document).on("click", ".hiking-challenge", function() {
+$(document).one("click", ".hiking-challenge", function() {
   $("<div><p>Go for the full 2.8 kilometer circular walk on the marked nature path. Visit the highest path on Haukkavuori and take a picture of the views from there<br></br>For additional challenge, and without leaving the path try to spot a Pelloporus leporinus (Pihkakääpä) growing on a tree trunk.</p></div>").appendTo(".middle");
   }); 
 // Actions for City route buttons
-$(document).on("click", ".foodie", function() {
+$(document).one("click", ".foodie", function() {
   $(".story").hide();
   $(".cafe").replaceWith("<button class=test1>map</button>");
   $(".shop").replaceWith("<button class=chal>Your Challenge</button>");
@@ -93,10 +93,10 @@ $(document).on("click", ".foodie", function() {
   $(".welcome").text("Time to explore the shops in town!");
   $(".explore").text("Click below to reveal your challenge!");
 });
-$(document).on("click", ".foodie-challenge", function() {
+$(document).one("click", ".foodie-challenge", function() {
   $("<div><p>Google recipes starting with the first letter of your first name and select the first possible option. Buy all the required ingredients and prepare the dish yourself.<br></br>For extra challange write a review of the recipe and tag it with #traceofkerava</p></div>").appendTo(".middle");
   }); 
-$(document).on("click", ".story", function() {
+$(document).one("click", ".story", function() {
   $(".foodie").hide();
   $(".cafe").hide();
   $(".shop").replaceWith("<button class=chal>Your Challenge</button>");
@@ -107,10 +107,10 @@ $(document).on("click", ".story", function() {
   $(".explore").text("Click below to reveal your challenge!");
   $("#map").removeClass("hide").appendTo(".game-border").addClass("test1");
 });
-$(document).on("click", ".story-challenge", function() {
+$(document).one("click", ".story-challenge", function() {
   $("<div><p>Read the first book available from an author who’s last name begings with the same letter as yours.  If you‘ve read that book, go on to the next until you find one you haven't.<br></br>For an extra challenge write a review of the chosen book and remember to tag it with #traceofkerava</p></div>").appendTo(".middle");
 }); 
-$(document).on("click", ".cafe", function() {
+$(document).one("click", ".cafe", function() {
   $(".foodie").hide();
   $(".cafe").replaceWith("<button class=test1>map</button>");
   $(".shop").replaceWith("<button class=chal>challenge</button>");
@@ -120,10 +120,10 @@ $(document).on("click", ".cafe", function() {
   $(".welcome").text("This is the time to take it easy and enjoy a small break");
   $(".explore").text("Click below to reveal your challenge!");
 });
-$(document).on("click", ".cafe-challenge", function() {
+$(document).one("click", ".cafe-challenge", function() {
   $("<div><p>Buy yourself a coffee or tea of your choosing and sit down at a table. Write a small story about the next customer to walk in this cafe, making up their background and the reason they are at the cafe today.<br></br>For extra challenge post your story online with tag #traceofkerava.</p></div>").appendTo(".middle");
   }); 
-$(document).on("click", ".shop", function() {
+$(document).one("click", ".shop", function() {
   $(".story").hide();
   $(".cafe").replaceWith("<button class=test1>map</button>");
   $(".shop").replaceWith("<button class=chal>challenge</button>");
@@ -133,6 +133,6 @@ $(document).on("click", ".shop", function() {
   $(".welcome").text("Let's go find an old treasure and give it a new home!");
   $(".explore").text("Click below to reveal your challenge!");
 });
-$(document).on("click", ".shop-challenge", function() {
+$(document).one("click", ".shop-challenge", function() {
   $("<div><p>Find an item in color green closest possible to the one used in this site. Spend no more than five euro on your purchase!<br></br>For additional challange post a picture of yourself with your item with tag #traceofkerava.</p></div>").appendTo(".middle");
   }); 

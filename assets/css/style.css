@@ -27,6 +27,7 @@ body {
 
 .top {
 	padding-right: 20px;
+    margin-bottom: 5vmin;
 }
 
 h1,
@@ -35,10 +36,10 @@ h1 {
 }
 
 p {
-	font-size: 12px;
+	font-size: 3vmin;
 	text-align: justify;
 	text-align-last: center;
-	padding: 5px;
+	padding: 1vh;
 	color: #2f4f4f;
 }
 
@@ -56,10 +57,10 @@ img {
 
 .site-title {
 	text-align: center;
-	margin-top: 30PX;
-	margin-bottom: 20px;
+	margin-top: 3vh;
+	margin-bottom: 2vh;
 	color: #77B800;
-	font-size: 24px;
+	font-size: 6vmin;
 }
 
 .col-2 {
@@ -68,38 +69,38 @@ img {
 }
 .welcome {
     padding: 0;
-    margin-bottom: 5px;
+    margin-bottom: 1vh;
 }
 .getStarted {
-    margin-bottom: 10px;
+    margin-bottom: 2vh;
 }
 .hidden {
-	display: none;
+	display:none;
 }
 
 .middle {
 	text-align: center;
-	margin: 10% 2.5%;
-	padding-bottom: 120px;
+	margin: 2vmin;
+    height: auto;
 }
 
 .lets-play {
     color: #6083CD;
-    font-size: 18px;
-    margin-bottom: 15px;
-    margin-top: 5px;
+    font-size: 5vmin;
+    margin-bottom: 2vh;
+    margin-top: 4vh;
 }
 
 .getReady {
 	color: #77B800;
-	Font-size: 14px;
+	Font-size: 4vmin;
     margin-bottom: 0;
 }
 
 .explore {
     color: #2f4f4f;   
-	font-size: 14px;
-	margin-bottom: 20px;
+	font-size: 4vmin;
+	margin-bottom: 5vmin;
 }
 
 .game {
@@ -107,7 +108,7 @@ img {
 	border-color: #6083CD;
 	padding: 10px;
 }
-		.game-border {
+.game-border {
 			border-style: double;
 			border-color: #77B800;
         }
@@ -120,8 +121,8 @@ img {
 button.BtnSuburbs {
 	background-image: url(../images/worms-eyeview-of-green-trees-957024.jpg);
 	background-size: cover;
-	width: 120px;
-	height: 120px;
+    width: 20vmin;
+    height: 20vmin;
 	border-radius: 5px;
 	border: 3px solid #6083CD;
 	display: inline-block;
@@ -130,8 +131,8 @@ button.BtnSuburbs {
 button.BtnCity {
 	background-image: url(../images/bakery-1868925_1920.jpg);
 	background-size: cover;
-	width: 120px;
-	height: 120px;
+    width: 20vmin;
+    height: 20vmin;
 	border-radius: 5px;
 	border: 3px solid #6083CD;
 	display: inline-block;
@@ -143,7 +144,7 @@ button.BtnCity {
 	left: 0;
 	bottom: 0;
 	padding-left: 20px;
-	padding-top: 60px;
+    margin-top: 5vmin;
 }
 
 strong {
@@ -153,7 +154,7 @@ strong {
 .social {
 	color: #77B800;
 	text-align: center;
-	font-size: 14px;
+	font-size: 3vmin;
 }
 
 .fa {
@@ -264,261 +265,93 @@ strong {
     display: none;
 }
 
-/*Small devices in horizontal mode*/
-@media (max-height:450px) and (max-width:900px) {
-    .site-title {
-        margin-bottom: 25px;
-    }
-    .middle {
-    padding-bottom: 0;
-    }
-    button.BtnSuburbs {
-    width: 100px;
-    height: 100px;
+@media only screen and (max-width: 320px) {
+ .getReady {
+    Font-size: 3.5vmin;
+ }
+ }
+.lets-play {
+    font-size: 4vmin;
+    margin-bottom: 1vh;
+    margin-top: 2vh;
 }
-button.BtnCity {
-    width: 100px;
-    height: 100px;
-}
-    .bottom {
-	position: relative;
-	padding-top: 0;
-    }    
-    .row1 {
-	padding-top: 15px;
-	padding-bottom: 10px;
-    }
-    .row3 {
-        margin-top:20px;
-    }
-    .footer {
-        margin-top:10px;
-    }
-    p {
-        font-size: 12px;
-    }
+.row3 {
+    margin-top: 1vh;
 }
 
-/*Extra small devices*/
-@media (max-width: 320px) {
-	p {
-		font-size: 10px;
-		margin: 0px;
-	}
-	.site-title {
-		font-size: 20px;
-		margin-top: 20PX;
-		margin-bottom: 15px;
-	}
-    .middle {
-        margin: 10%;
-    }
-    .getStarted {
-    margin-bottom: 0px;
+@media only screen and (min-width: 600px) {
+p {
+	font-size: 2vmin;
 }
-    .lets-play {
-    font-size: 14px;
-    margin-bottom: 10px;
-    }
-	.getReady {
-		Font-size: 12px;
-        margin-bottom: 0;
-	}
-	.explore {
-		font-size: 12px;
-	}
-	button.BtnSuburbs {
-		width: 70px;
-		height: 70px;
-	}
-	button.BtnCity {
-		width: 70px;
-		height: 70px;
-	}
-    .game {
-    padding: 5px;
-    }
-    .FirstBtns {
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-    .social {
-    font-size: 10px;    
-    }
-    .row1 {
-        margin-bottom: 10px;
-    }
-    .row3 {
-        margin-top:5px;
-    }
- .hidden{
-     display: none;
- }
- p.reduced-gutters{
-     padding: 0px;
-     margin-bottom:0px;
- }
- .col-1{
-     display: none;
- }
- .col-10.game {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-        flex-grow: 0;
-        flex-shrink: 0;
-        flex-basis: 100%;
-    max-width: 100%;
-}
- .footer{
-     margin-bottom: 0;
-     font-size: 7px;
- }
-}
-/*small devices in portrait mode*/
-@media (max-width:450px) AND (max-height:670px) {
-.middle {
-    margin: 2.5%;
-}
-.bottom {
-    bottom:0;
-}
-button.BtnSuburbs {
-    width: 90px;
-    height: 90px;
-}
-button.BtnCity {
-    width: 90px;
-    height: 90px;
-}
-}
-
-/*medium devices in horizontal mode*/
-@media (min-width:640px) AND (min-height:451px){
-	p {
-		font-size: 16px;
-	}
-	.site-title {
-		font-size: 29px;
-	}
-    .middle {
-    margin-top: 20px;
+.top {
+    padding-right: 20px;
+    margin-bottom: 0;
 }
 .lets-play {
-    font-size: 20px;
+    font-size: 3vmin;
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+}
+    button.BtnSuburbs {
+    width: 14vmin;
+    height: 14vmin;
 }
 .getReady {
-    Font-size: 18px;
+    Font-size: 2.5vmin;
 }
 .explore {
-    font-size: 16px;
+    font-size: 2.5vmin;
+    margin-bottom: 1vmin;
 }
-@media (min-width: 768px) and (min-height:900px) {
-	p {
-		font-size: 16px;
-	}
-    .top {
-    padding-bottom: 30px;
-    }
-    .hidden {
-		display: contents;
-		}
-    .site-title {
-        margin-bottom: 40px;
-        font-size: 40px;
-    }    
-	.middle {
-		padding-bottom: 0px;
-	}
-	.getReady {
-		Font-size: 18px;
-		margin-bottom: 15px;
-		margin-top: 10px;
-	}
-	.explore {
-		font-size: 14px;
-		margin-bottom: 12px;
-	}
-    .row1 {
-        padding-top:20px;
-    }
-		.social {
-			font-size: 16px;
-		}
-		.footer {
-			font-size: 9px;
-			margin-top: 20px;
-		}
+button.BtnCity {
+    width: 14vmin;
+    height: 14vmin;
 }
-	@media (min-width:1025px) {
-		.site-title {
-			font-size: 32px;
-			margin-bottom: 36px;
-		}
-		.hidden {
-			display: contents;
-		}
-		.middle {
-			padding-bottom: 100px;
-			margin-top: 30px;
-		}
-		button.BtnSuburbs {
-			width: 100px;
-			height: 100px;
-			margin-right: 5px;
-		}
-		button.BtnCity {
-			width: 100px;
-			height: 100px;
-		}
-		.row1 {
-			padding-top: 20px;
-		}
-	}
-	@media (min-width:1281px) and (min-height:950px) {
-		.site-title {
-			font-size: 36px;
-			margin-bottom: 40px;
-		}
-		.middle {
-			padding-bottom: 10px;
-			margin-top: 40px;
-		}
-		button.BtnSuburbs {
-			width: 130px;
-			height: 130px;
-			margin-right: 5px;
-		}
-		button.BtnCity {
-			width: 130px;
-			height: 130px;
-			margin-left: 5px;
-		}
-		.getReady {
-			Font-size: 22px;
-			margin-bottom: 30px;
-			margin-top: 10px;
-		}
-		.explore {
-			font-size: 16px;
-			margin-bottom: 16px;
-		}
-		.FirstBtns {
-			margin-top: 20px;
-			margin-bottom: 40px;
-		}
-		.game {
-			padding: 15px;
-		}
-		.social {
-			font-size: 16px;
-		}
-		.lets-play {
-			font-size: 24px;
-			margin-top: 25px;
-			margin-bottom: 20px;
-		}
-		.footer {
-			font-size: 10px;
-			margin-top: 30px;
-		}
-	}
+.getReady {
+    Font-size: 2.5vmin;
+}
+.explore {
+    font-size: 2.5vmin;
+    margin-bottom: 2vmin;
+}
+.hidden {
+    display: initial;
+}
+.social {
+    font-size: 2vmin;
+}
+.footer {
+    font-size: 1.5vmin;
+    padding: 1vmin 1vmin 0 1vmin;
+}
+
+@media only screen and (min-width: 1200px) {
+p {
+	font-size: 2vmin;
+}
+button.BtnSuburbs {
+    width: 14vmin;
+    height: 14vmin;
+}
+button.BtnCity {
+    width: 14vmin;
+    height: 14vmin;
+}
+.getReady {
+    Font-size: 2vmin;
+}
+.explore {
+    font-size: 2vmin;
+    margin-bottom: 3vmin;
+}
+
+.footer {
+    font-size: 1vmin;
+    padding: 1vmin 1vmin 0 1vmin;
+        padding-top: 5px;
+        padding-right: 5px;
+        padding-bottom: 0px;
+        padding-left: 5px;
+    margin-bottom: 2px;
+}
+}

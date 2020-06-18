@@ -30,19 +30,20 @@ $(".BtnCity").one("click", function() {
   });
 });
 // Actions for Suburb route buttons
+// Cricket
 $(document).one("click", ".cricket", function() {
+  $(".getReady").hide();
+  $(".explore").hide();
   $(".mansion").hide();
-  $(".horsies").replaceWith("<button class=test1>map</button>");
-  $(".hiking").replaceWith("<button class=chal>Your Challenge</button>");
+  $(".horsies").hide();
+  $(".hiking").hide().replaceWith("<div><p>Walk over to the Kerava National Cricket Ground Pavilion and take a picture of yourself infront of the building. Post it online with tag #traceofkerava <br></br>For additional challenge sign up for session of Cricket with KCC to test your skills!</p></div>").appendTo(".middle");
   $(".chal").addClass("test1").addClass("cricket-challange");
   $(".cricket").hide();
   $(".getStarted").text("Finland's National Cricket Ground in Kerava has been in active use for years. Located about two kilometers from central station the field is available under reservation. Make sure to register and pay for your time if you wish to use these grounds!");
   $(".welcome").text("Time to get active and enter the world of cricket!");
   $(".explore").text("Click below to reveal your challenge!");
+  $("#map").removeClass("hide").appendTo(".game-border").addClass("test1");
 });
-$(document).one("click", ".cricket-challange", function() {
-  $("<div><p>Walk over to the Kerava National Cricket Ground Pavilion and take a picture of yourself infront of the building. Post it online with tag #traceofkerava <br></br>For additional challenge sign up for session of Cricket with KCC to test your skills!</p></div>").appendTo(".middle");
-  });  
 $(document).one("click", ".mansion", function() {
   $(".cricket").hide();
   $(".horsies").replaceWith("<button class=test1>map</button>");
@@ -52,6 +53,7 @@ $(document).one("click", ".mansion", function() {
   $(".getStarted").text("Although the housing in this hill dates much further back in history, the current look of Kerava Manor is from 1928. Since 1991 the Manor has been under the town ownership and is used to host various cultural events.");
   $(".welcome").text("Let's fly back in time and enjoy the beauty of Kerava Manor today!");
   $(".explore").text("Click below to reveal your challenge!");
+  $("#map").removeClass("hide").appendTo(".game-border").addClass("test1");
 });
 $(document).one("click", ".mansion-challenge", function() {
   $("<div><p>Support the manor and buy yourself a snack or a drink from the cafe located on ground floor. Take a walk inside to view the art pieces on display.<br></br>For additional challange write and post a review of the experience with tagging it with #traceofkerava.</p></div>").appendTo(".middle");
@@ -65,6 +67,7 @@ $(document).one("click", ".horsies", function() {
   $(".getStarted").text("Kerava Riding School (Keravan Ratsastuskoulu) has been operating in Ahjo, Kerava since 1975. The school offers lessons for all levels and ages. The grounds include a riding hall, two riding fields and a cafe for those looking for refreshments.");
   $(".welcome").text("Time time see some animal friends and enjoy fresh air!");
   $(".explore").text("Click below to reveal your challenge!");
+  $("#map").removeClass("hide").appendTo(".game-border").addClass("test1");
 });
 $(document).one("click", ".horsies-challenge", function() {
   $("<div><p>Walk over to the fields next to the school. On most days you will be able to a few horses or ponies standing around. Take a selfie with a horse on the background and post it online with #traceofkerava.<br></br>For additional challenge sign up for a riding lesson with the school</p></div>").appendTo(".middle");
@@ -78,6 +81,7 @@ $(document).one("click", ".hiking", function() {
   $(".getStarted").text("Haukkavuori nature reserve offers a great walk along the nature and is easy reach either from Lahdentie or Kaskelantie. As this is a protected environmnent do stay on the marked paths. The wildlife in this area like their homes undisturbed!");
   $(".welcome").text("Put on your confortable shoes, time to get active!");
   $(".explore").text("Click below to reveal your challenge!");
+  $("#map").removeClass("hide").appendTo(".game-border").addClass("test1");
 });
 $(document).one("click", ".hiking-challenge", function() {
   $("<div><p>Go for the full 2.8 kilometer circular walk on the marked nature path. Visit the highest path on Haukkavuori and take a picture of the views from there<br></br>For additional challenge, and without leaving the path try to spot a Pelloporus leporinus (Pihkakääpä) growing on a tree trunk.</p></div>").appendTo(".middle");
@@ -92,6 +96,7 @@ $(document).one("click", ".foodie", function() {
   $(".getStarted").text("Located at the very center of the town, Prisma shopping center and grocery store offers a large variety of consurmer goods for a reasonable price. We will get familiar with their food aisles today so grab your wallet and head over there!");
   $(".welcome").text("Time to explore the shops in town!");
   $(".explore").text("Click below to reveal your challenge!");
+  $("#map").removeClass("hide").appendTo(".game-border").addClass("test1");
 });
 $(document).one("click", ".foodie-challenge", function() {
   $("<div><p>Google recipes starting with the first letter of your first name and select the first possible option. Buy all the required ingredients and prepare the dish yourself.<br></br>For extra challange write a review of the recipe and tag it with #traceofkerava</p></div>").appendTo(".middle");
@@ -119,6 +124,7 @@ $(document).one("click", ".cafe", function() {
   $(".getStarted").text("The Kerava center offers multiple little cafes for meeting up friends or taking a break from shopping. One of the more establised cafes is Kulmakonditoria, also known as Kulmis. Lets go visit them this time!");
   $(".welcome").text("This is the time to take it easy and enjoy a small break");
   $(".explore").text("Click below to reveal your challenge!");
+  $("#map").removeClass("hide").appendTo(".game-border").addClass("test1");
 });
 $(document).one("click", ".cafe-challenge", function() {
   $("<div><p>Buy yourself a coffee or tea of your choosing and sit down at a table. Write a small story about the next customer to walk in this cafe, making up their background and the reason they are at the cafe today.<br></br>For extra challenge post your story online with tag #traceofkerava.</p></div>").appendTo(".middle");
@@ -132,6 +138,7 @@ $(document).one("click", ".shop", function() {
   $(".getStarted").text("Next to various department stores, Kerava also has a number of secondhand stores with interesting collections of used items. Today we will go visit Fida secondhand to see what they have on offer");
   $(".welcome").text("Let's go find an old treasure and give it a new home!");
   $(".explore").text("Click below to reveal your challenge!");
+  $("#map").removeClass("hide").appendTo(".game-border").addClass("test1");
 });
 $(document).one("click", ".shop-challenge", function() {
   $("<div><p>Find an item in color green closest possible to the one used in this site. Spend no more than five euro on your purchase!<br></br>For additional challange post a picture of yourself with your item with tag #traceofkerava.</p></div>").appendTo(".middle");

@@ -2,28 +2,30 @@
 $(document).ready(function(){
 $(".BtnSuburbs").one("click", function() {
     $(".BtnCity").hide();
-  $(".getStarted").text("The areas outside the town center offer various options for both relaxation and physical activities."); 
+  $(".getStarted").replaceWith("<p class=getStarted>The areas outside the town center offer various options for relaxation as well as physical activities.</p>"); 
   $("<p>We have selected a few for this route but suggest you take a look at the official Kerava website for more inspiration.</p>").addClass("hidden");
-  $(".welcome").text("Congratulations for having taken the first step! Get ready to explore the suburbs with us..");
+  $(".welcome").replaceWith("<p class=welcome>Congratulations for having taken the first step! Get ready to explore the suburbs with us..</p>");
   $("<button>hey</button>").addClass("test1").addClass("horsies").appendTo(".game-border");
   $("<button>hola</button>").addClass("test1").addClass("hiking").appendTo(".game-border");
   $("<button>hello</button>").addClass("test1").addClass("mansion").appendTo(".game-border");
   $("<button>moi</button>").addClass("test1").addClass("cricket").appendTo(".game-border");
+    $(".lets-play").replaceWith("<h2 class=lets-play>Just one more choise to make:</h2>");
   $(".BtnSuburbs").hide();
-  $(".getReady").text("So lets see what is in store of us today!");
+  $(".getReady").text("Lets see what is in store of us today!");
   $(".explore").text("Go ahead, click on the most appealing photo:");
 });
 });
 $(document).ready(function(){
 $(".BtnCity").one("click", function() {
     $(".BtnSuburbs").hide();
-  $(".getStarted").text("The town center, while compact, has a variety of cultural, culinary and other leisure time activities to offer.");
+  $(".getStarted").replaceWith("<p class=getStarted>The town center, while compact, has a variety of cultural, culinary and other leisure time activities to offer.</p>");
   $("<p>We will explore some of these here but be sure to check out others as well later on.</p>").addClass("hidden");
-  $(".welcome").text("Congratulations for having taken the first step! Get ready to explore the center with us..");
+  $(".welcome").replaceWith("<section class=top-text><p>Congratulations for having taken the first step! Get ready to explore the center with us..</p></section>");
   $("<button>hey</button>").addClass("test1").addClass("foodie").appendTo(".game-border");
   $("<button>hola</button>").addClass("test1").addClass("story").appendTo(".game-border");
   $("<button>hello</button>").addClass("test1").addClass("cafe").appendTo(".game-border");
   $("<button>moi</button>").addClass("test1").addClass("shop").appendTo(".game-border");
+  $(".lets-play").replaceWith("<h2 class=lets-play>Just one more choise to make:</h2>");
   $(".BtnCity").hide();
   $(".getReady").text("So lets see what is in store of us today!");
   $(".explore").text("Go ahead, click on the most appealing photo:");
@@ -32,17 +34,26 @@ $(".BtnCity").one("click", function() {
 // Actions for Suburb route buttons
 // Cricket
 $(document).one("click", ".cricket", function() {
+  $(".banner-top").addClass("banner-top-final").removeClass("banner-top");
+  $(".top").addClass("top_final").removeClass("top");
+  $(".banner-bottom").addClass("banner-bottom-final").removeClass("banner-bottom");
+  $(".bottom_text").addClass("bottom_text-final").removeClass("bottom_text");
+  $(".game").addClass("game-final").removeClass("game");
+  $(".footer").addClass("footer-final").removeClass("footer");
+  $(".lets-play").addClass("lets-play-final").removeClass("lets-play");
   $(".getReady").hide();
   $(".explore").hide();
   $(".mansion").hide();
   $(".horsies").hide();
-  $(".hiking").hide().replaceWith("<div><p>Walk over to the Kerava National Cricket Ground Pavilion and take a picture of yourself infront of the building. Post it online with tag #traceofkerava <br></br>For additional challenge sign up for session of Cricket with KCC to test your skills!</p></div>").appendTo(".middle");
+  $(".game-border").removeClass();
+  $(".hiking").hide().replaceWith("<div><p>Walk over to the Kerava National Cricket Ground Pavilion and take a picture of yourself infront of the building.<br></br>For additional challenge sign up for session of Cricket with KCC to test your skills!</p></div>").appendTo(".middle");
   $(".chal").addClass("test1").addClass("cricket-challange");
   $(".cricket").hide();
-  $(".getStarted").text("Finland's National Cricket Ground in Kerava has been in active use for years. Located about two kilometers from central station the field is available under reservation. Make sure to register and pay for your time if you wish to use these grounds!");
-  $(".welcome").text("Time to get active and enter the world of cricket!");
+  $(".getStarted").hide().closest('section.top-text').removeClass('top-text');
+  $(".welcome").text("Finland's National Cricket Ground in Kerava, located about two kilometers from central station, is available for use under reservation. Make sure to register and pay if you wish to use these grounds!");
+  $(".lets-play").text("Get active for cricket!");
   $(".explore").text("Click below to reveal your challenge!");
-  $("#map").removeClass("hide").appendTo(".game-border").addClass("test1");
+  $("#map").removeClass("hide").appendTo(".game-final");
 });
 $(document).one("click", ".mansion", function() {
   $(".cricket").hide();

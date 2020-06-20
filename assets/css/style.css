@@ -10,7 +10,7 @@
 }
 
 body {
-	font-family: Letter Gothic;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	position: relative;
 	margin: 0;
 	height: auto;
@@ -29,19 +29,24 @@ body {
 	padding-right: 20px;
     margin-bottom: 5vmin;
 }
-
+.top-text {
+height: 9vh;
+padding-bottom: 1.5vh;
+}
 h1,
 h1 {
 	text-shadow: 2px 2px #6083CD;
 }
-
 p {
-	font-size: 3vmin;
+    margin-top: 0px;
+    margin-bottom:0px;
+    font-size: 3vmin;
 	text-align: justify;
 	text-align-last: center;
-	padding: 1vh;
+	padding: 0;
 	color: #2f4f4f;
 }
+
 
 img {
 	max-width: 100%;
@@ -51,16 +56,23 @@ img {
 }
 
 .banner-top {
-	border-radius: 0 0 0 10px;
-	transform: rotateY(180deg);
+    background-image: url(../images/rock-1533826_640_1.jpg);
+    background-size: cover;
+    display: block;
+    border-radius: 0 0 0 10px;
+    transform: rotateY(180deg);
+    margin-left: 11px;
+    height: 30vh;
+    position: inherit;
+    top: -5px;
 }
 
 .site-title {
-	text-align: center;
-	margin-top: 3vh;
-	margin-bottom: 2vh;
-	color: #77B800;
-	font-size: 6vmin;
+    text-align: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    color: #77B800;
+    font-size: 6vmin;
 }
 
 .col-2 {
@@ -86,21 +98,21 @@ img {
 
 .lets-play {
     color: #6083CD;
-    font-size: 5vmin;
+    font-size: 4vmin;
     margin-bottom: 2vh;
     margin-top: 4vh;
 }
 
 .getReady {
 	color: #77B800;
-	Font-size: 4vmin;
+	Font-size: 3vmin;
     margin-bottom: 0;
 }
 
 .explore {
     color: #2f4f4f;   
-	font-size: 4vmin;
-	margin-bottom: 5vmin;
+	font-size: 3vmin;
+	margin-bottom: 3vmin;
 }
 
 .game {
@@ -114,8 +126,8 @@ img {
         }
 
 .FirstBtns {
-	margin-top: 20px;
-	margin-bottom: 20px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
 }
 
 button.BtnSuburbs {
@@ -146,7 +158,13 @@ button.BtnCity {
 	padding-left: 20px;
     margin-top: 5vmin;
 }
-
+.bottom_text {
+    padding-bottom: 1.5vh;
+    justify-content: center;
+    align-items: end;
+    display: grid;
+    height: 8vh;
+}
 strong {
 	color: #6083CD;
 }
@@ -161,8 +179,15 @@ strong {
 	color: #77B800;
 }
 
+.row1.p {
+    padding: 1vh 0;
+}
 .row1 {
-	margin-bottom: 0px;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0;
+    margin-right: 3vw;
+    display: grid;
 }
 
 .row3 {
@@ -171,14 +196,28 @@ strong {
 	margin-top: 20px;
 }
 
+
 .banner-bottom {
-	border-radius: 10px 0 0 0;
+    background-image: url(../images/rock-1533826_640_1.jpg);
+    background-size: cover;
+    display: block;
+    border-radius: 10px 0 0 0;
+    margin-right: 11px;
+    height: 30vh;
+    width: auto;
+    position: inherit;
+    bottom: -5px;
 }
 
 .footer {
-	font-size: 8px;
-	padding: 5px 5px 0px 5px;
-    margin-bottom: 2px;
+    font-size: 2vmin;
+    padding: 1vmin 4vmin 0 1vmin;
+    margin-bottom: 1vmin;
+    height: 5vh;
+    display: flex;
+    align-items: end;
+    bottom: 0;
+    position: absolute;
 }
 
 .suburb_first {
@@ -191,16 +230,16 @@ strong {
 }
 
 .test1 {
-	width: 70px;
-	height: 70px;
-	border-radius: 5px;
-	border: 3px solid #6083CD;
-	display: inline-block;
-	text-align: center;
-	font-size: 10px;
-	font: arial;
-	color: rgba(0, 0, 0, 0);
-	margin: 5px;
+    width: 16vmin;
+    height: 16vmin;
+    border-radius: 5px;
+    border: 3px solid #6083CD;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0);
+    margin-top: 1vmin;
+    margin-right: 1vmin;
+    margin-bottom: 6vmin;
+    margin-left: 1vmin;
 }
 
 .horsies {
@@ -258,11 +297,69 @@ strong {
 	color: #212529;
 }
 #map {
-    height: 100px;
-    width: 200px;
+  height: 17vh;
+  margin-top: 2vh;
 }
 .hide {
     display: none;
+}
+/* final page specific layout */
+.banner-top-final {
+    background-image: url(../images/rock-1533826_640_1.jpg);
+    background-size: cover;
+    display: block;
+    border-radius: 0 0 0 10px;
+    transform: rotateY(180deg);
+    margin-left: 11px;
+    height: 26vh;
+    position: inherit;
+    top: -5px;
+}
+.top_final {
+    padding-right: 20px;
+    margin-bottom: 1vh;
+}
+.game-final {
+	border-style: double;
+	border-color:#77B800;
+	padding: 2vmin
+}
+.lets-play-final {
+    color: #6083CD;
+    font-size: 4vmin;
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+}
+.bottom_text-final {
+    padding-bottom: 1.5vh;
+    justify-content: center;
+    align-items: end;
+    display: grid;
+    height: 6VH;
+    bottom: 0;
+    position: relative;
+    margin-top: 1vh;
+}
+.footer-final {
+    font-size: 2vmin;
+    padding: 1vmin 4vmin 0 1vmin;
+    margin-bottom: 1vmin;
+    height: 4vh;
+    display: flex;
+    align-items: end;
+    bottom: 0;
+    position: absolute;
+}
+.banner-bottom-final {
+    background-image: url(../images/rock-1533826_640_1.jpg);
+    background-size: cover;
+    display: block;
+    border-radius: 10px 0 0 0;
+    margin-right: 11px;
+    height: 26vh;
+    width: auto;
+    position: inherit;
+    bottom: -5px;
 }
 
 @media only screen and (max-width: 320px) {

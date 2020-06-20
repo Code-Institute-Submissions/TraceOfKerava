@@ -4,30 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <!-- Bootstrap font awesome -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>MileSoneProject2</title>
 </head>
 <body>
 <div class="top">
 <div class="row">
 <div class="no-padding col-2 col-md-1">
-<img class="banner-top" src="assets/images/rock-1533826_640.jpg" alt="pawn prints">
+<div class= "banner-top"></div>
 </div>
 <div class="col-10">
 <h1 class="site-title">
  ~ TRACE OF KERAVA ~
 </h1>
+<section class="top-text">
 <p class="welcome">
-Welcome to Trace of Kerava, a place to visit when you have no idea what you want to do... <text class="hidden">We have put together a few fun activities to try while getting familiar with the different areas of our town.</text>
+Welcome to Trace of Kerava, a place to visit when you have no idea what you want to do... <span class="hidden">We have put together a few fun activities to try while getting familiar with the different areas of our town.</span>
 </p>
+</section>
+<section class="top-text">
 <p class="getStarted">
-To all people young and old, <text class = "hidden"> whether you are new to our town or a lifelong resident in Kerava,</text> we invite you to take up a small challenge. <text class="hidden">Just a couple of clicks and an open mind is all you need to discover your mission for the day.</text>
-So without further delay, let's get started:
-</p>
+To all people young and old we invite you to take up a small challenge. <span class="hidden"> Just a couple of clicks and an open mind is all you need to discover your mission for the day.</span>
+So without further delay, let's get started:</p>
+</section>
 </div>
 <div class="col-md-1"></div>
 </div>
@@ -51,23 +54,29 @@ So without further delay, let's get started:
     </div>
 </div>
 </div>
+<div id="map" class="hide">
+</div>
 <div class="col-1 col-lg-2"></div>
 </div>
 </div>
 </div>
-<div ID="map" class="hide"></div>
+<div id="hide"></div>
+
 <div class ="bottom">
 <div class="row">
+
 <div class="col-md-1">
 </div>
 <div class ="col-10">
-    <div class="row1">
-          <p class= "reduced-gutters">
-            Post pictures of your steps and challenges on social media with <strong>#traceofkerava</strong>!<br class="break"><text class = "hidden"> We are looking forwards to seeing all your contributions, comments and suggestions as well. Hopefully we can help brighten up your days and bring smiles on your faces!<br><br></text>
-            For more information about Kerava please visit the official city website <strong>here</strong>
-          </p>
-          </div>
-          <div class="row2 d-flex justify-content-center align-items-center" >
+    <div>
+    <section class="bottom_text">
+          <p>Post pictures of your steps and challenges on social media with <strong>#traceofkerava</strong>!
+          <span class = "hidden"> We are looking forwards to seeing all your contributions, comments and suggestions as well. Hopefully we can help brighten up your days and bring smiles on your faces!</span> </p>
+    </section>
+    <section class="bottom_text">
+            <p>For more information about Kerava please visit the official city website <strong>here</strong></p>
+            </section>
+            <section class="bottom_text">
           <h6 class="social">
           And find us on social media:
           <i class="fa fa-twitter-square" aria-hidden="true"></i>
@@ -75,16 +84,15 @@ So without further delay, let's get started:
           <i class="fa fa-pinterest-square" aria-hidden="true"></i>
           <i class="fa fa-instagram" aria-hidden="true"></i>
         </h6>
-        </div>
-        <div class="row3" >
-      <p class= "footer">
-      * If your company operates in Kerava and would like to be featured in this game please leave your details here and we will get in touch <text class="hidden"> with you</text>.
+         </section>
+      <p class="footer">
+      If your company operates in Kerava and would like to be featured in this game please leave your details here and we will get in touch <text class="hidden"> with you</text>.
     </p>
-    </div>
-
 </div>
+</div>
+
 <div class="col-2 col-md-1">
-<img class="banner-bottom" src="assets/images/rock-1533826_640.jpg" alt="pawn prints">
+<div class="banner-bottom"></div>
 </div>
 </div>
 </div>
@@ -95,7 +103,7 @@ So without further delay, let's get started:
     <script src="assets/js/scripts.js"></script>
 <!-- Maps script -->
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5SwquYg0zASQss6CU9H5Ja1A4AVoEvtE&callback=initMap&libraries=&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly"
       defer
     ></script>
    <script src="assets/js/maps.js"></script>

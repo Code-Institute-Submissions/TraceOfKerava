@@ -77,7 +77,7 @@ img {
 	padding: 0;
 	margin: 0;
 }
-.getStarted {
+.get-started {
     margin-bottom: 2vh;
 }
 .hidden {
@@ -97,7 +97,7 @@ img {
     margin-top: 2.5vh;
 }
 
-.getReady {
+.get-ready {
 	color: #77B800;
 	Font-size: 3vmin;
     margin-bottom: 0;
@@ -119,12 +119,12 @@ img {
 			border-color: #77B800;
         }
 
-.FirstBtns {
+.initial-btns {
     margin-top: 2vh;
     margin-bottom: 2vh;
 }
 
-button.BtnSuburbs {
+button.btn-suburbs {
 	background-image: url(../images/worms-eyeview-of-green-trees-957024.jpg);
 	background-size: cover;
     width: 20vmin;
@@ -134,7 +134,7 @@ button.BtnSuburbs {
 	display: inline-block;
 }
 
-button.BtnCity {
+button.btn-city {
 	background-image: url(../images/bakery-1868925_1920.jpg);
 	background-size: cover;
     width: 20vmin;
@@ -152,7 +152,7 @@ button.BtnCity {
     margin-top: 5vmin;
     padding-left: 5vmin;
 }
-.bottom_text {
+.bottom-text {
     padding-bottom: 1.5vh;
     justify-content: center;
     align-items: end;
@@ -293,6 +293,7 @@ strong {
   margin-top: 2vh;
   border: 1vmin solid #6083CD;
 }
+
 .hide {
     display: none;
 }
@@ -326,7 +327,7 @@ strong {
     margin-bottom: 2vh;
     margin-top: 1vh;
 }
-.bottom_text-final {
+.bottom-text-final {
     justify-content: center;
     align-items: end;
     display: grid;
@@ -359,7 +360,7 @@ strong {
 /* Media queries */
 /* MQ extra small mobile vertical */
 @media only screen and (max-width: 320px) {
- .getReady {
+ .get-ready {
     Font-size: 3.5vmin;
  }
 .lets-play {
@@ -399,11 +400,11 @@ margin-bottom: 3vh;
   padding: 0;
   border:none;
 }
-button.BtnSuburbs {
+button.btn-suburbs {
   width: 15vmin;
   height: 15vmin;
 }
-button.BtnCity{
+button.btn-city{
   width: 15vmin;
   height: 15vmin;
 }
@@ -411,12 +412,15 @@ button.BtnCity{
   font-size: 3vmin;
   margin-top: 1vh;
 }
-.bottom_text {
+.lets-play-final {
+  font-size: 3.5vmin;
+}
+.bottom-text {
     padding-bottom: 1vh;
     height: 7vh;
     padding-top: 1vh;
   }
-  .bottom_text-final {
+  .bottom-text-final {
   height: 8vh;
 }
 .mobile-hidden {
@@ -436,7 +440,7 @@ button.BtnCity{
   margin-bottom: 0;
 }
 
-.getStarted {
+.get-started {
   margin-bottom: 0;
 }
 
@@ -452,16 +456,16 @@ button.BtnCity{
   height: 27vh;
 }
 
-.bottom_text {
+.bottom-text {
   height: 9vh;
 }
 
-button.BtnCity {
+button.btn-city {
   width: 15vmin;
   height: 15vmin;
 }
 
-button.BtnSuburbs {
+button.btn-suburbs {
   width: 15vmin;
   height: 15vmin;
 }
@@ -493,7 +497,7 @@ border:none;
   font-size: 2vmin;
   margin-top: 1vh;
 }
- .bottom_text {
+ .bottom-text {
   display: flex;
   height: 7vh;
   padding-top: 1.5vh;
@@ -534,13 +538,13 @@ p {
 .banner-top-final {
   height: 24vh;
 }
-.getReady {
+.get-ready {
   Font-size: 2.5vmin;
 }
 .banner-bottom-final {
   height: 24vh;
 }
-.bottom_text-final {
+.bottom-text-final {
   margin-right: 2vw;
 }
 .lets-play-final {
@@ -577,22 +581,22 @@ p {
 	font-size: 2vmin;
     line-height: 3.5vh;
 }
-button.BtnSuburbs {
+button.btn-suburbs {
     width: 14vmin;
     height: 14vmin;
 }
-button.BtnCity {
+button.btn-city {
     width: 14vmin;
     height: 14vmin;
 }
-.getReady {
+.get-ready {
     Font-size: 2vmin;
 }
 .explore {
     font-size: 2vmin;
     margin-bottom: 3vmin;
 }
-.getStarted {
+.get-started {
   margin-bottom: 0;
 }
 .footer {
@@ -612,7 +616,7 @@ button.BtnCity {
 .bottom {
   padding-left: 0;
 }
-  .bottom_text {
+  .bottom-text {
     padding-right: 1vw;
     padding-left: 1vw;
 }

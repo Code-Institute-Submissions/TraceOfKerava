@@ -221,7 +221,7 @@ strong {
 	margin-left: auto;
 }
 
-.test1 {
+.map-btns {
     width: 16vmin;
     height: 16vmin;
     border-radius: 5px;
@@ -234,17 +234,17 @@ strong {
     margin-left: 1vmin;
 }
 
-.horsies {
+.stables {
 	background-image: url(../images/horse-2649609_1920.jpg);
 	background-size: cover;
 }
 
-.hiking {
+.nature {
 	background-image: url(../images/forest-4901664_1280.jpg);
 	background-size: cover;
 }
 
-.mansion {
+.manor {
 	background-image: url(../images/furniture-2436907_640.jpg);
 	background-size: cover;
 }
@@ -260,12 +260,12 @@ strong {
 	text-align: center;
 }
 
-.foodie {
+.grocery {
 	background-image: url(../images/appetizer-1386743_1280.jpg);
 	background-size: cover;
 }
 
-.story {
+.library {
 	background-image: url(../images/library-4556542_1280.jpg);
 	background-size: cover;
 }
@@ -275,11 +275,16 @@ strong {
 	background-size: cover;
 }
 
-.shop {
+.thrift {
 	background-image: url(../images/woman-standing-374679.jpg);
 	background-size: cover;
 }
-
+.map {
+  height: 17vh;
+  margin-top: 2vh;
+  border: 1vmin solid #6083CD;
+  width: -moz-available;
+}
 .subheader {
 	padding: 15px;
 }
@@ -312,7 +317,7 @@ strong {
     position: inherit;
     top: -5px;
 }
-.top_final {
+.top-final {
     padding-right: 20px;
     margin-bottom: 1vh;
 }
@@ -474,7 +479,7 @@ button.btn-suburbs {
 border:none;
 }
 
-.test1 {
+.map-btns {
   margin-bottom: 2vmin;
 }
 /* MQ tablets and small laptops */
@@ -558,7 +563,7 @@ p {
 #map {
   height: 20vh;
 }
-.top_final {
+.top-final {
   margin-bottom: 2vh;
 }
 .hidden {

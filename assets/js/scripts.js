@@ -8,6 +8,10 @@ $(".btn-suburbs").one("click", function() {
   $(".introduction").replaceWith("<p class=introduction>Congratulations for having taken the first step! Get ready to explore the suburbs<span class=mobile-hidden> with us</span>..</p>");
   $(".lets-play").replaceWith("<h2 class=lets-play>Just one more choice to make:</h2>");
   $(".btn-suburbs").hide();
+  $("#stables").removeClass("hide").addClass("map-btns").appendTo(".game-border");
+  $("#cricket").removeClass("hide").addClass("map-btns").appendTo(".game-border");
+  $("#manor").removeClass("hide").addClass("map-btns").appendTo(".game-border");
+  $("#nature").removeClass("hide").addClass("map-btns").appendTo(".game-border");
   $(".get-ready").text("Lets see what is in store of us today!");
   $(".explore").text("Go ahead, click on the most appealing photo:");
 });
@@ -21,6 +25,10 @@ $(".btn-city").one("click", function() {
   $(".introduction").replaceWith("<p class=introduction>Congratulations for having taken the first step! Get ready to explore the center<span class=mobile-hidden> with us</span>..</p>");
   $(".lets-play").replaceWith("<h2 class=lets-play>Just one more choice to make:</h2>");
   $(".btn-city").hide();
+  $("#grocery").removeClass("hide").addClass("map-btns").appendTo(".game-border");
+  $("#cafe").removeClass("hide").addClass("map-btns").appendTo(".game-border");
+  $("#library").removeClass("hide").addClass("map-btns").appendTo(".game-border");
+  $("#thrift").removeClass("hide").addClass("map-btns").appendTo(".game-border");
   $(".get-ready").text("So lets see what is in store of us today!");
   $(".explore").text("Go ahead, click on the most appealing photo:");
 });
@@ -35,16 +43,16 @@ $(document).one("click", "#cricket", function() {
   $(".game").addClass("game-final").removeClass("game");
   $(".footer").addClass("footer-final").removeClass("footer");
   $(".lets-play").addClass("lets-play-final").removeClass("lets-play");
+  $(".game-border").removeClass();
   $(".get-ready").hide();
   $(".explore").hide();
   $("#manor").hide();
   $("#stables").hide();
-  $(".game-border").removeClass();
   $("#nature").hide().replaceWith("<div><p>Walk over to the Kerava National Cricket Ground Pavilion and take a picture of yourself infront of the building. For additional challenge sign up for session of Cricket with KCC<span class=mobile-hidden> to test your skills</span>!</p></div>").appendTo(".middle");
   $(".get-started").hide().closest('section.top-text').removeClass('top-text');
   $(".introduction").replaceWith("<p>Finland's <strong>National Cricket Ground</strong> in Kerava, located about two kilometers from central station, is available for use under reservation. Make sure to register and pay if you wish to use these grounds!</p>");
   $(".lets-play-final").text("Get active for cricket!");
-  $("#cricket").removeClass("hide").appendTo(".game-final");
+  $("#cricket").removeClass("cricket").removeClass("maps-btn").addClass("map").appendTo(".game-final");
 });
 // Manor
 $(document).one("click", "#manor", function() {
@@ -55,16 +63,16 @@ $(document).one("click", "#manor", function() {
   $(".game").addClass("game-final").removeClass("game");
   $(".footer").addClass("footer-final").removeClass("footer");
   $(".lets-play").addClass("lets-play-final").removeClass("lets-play");
-  $(".get-ready").hide();
-  $("#cricket").hide();
-  $(".explore").hide();
-  $("#stables").hide();
   $(".game-border").removeClass();
-  $("#nature").hide().replaceWith("<div><p>Support the manor and buy <span class=mobile-hidden>yourself </span>a <span class = mobile-hidden>snack or a </span>drink from the cafe <span class=mobile-hidden>located </span>on ground floor. Take a walk inside to view the art on display. For additional challange write and post a review on social media.</p></div>").appendTo(".middle");
   $(".get-started").hide().closest('section.top-text').removeClass('top-text');
+  $(".get-ready").hide();
+  $(".explore").hide();
+  $("#cricket").hide();
+  $("#stables").hide();
+  $("#nature").hide().replaceWith("<div><p>Support the manor and buy <span class=mobile-hidden>yourself </span>a <span class = mobile-hidden>snack or a </span>drink from the cafe <span class=mobile-hidden>located </span>on ground floor. Take a walk inside to view the art on display. For additional challange write and post a review on social media.</p></div>").appendTo(".middle");
   $(".introduction").replaceWith("<p>While housing in this hill dates much further back<span class=mobile-hidden> in hilibrary</span>, the current look of <strong>Kerava Manor</strong> is from 1928. Since 1991 the Manor <span class=mobile-hidden>has been under the town ownership and </span>is used to host various <span class = hidden>cultural </span>events.</p>");
   $(".lets-play-final").text("Enjoy the beauty of Kerava Manor!");
-  $("#manor").removeClass("hide").appendTo(".game-final");
+  $("#manor").removeClass("manor").removeClass("map-btns").addClass("map").appendTo(".game-final");
 });
 //Stables
 $(document).one("click", "#stables", function() {
@@ -84,7 +92,7 @@ $(document).one("click", "#stables", function() {
   $(".get-started").hide().closest('section.top-text').removeClass('top-text');
   $(".introduction").replaceWith("<p><strong>Kerava Riding School</strong> <span class =hidden> has been operating in Ahjo, Kerava since 1975. The school</span> offers lessons for all levels and ages. The grounds include a riding hall, two riding fields and a cafe for those looking for refreshments.</p>");
  $(".lets-play-final").text("Time to see some animal friends!") 
- $("#stables").removeClass("hide").appendTo(".game-final");
+ $("#stables").removeClass("stables").removeClass("map-btns").addClass("map").appendTo(".game-final");
   });
   //Hiking
 $(document).one("click", "#nature", function() {
@@ -104,7 +112,7 @@ $(document).one("click", "#nature", function() {
   $(".get-started").hide().closest('section.top-text').removeClass('top-text');
   $(".introduction").replaceWith("<p><strong>Haukkavuori</strong> nature reserve offers a great walk along the nature and is easy reach. As this is a protected environmnent do stay on the marked path. <span class=mobile-hidden>Wildlife in the area like their homes undisturbed!</span></p>");
   $(".lets-play-final").text("Lets start being active!");
-  $("#nature").removeClass("hide").appendTo(".game-final");
+  $("#nature").removeClass("nature").removeClass("map-btns").addClass("map").appendTo(".game-final");
 });
 // Actions for City route buttons
 //Food
@@ -125,7 +133,7 @@ $("#cafe").hide().replaceWith("<div><p>Google recipes starting with the first le
 $(".get-started").hide().closest('section.top-text').removeClass('top-text');
 $(".introduction").replaceWith("<p>Located at the very center of the town, <strong>Prisma shopping center</strong> and grocery store offers a large variety of consurmer goods for a reasonable price.<span class=hidden> We will get familiar with their food aisles today!</span></p>");
 $(".lets-play-final").text("Explore the shops in town!");
- $("#grocery").removeClass("hide").appendTo(".game-final");
+ $("#grocery").removeClass("grocery").removeClass("map-btns").addClass("map").appendTo(".game-final");
   });
   //Books
 $(document).one("click", "#library", function() {
@@ -145,7 +153,7 @@ $("#grocery").hide().replaceWith("<div><p>Find and read the first book available
 $(".get-started").hide().closest('section.top-text').removeClass('top-text');
 $(".introduction").replaceWith("<p>Founded back in 1925, <strong>Kerava library</strong> situated close to the railway station is a perfect destination for book lovers. So get your library card and head over there..</p>");
 $(".lets-play-final").text("Let's find a book!");
- $("#library").removeClass("hide").appendTo(".game-final");
+ $("#library").removeClass("library").removeClass("map-btns").addClass("map").appendTo(".game-final");
   });
 //Cafe
 $(document).one("click", "#cafe", function() {
@@ -165,7 +173,7 @@ $("#grocery").hide().replaceWith("<div><p>Buy yourself a coffee and sit down at 
 $(".get-started").hide().closest('section.top-text').removeClass('top-text');
 $(".introduction").replaceWith("<p>The Kerava center a variety of cafes<span class=hidden> for meeting up friends or taking a break from shopping</span>. One of the more establised cafes is <strong>Kulmakonditoria</strong>, also known as Kulmis. Lets go visit them this time!");
 $(".lets-play-final").text("Relax and have a drink!");
- $("#cafe").removeClass("hide").appendTo(".game-final");
+ $("#cafe").removeClass("cafe").removeClass("map-btns").addClass("map").appendTo(".game-final");
 });
 $(document).one("click", "#thrift", function() {
   $(".banner-top").addClass("banner-top-final").removeClass("banner-top");
@@ -184,5 +192,5 @@ $("#grocery").hide().replaceWith("<div><p>Buy an item in color green closest <sp
 $(".get-started").hide().closest('section.top-text').removeClass('top-text');
 $(".introduction").replaceWith("<p>Next to various department stores, Kerava also has a number of secondhand stores with interesting collections of used items. Today we will visit <strong>Fida secondhand</strong>.</p>");
  $(".lets-play-final").text("Treasure hunting time!");
- $("#thrift").removeClass("hide").appendTo(".game-final");
+ $("#thrift").removeClass("thrift").removeClass("map-btns").addClass("map").appendTo(".game-final");
   });

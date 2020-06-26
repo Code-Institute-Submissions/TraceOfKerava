@@ -1,6 +1,24 @@
 // On click actions for initial buttons
 //Subrurbs button
 $(document).ready(function(){
+$(".btn-city").hover(
+  function() {
+    $(".btn-city").append( $( "<span class = show-text>Town Center</span>" ) );
+  }, function() {
+    $(".btn-city").find( "span" ).last().remove();
+  }
+);
+});
+$(document).ready(function(){
+$(".btn-suburbs").hover(
+  function() {
+    $(".btn-suburbs").append( $( "<span class = show-text>Suburbs</span>" ) );
+  }, function() {
+    $(".btn-suburbs").find( "span" ).last().remove();
+  }
+);
+});
+$(document).ready(function(){
 $(".btn-suburbs").one("click", function() {
     $(".btn-city").hide();
   $(".get-started").replaceWith("<p class=get-started>The areas outside the town center offer various options for relaxation as well as physical activities.</p>"); 

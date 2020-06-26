@@ -44,15 +44,6 @@ p {
 	padding: 0;
 	color: #2f4f4f;
 }
-
-
-img {
-	max-width: 100%;
-	min-height: 100%;
-	display: block;
-	object-fit: cover;
-}
-
 .banner-top {
     background-image: url(../images/rock-1533826_640_1.jpg);
     background-size: cover;
@@ -89,20 +80,17 @@ img {
 	margin: 2vmin;
     height: auto;
 }
-
 .lets-play {
     color: #6083CD;
     font-size: 4vmin;
     margin-bottom: 2vh;
     margin-top: 2.5vh;
 }
-
 .get-ready {
 	color: #77B800;
 	Font-size: 3vmin;
     margin-bottom: 0;
 }
-
 .explore {
     color: #2f4f4f;   
 	font-size: 3vmin;
@@ -122,27 +110,22 @@ img {
 .initial-btns {
     margin-top: 2vh;
     margin-bottom: 2vh;
+    width: 20vmin;
+    height: 20vmin;
+	border-radius: 5px;
+	border: 3px solid #6083CD;
+	display: inline-block;
 }
 
 button.btn-suburbs {
 	background-image: url(../images/worms-eyeview-of-green-trees-957024.jpg);
 	background-size: cover;
-    width: 20vmin;
-    height: 20vmin;
-	border-radius: 5px;
-	border: 3px solid #6083CD;
-	display: inline-block;
 }
 
 button.btn-city {
 	background-image: url(../images/bakery-1868925_1920.jpg);
 	background-size: cover;
-    width: 20vmin;
-    height: 20vmin;
-	border-radius: 5px;
-	border: 3px solid #6083CD;
-	display: inline-block;
-}
+    }
 
 .bottom {
 	position: absolute;
@@ -172,25 +155,6 @@ strong {
 .fa {
 	color: #77B800;
 }
-
-.row1.p {
-    padding: 1vh 0;
-}
-.row1 {
-    margin-bottom: 0px;
-    position: absolute;
-    bottom: 0;
-    margin-right: 3vw;
-    display: grid;
-}
-
-.row3 {
-	position: relative;
-	bottom: 0;
-	margin-top: 20px;
-}
-
-
 .banner-bottom {
     background-image: url(../images/rock-1533826_640_1.jpg);
     background-size: cover;
@@ -210,15 +174,6 @@ strong {
     height: 5vh;
     display: flex;
     align-items: end;
-}
-
-.suburb_first {
-	width: 350px;
-	position: center;
-	margin-top: 25px;
-	margin-right: auto;
-	margin-bottom: 25px;
-	margin-left: auto;
 }
 
 .map-btns {
@@ -254,12 +209,6 @@ strong {
 	background-size: cover;
 }
 
-.moikka {
-	color: #6083CD;
-	font-size: 20px;
-	text-align: center;
-}
-
 .grocery {
 	background-image: url(../images/appetizer-1386743_1280.jpg);
 	background-size: cover;
@@ -283,16 +232,12 @@ strong {
   height: 17vh;
   margin-top: 2vh;
   border: 1vmin solid #6083CD;
-  width: -moz-available;
+  width: 100%;
 }
 .subheader {
 	padding: 15px;
 }
 
-.chal {
-	background-color: #77B800;
-	color: #212529;
-}
 #map {
   height: 17vh;
   margin-top: 2vh;
@@ -373,9 +318,6 @@ strong {
     margin-bottom: 1vh;
     margin-top: 2vh;
 }
-.row3 {
-    margin-top: 1vh;
-}
 }
 /* MQ mobile horizontal screen width 550px to 767px */
 @media only screen and (min-width: 550px) and (max-width:767px) {
@@ -405,11 +347,7 @@ margin-bottom: 3vh;
   padding: 0;
   border:none;
 }
-button.btn-suburbs {
-  width: 15vmin;
-  height: 15vmin;
-}
-button.btn-city{
+button.initial-btns {
   width: 15vmin;
   height: 15vmin;
 }
@@ -465,12 +403,7 @@ button.btn-city{
   height: 9vh;
 }
 
-button.btn-city {
-  width: 15vmin;
-  height: 15vmin;
-}
-
-button.btn-suburbs {
+button.initial-btns {
   width: 15vmin;
   height: 15vmin;
 }
@@ -586,14 +519,11 @@ p {
 	font-size: 2vmin;
     line-height: 3.5vh;
 }
-button.btn-suburbs {
+button.initial-btns {
     width: 14vmin;
     height: 14vmin;
 }
-button.btn-city {
-    width: 14vmin;
-    height: 14vmin;
-}
+
 .get-ready {
     Font-size: 2vmin;
 }

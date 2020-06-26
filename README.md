@@ -8,7 +8,7 @@ _All activity and location details in this site are real but the site is not ass
 ## Demo
 
 Here is the [Live Demo]()
-![static Demo](Documents/Layout/xxx.jpg)
+![static Demo](documents/layout/xxx.jpg)
 
 ## UX
 The website is intended for users who are interested in Kerava and want to know more about what the town has to offer. It is not made to be a standalone website but one that is accessable via links from the official website of the city and the participating companies and organisations.
@@ -27,7 +27,7 @@ The green was selected as this is the color of the official town logo and the bl
 
 ### Design documents 
 
-Design documents are located [here](https://github.com/VAhola/xxx)
+Design documents are located [here](documents/wireframes)
 
 ## Features
 

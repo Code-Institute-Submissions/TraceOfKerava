@@ -7,8 +7,8 @@ _All activity and location details in this site are real but the site is not ass
 
 ## Demo
 
-Here is the [Live Demo]()
-![static Demo](documents/layout/xxx.jpg)
+Here is the [Live Demo](https://vahola.github.io/TraceOfKerava/)
+![static Demo](documents/layout/layout.png)
 
 ## UX
 The website is intended for users who are interested in Kerava and want to know more about what the town has to offer. It is not made to be a standalone website but one that is accessable via links from the official website of the city and the participating companies and organisations.

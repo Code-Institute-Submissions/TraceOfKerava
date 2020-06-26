@@ -1,4 +1,4 @@
-	html {
+html {
 	box-sizing: border-box;
 	height: 100%;
 }
@@ -15,178 +15,201 @@ body {
 	margin: 0;
 	height: auto;
 	min-height: 100%;
-	border: #6083CD;
+	border: #6083cd;
 	border-style: groove;
 	border-width: 10px;
 }
 
 .container-fluid {
 	padding: 0px;
-	margin: 0px
+	margin: 0px;
 }
-  .top {
+
+.top {
 	padding-right: 20px;
-    margin-bottom: 5vmin;
+	margin-bottom: 5vmin;
 }
+
 .top-text {
-padding-bottom: 1.5vh;
+	padding-bottom: 1.5vh;
 }
+
 h1,
 h1 {
-	text-shadow: 2px 2px #6083CD;
+	text-shadow: 2px 2px #6083cd;
 }
+
 p {
-    margin-top: 0px;
-    margin-bottom:0px;
-    font-size: 3vmin;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 3vmin;
 	text-align: justify;
 	text-align-last: center;
 	padding: 0;
 	color: #2f4f4f;
 }
+
 .banner-top {
-    background-image: url(../images/rock-1533826_640_1.jpg);
-    background-size: cover;
-    display: block;
-    border-radius: 0 0 0 10px;
-    transform: rotateY(180deg);
-    margin-left: 10px;
-    height: 30vh;
-    position: inherit;
-    top: -5px;
+	background-image: url(../images/rock-1533826_640_1.jpg);
+	background-size: cover;
+	display: block;
+	border-radius: 0 0 0 10px;
+	transform: rotateY(180deg);
+	margin-left: 10px;
+	height: 30vh;
+	position: inherit;
+	top: -5px;
 }
 
 .site-title {
-    text-align: center;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
-    color: #77B800;
-    font-size: 6vmin;
+	text-align: center;
+	margin-top: 4vh;
+	margin-bottom: 4vh;
+	color: #77b800;
+	font-size: 6vmin;
 }
 
 .col-2 {
 	padding: 0;
 	margin: 0;
 }
+
 .get-started {
-    margin-bottom: 2vh;
+	margin-bottom: 2vh;
 }
+
 .hidden {
-	display:none;
+	display: none;
 }
 
 .middle {
 	text-align: center;
 	margin: 2vmin;
-    height: auto;
+	height: auto;
 }
+
 .lets-play {
-    color: #6083CD;
-    font-size: 4vmin;
-    margin-bottom: 2vh;
-    margin-top: 2.5vh;
+	color: #6083cd;
+	font-size: 4vmin;
+	margin-bottom: 2vh;
+	margin-top: 2.5vh;
+}
+
+.show-text {
+	bAckground-color: #6083cd;
+    color:#fafafa; 
 }
 .get-ready {
-	color: #77B800;
-	Font-size: 3vmin;
-    margin-bottom: 0;
+	color: #77b800;
+	font-size: 3vmin;
+	margin-bottom: 0;
 }
+
 .explore {
-    color: #2f4f4f;   
+	color: #2f4f4f;
 	font-size: 3vmin;
 	margin-bottom: 3vmin;
 }
 
 .game {
 	border-style: double;
-	border-color: #6083CD;
+	border-color: #6083cd;
 	padding: 10px;
 }
+
 .game-border {
-			border-style: double;
-			border-color: #77B800;
-        }
+	border-style: double;
+	border-color: #77b800;
+}
 
 .initial-btns {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    width: 20vmin;
-    height: 20vmin;
-	border-radius: 5px;
-	border: 3px solid #6083CD;
-	display: inline-block;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
 }
 
 button.btn-suburbs {
 	background-image: url(../images/worms-eyeview-of-green-trees-957024.jpg);
 	background-size: cover;
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 5px;
+	border: 3px solid #6083cd;
+	display: inline-block;
 }
 
 button.btn-city {
 	background-image: url(../images/bakery-1868925_1920.jpg);
 	background-size: cover;
-    }
+	width: 20vmin;
+	height: 20vmin;
+	border-radius: 5px;
+	border: 3px solid #6083cd;
+	display: inline-block;
+}
 
 .bottom {
 	position: absolute;
 	right: 0;
 	left: 0;
 	bottom: 0;
-    margin-top: 5vmin;
-    padding-left: 5vmin;
+	margin-top: 5vmin;
+	padding-left: 5vmin;
 }
+
 .bottom-text {
-    padding-bottom: 1.5vh;
-    justify-content: center;
-    align-items: end;
-    display: grid;
-    height: 10vh;
+	padding-bottom: 1.5vh;
+	justify-content: center;
+	align-items: end;
+	display: grid;
+	height: 10vh;
 }
+
 strong {
-	color: #6083CD;
+	color: #6083cd;
 }
 
 .social {
-	color: #77B800;
+	color: #77b800;
 	text-align: center;
-	font-size: 3vmin;
+	font-size: 2vmin;
 }
 
 .fa {
-	color: #77B800;
+	color: #77b800;
 }
+
 .banner-bottom {
-    background-image: url(../images/rock-1533826_640_1.jpg);
-    background-size: cover;
-    display: block;
-    border-radius: 10px 0 0 0;
-    margin-right: 11px;
-    height: 30vh;
-    width: auto;
-    position: inherit;
-    bottom: -5px;
+	background-image: url(../images/rock-1533826_640_1.jpg);
+	background-size: cover;
+	display: block;
+	border-radius: 10px 0 0 0;
+	margin-right: 11px;
+	height: 30vh;
+	width: auto;
+	position: inherit;
+	bottom: -5px;
 }
 
 .footer {
-    font-size: 2vmin;
-    padding: 1vmin 4vmin 0 1vmin;
-    margin-bottom: 1vmin;
-    height: 5vh;
-    display: flex;
-    align-items: end;
+	font-size: 2vmin;
+	padding: 1vmin 4vmin 0 1vmin;
+	margin-bottom: 1vmin;
+	height: 5vh;
+	display: flex;
+	align-items: end;
 }
 
 .map-btns {
-    width: 16vmin;
-    height: 16vmin;
-    border-radius: 5px;
-    border: 3px solid #6083CD;
-    display: inline-block;
-    color: rgba(0, 0, 0, 0);
-    margin-top: 1vmin;
-    margin-right: 1vmin;
-    margin-bottom: 6vmin;
-    margin-left: 1vmin;
+	width: 16vmin;
+	height: 16vmin;
+	border-radius: 5px;
+	border: 3px solid #6083cd;
+	display: inline-block;
+	color: rgba(0, 0, 0, 0);
+	margin-top: 1vmin;
+	margin-right: 1vmin;
+	margin-bottom: 6vmin;
+	margin-left: 1vmin;
 }
 
 .stables {
@@ -228,337 +251,376 @@ strong {
 	background-image: url(../images/woman-standing-374679.jpg);
 	background-size: cover;
 }
+
 .map {
-  height: 17vh;
-  margin-top: 2vh;
-  border: 1vmin solid #6083CD;
-  width: 100%;
+	height: 17vh;
+	margin-top: 2vh;
+	border: 1vmin solid #6083cd;
+	width: 100%;
 }
+
 .subheader {
 	padding: 15px;
 }
 
 #map {
-  height: 17vh;
-  margin-top: 2vh;
-  border: 1vmin solid #6083CD;
+	height: 17vh;
+	margin-top: 2vh;
+	border: 1vmin solid #6083cd;
 }
 
 .hide {
-    display: none;
-}
-.hyperlink {
-    color: #6083CD;
-}
-/* final page specific layout */
-.banner-top-final {
-    background-image: url(../images/rock-1533826_640_1.jpg);
-    background-size: cover;
-    display: block;
-    border-radius: 0 0 0 10px;
-    transform: rotateY(180deg);
-    margin-left: 11px;
-    height: 26vh;
-    position: inherit;
-    top: -5px;
-}
-.top-final {
-    padding-right: 20px;
-    margin-bottom: 1vh;
-}
-.game-final {
-	border-style: double;
-	border-color:#77B800;
-	padding: 2vmin
-}
-.lets-play-final {
-    color: #6083CD;
-    font-size: 4vmin;
-    margin-bottom: 2vh;
-    margin-top: 1vh;
-}
-.bottom-text-final {
-    justify-content: center;
-    align-items: end;
-    display: grid;
-    height: 6VH;
-    bottom: 0;
-    position: relative;
-    margin-top: 1vh;
-}
-.footer-final {
-    font-size: 2vmin;
-    padding: 1vmin 4vmin 0 1vmin;
-    margin-bottom: 1vmin;
-    height: 4vh;
-    display: flex;
-    align-items: end;
-    bottom: 0;
-    position: absolute;
-}
-.banner-bottom-final {
-    background-image: url(../images/rock-1533826_640_1.jpg);
-    background-size: cover;
-    display: block;
-    border-radius: 10px 0 0 0;
-    margin-right: 10px;
-    height: 26vh;
-    width: auto;
-    position: inherit;
-    bottom: -5px;
-}
-/* Media queries */
-/* MQ extra small mobile vertical */
-@media only screen and (max-width: 320px) {
- .get-ready {
-    Font-size: 3.5vmin;
- }
-.lets-play {
-    font-size: 4vmin;
-    margin-bottom: 1vh;
-    margin-top: 2vh;
-}
-}
-/* MQ mobile horizontal screen width 550px to 767px */
-@media only screen and (min-width: 550px) and (max-width:767px) {
-.banner-top {
-  margin-left: 10px;
-  width: auto;
-  height: 27vh;
-}
-.banner-bottom {
-  margin-right: 10px;
-  position: initial;
-  bottom: 0;
-  height: 27vh;
-}
-.site-title {
-margin-bottom: 3vh;
-}
-.top {
-  padding-right: 2vw;
-  margin-bottom: 0;
-}
-.top-text {
-    margin-left: 3vmin;
-    padding-bottom: 0;
-}
-.game {
-  padding: 0;
-  border:none;
-}
-button.initial-btns {
-  width: 15vmin;
-  height: 15vmin;
-}
-  .lets-play {
-  font-size: 3vmin;
-  margin-top: 1vh;
-}
-.lets-play-final {
-  font-size: 3.5vmin;
-}
-.bottom-text {
-    padding-bottom: 1vh;
-    height: 7vh;
-    padding-top: 1vh;
-  }
-  .bottom-text-final {
-  height: 8vh;
-}
-.mobile-hidden {
-    display: none;
-}
-  .footer {
-      padding: 0;
-      margin-left: 4vw;
-      width: 78vw;
-}
-}
-/* MQ larger mobile horizontal screen width over 767px */
-@media only screen and (min-width: 768px) and (max-height:499px) {
+	display: none;
 }
 
+.hyperlink {
+	color: #6083cd;
+}
+
+
+/* final page specific layout */
+
+.banner-top-final {
+	background-image: url(../images/rock-1533826_640_1.jpg);
+	background-size: cover;
+	display: block;
+	border-radius: 0 0 0 10px;
+	transform: rotateY(180deg);
+	margin-left: 11px;
+	height: 26vh;
+	position: inherit;
+	top: -5px;
+}
+
+.top-final {
+	padding-right: 20px;
+	margin-bottom: 1vh;
+}
+
+.game-final {
+	border-style: double;
+	border-color: #77b800;
+	padding: 2vmin;
+}
+
+.lets-play-final {
+	color: #6083cd;
+	font-size: 4vmin;
+	margin-bottom: 2vh;
+	margin-top: 1vh;
+}
+
+.bottom-text-final {
+	justify-content: center;
+	align-items: end;
+	display: grid;
+	height: 6vh;
+	bottom: 0;
+	position: relative;
+	margin-top: 1vh;
+}
+
+.footer-final {
+	font-size: 2vmin;
+	padding: 1vmin 4vmin 0 1vmin;
+	margin-bottom: 1vmin;
+	height: 4vh;
+	display: flex;
+	align-items: end;
+	bottom: 0;
+	position: absolute;
+}
+
+.banner-bottom-final {
+	background-image: url(../images/rock-1533826_640_1.jpg);
+	background-size: cover;
+	display: block;
+	border-radius: 10px 0 0 0;
+	margin-right: 10px;
+	height: 26vh;
+	width: auto;
+	position: inherit;
+	bottom: -5px;
+}
+
+
+/* Media queries */
+
+
+/* MQ extra small mobile vertical */
+
+@media only screen and (max-width: 320px) {
+	.get-ready {
+		font-size: 3.5vmin;
+	}
+	.lets-play {
+		font-size: 4vmin;
+		margin-bottom: 1vh;
+		margin-top: 2vh;
+	}
+}
+
+
+/* MQ mobile horizontal screen width 550px to 767px */
+
+@media only screen and (min-width: 550px) and (max-width: 767px) {
+	.banner-top {
+		margin-left: 10px;
+		width: auto;
+		height: 27vh;
+	}
+	.banner-bottom {
+		margin-right: 10px;
+		position: initial;
+		bottom: 0;
+		height: 27vh;
+	}
+	.site-title {
+		margin-bottom: 3vh;
+	}
+	.top {
+		padding-right: 2vw;
+		margin-bottom: 0;
+	}
+	.top-text {
+		margin-left: 3vmin;
+		padding-bottom: 0;
+	}
+	.game {
+		padding: 0;
+		border: none;
+	}
+	button.btn-suburbs {
+		width: 15vmin;
+		height: 15vmin;
+	}
+	button.btn-city {
+		width: 15vmin;
+		height: 15vmin;
+	}
+	.lets-play {
+		font-size: 3vmin;
+		margin-top: 1vh;
+	}
+	.lets-play-final {
+		font-size: 3.5vmin;
+	}
+	.bottom-text {
+		padding-bottom: 1vh;
+		height: 7vh;
+		padding-top: 1vh;
+	}
+	.bottom-text-final {
+		height: 8vh;
+	}
+	.mobile-hidden {
+		display: none;
+	}
+	.footer {
+		padding: 0;
+		margin-left: 4vw;
+		width: 78vw;
+	}
+}
+
+
+/* MQ larger mobile horizontal screen width over 767px */
+
+@media only screen and (min-width: 768px) and (max-height: 499px) {}
+
 .top {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .get-started {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .banner-top {
-  height: 27vh;
+	height: 27vh;
 }
 
 .lets-play {
-  margin-top: 1.5vh;
+	margin-top: 1.5vh;
 }
 
 .banner-bottom {
-  height: 27vh;
+	height: 27vh;
 }
 
 .bottom-text {
-  height: 9vh;
+	height: 9vh;
 }
 
-button.initial-btns {
-  width: 15vmin;
-  height: 15vmin;
+button.btn-suburbs {
+	width: 15vmin;
+	height: 15vmin;
+}
+
+button.btn-city {
+	width: 15vmin;
+	height: 15vmin;
 }
 
 .game {
-border:none;
+	border: none;
 }
 
 .map-btns {
-  margin-bottom: 2vmin;
+	margin-bottom: 2vmin;
 }
+
+
 /* MQ tablets and small laptops */
-@media only screen and (min-width: 768px) and (min-height:500px) {
- .banner-top {
-     width: initial;
-     margin-left: 10px;
-     height: 26vh;
- }   
- .banner-bottom {
-     width: initial;
-     margin-right: 10px;
-     height: 24vh;
- }
-.site-title {
-  margin-bottom: 2.5vh;
-  font-size: 5vmin;
+
+@media only screen and (min-width: 768px) and (min-height: 500px) {
+	.banner-top {
+		width: initial;
+		margin-left: 10px;
+		height: 26vh;
+	}
+	.banner-bottom {
+		width: initial;
+		margin-right: 10px;
+		height: 24vh;
+	}
+	.site-title {
+		margin-bottom: 2.5vh;
+		font-size: 5vmin;
+	}
+	.explore {
+		font-size: 2vmin;
+		margin-top: 1vh;
+	}
+	.bottom-text {
+		display: flex;
+		height: 7vh;
+		padding-top: 1.5vh;
+		padding-bottom: 0;
+		padding-right: 2vw;
+		padding-left: 2vw;
+	}
+	.top {
+		margin-bottom: 2vh;
+		padding-right: 0;
+	}
+	.middle {
+		margin: 0;
+	}
+	.lets-play {
+		font-size: 3vmin;
+		margin-top: 2vh;
+	}
+	.footer {
+		margin-bottom: 0;
+		display: flex;
+		height: 3vh;
+	}
+	p {
+		font-size: 1.8vmin;
+		line-height: 3vh;
+	}
+	.social {
+		font-size: 2.5vmin;
+	}
+	.bottom {
+		padding-left: 0;
+	}
+	.top-text {
+		padding-right: 2vw;
+		padding-left: 2vw;
+	}
+	.banner-top-final {
+		height: 24vh;
+	}
+	.get-ready {
+		font-size: 2.5vmin;
+	}
+	.banner-bottom-final {
+		height: 24vh;
+	}
+	.bottom-text-final {
+		margin-right: 2vw;
+	}
+	.lets-play-final {
+		font-size: 3vmin;
+	}
+	.game {
+		border-style: double;
+		border-color: #6083cd;
+		padding: 2vmin;
+	}
+	#map {
+		height: 20vh;
+	}
+	.top-final {
+		margin-bottom: 2vh;
+	}
+	.hidden {
+		display: initial;
+	}
 }
-.explore {
-  font-size: 2vmin;
-  margin-top: 1vh;
-}
- .bottom-text {
-  display: flex;
-  height: 7vh;
-  padding-top: 1.5vh;
-padding-bottom: 0;
-    padding-right: 2vw;
-    padding-left: 2vw;
-}
- .top {
-  margin-bottom: 2vh;
-  padding-right: 0;
-}
-.middle {
-    margin: o;
-}
-.lets-play {
-    font-size: 3vmin;
-    margin-top: 2vh;
-}
-.footer {
-  margin-bottom: 0;
-  display: flex;
-  height: 3vh;
-}
-p {
-  font-size: 1.8vmin;
-  line-height: 3vh;
-}
-.social{
-   font-size: 2.5vmin; 
-}
-.bottom {
-  padding-left: 0;
-}
-.top-text {
-  padding-right: 2vw;
-  padding-left: 2vw;
-}
-.banner-top-final {
-  height: 24vh;
-}
-.get-ready {
-  Font-size: 2.5vmin;
-}
-.banner-bottom-final {
-  height: 24vh;
-}
-.bottom-text-final {
-  margin-right: 2vw;
-}
-.lets-play-final {
-  font-size: 3vmin;
-}
-.game {
-	border-style: double;
-	border-color: #6083CD;
-	padding: 2vmin;
-}
-#map {
-  height: 20vh;
-}
-.top-final {
-  margin-bottom: 2vh;
-}
-.hidden {
-    display: initial;
-}
-}
+
 
 /* MQ laptops and monitors*/
-@media only screen and (min-width: 1200px) {
-.hidden {
-    display: initial;
-}
-.top { 
-   padding-right: 0; 
-}
-.top-text {
-  padding-left: 1vw;
-}
-p {
-	font-size: 2vmin;
-    line-height: 3.5vh;
-}
-button.initial-btns {
-    width: 14vmin;
-    height: 14vmin;
-}
 
-.get-ready {
-    Font-size: 2vmin;
-}
-.explore {
-    font-size: 2vmin;
-    margin-bottom: 3vmin;
-}
-.get-started {
-  margin-bottom: 0;
-}
-.footer {
-    font-size: 1vmin;
-    padding: 1vmin 1vmin 0 1vmin;
-        padding-top: 5px;
-        padding-right: 5px;
-        padding-bottom: 0px;
-        padding-left: 5px;
-    margin-bottom: 2px;
-}
-.game {
-    border: double;
-    padding: 2vmin;
-    color: #6083CD;
-}
-.bottom {
-  padding-left: 0;
-}
-  .bottom-text {
-    padding-right: 1vw;
-    padding-left: 1vw;
-}
-.top-text {
-  padding-bottom:0;
-}
-  .site-title {
-    margin-bottom: 2vh;
-  }
+@media only screen and (min-width: 1200px) {
+	.hidden {
+		display: initial;
+	}
+	.top {
+		padding-right: 0;
+	}
+	.top-text {
+		padding-left: 1vw;
+	}
+	p {
+		font-size: 2vmin;
+		line-height: 3.5vh;
+	}
+	button.btn-city {
+		width: 14vmin;
+		height: 14vmin;
+	}
+	button.btn-suburbs {
+		width: 14vmin;
+		height: 14vmin;
+	}
+	.get-ready {
+		font-size: 2vmin;
+	}
+	.explore {
+		font-size: 2vmin;
+		margin-bottom: 3vmin;
+	}
+	.get-started {
+		margin-bottom: 0;
+	}
+	.footer {
+		font-size: 1vmin;
+		padding: 1vmin 1vmin 0 1vmin;
+		padding-top: 5px;
+		padding-right: 5px;
+		padding-bottom: 0px;
+		padding-left: 5px;
+		margin-bottom: 2px;
+	}
+	.game {
+		border: double;
+		padding: 2vmin;
+		color: #6083cd;
+	}
+	.bottom {
+		padding-left: 0;
+	}
+	.bottom-text {
+		padding-right: 1vw;
+		padding-left: 1vw;
+	}
+	.top-text {
+		padding-bottom: 0;
+	}
+	.site-title {
+		margin-bottom: 2vh;
+	}
 }

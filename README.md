@@ -14,16 +14,16 @@ Here is the [Live Demo]()
 The website is intended for users who are interested in Kerava and want to know more about what the town has to offer. It is not made to be a standalone website but one that is accessable via links from the official website of the city and the participating companies and organisations.
 The aim is to broaden the visibility of the town and the services and activities available both for people planning to move there and for those already living there but wanting to experience the area in a different way.
 
-Color scheme chosen is a combination of green, blue and white with yellow used as a highlighter to draw attention to the game area of the page.
+Color scheme chosen is a combination of green and blue main colors and neutral regular text color.
 The green was selected as this is the color of the official town logo and the blue is one of the shades in the picture selected for the top and bottom sections.
 
 
 ### User Stories:
 
-- As a user, I want to 
-- As a user, I want to 
-- As a user, I want to 
-- As a user, I want to  
+- As a user, I want to click on a button and get to the next pert of the game/challenge
+- As a user, I want to find out a bit about the town and the goods/services offered
+- As a user, I want to be able to see the location of the destination
+- As a user, I want to get back to start when I am finished
 
 ### Design documents 
 
@@ -34,31 +34,30 @@ Design documents are located [here](https://github.com/VAhola/xxx)
 
 ### Existing Features
 
-The site uses bottoms that allow users to access chosen options.
+The site uses bottoms that allow users to access chosen options. These are presented as pictures to allow for a bit of mystery behind each selection.
 
-The footer is sticky, placed at the bottom of the page for more balanced look accross different screen sizes however for small sized devices in horizontal mode this feature is removed to allow sufficient space for the game section of the site.
+The footer is sticky, placed at the bottom of the page for more balanced look accross different screen sizes.
 
-There are links to the various social media accounts in the bottom of the page to allow users to quickly access official Kerava social media.
+There are links to the various social media accounts in the bottom of the page to allow users to quickly access official Kerava social media as well as a hyper link to the official website.
 
 Due to the nature of the site, a navigation bar is not included but a link back to start is accessable at every stage.
 
 The bottons on the site reflect the options presented to the users:
 
 -Landing page has 2 buttons:
-    - Visitor can select a center botton or 
-    - Visitor can select a suburban botton
+    - Visitor can select a botton representing center or 
+    - Visitor can select a botton representing more outskirts location
 - Each selection leads to 4 bottons from which the user should select one to see the challange chosen for this item.
+- Each end page with location and challenge includes a map (via Google Maps API) to make it easier to find the locations for people who are not familiar with the town.
 
-In addition a feature is added to help local companies and organisations to express their interest in being featured in the site:
-- The bottom of the page includes a link to contact in case a company wants to be included in the site.
-    - Visitors can leave their contact request, by clicking on "here" and hyperlink and filling out the form.
 
 ### Features Left to Implement
 
 A few features that were excluded from the current version:
-- An API feature for map for each of the challenges to make it easier to find the locations for people who are not familiar with the town. This was skipped due to lack of time.
+ This was skipped due to lack of time.
 - Adding alternative options in each challenge so that returning users can opt for a new version of the challenge and users with travel limitations have an option to choose something closer to them.
 - An image gallery of the pictures posted in social media with tag
+- The botton with a link to contact in case a company wants to be included in the site whereby visitors can leave their contact request, by clicking on "here" and hyperlink and filling out the form.
 
 ## Technologies Used
 -	Bootstrapcdn
@@ -67,20 +66,26 @@ A few features that were excluded from the current version:
 - JQuery
 - HTML
 - CSS
+- Google Maps API
 
 ## Testing
 
-The follow tests were made to ensure the buttons and forms are working properly:
+The follow tests were made to ensure the buttons are working properly:
 1. Landing page
-    1. Click on botton for Center
+    1. Click on button for Center
 	1. Check that landing page buttons are no longer available and four new button are now visible
 	1. Check that the text at the top of the page has been replaced with the text designated for the center route
-    2. Click on botton for Suburb
+    2. Click on button for Suburb
 	1. Check that landing page buttons are no longer available and four new button are now visible
 	1. Check that the text at the top of the page has been replaced with the text designated for the center route
+2. Each challenge button
+	1. Check that no previous buttons available anymore
+	1. Check that the text at the top of the page has been replaced with the text designated for the each challenge location
+	1. Check that the actual challange is displayed
+	1. Check that the Google map and the Marker are showing and in correct location 
 
 
-In addition, social media links at the bottom were all tested to make sure they work as expected.
+In addition, social media links and the link to official town website at the bottom were all tested to make sure they work as expected.
 
 The site was reviewed on laptop, mobile phone and a large monitor using 1E11, Chrome, Edge and FireFox.
 
@@ -93,9 +98,14 @@ Any new commits to the master branch will automatically reflect on the deployed 
 
 The textual content on this site is written by me.
 
-The image collages where made based on code in [this](https://www.freecodecamp.org/news/how-to-create-an-image-gallery-with-css-grid-e0f0fd666a5c/)
+The fixed bottom was made based on the instructions [here](https://css-tricks.com/couple-takes-sticky-footer/) and [here](https://codepen.io/cbracco/pen/zekgx)
 
-The sticky footer was made based on the instructions [here](https://css-tricks.com/couple-takes-sticky-footer/)
+
+Button on click [here](https://stackoverflow.com/questions/30984557/google-maps-api-loading-map-on-button-click/30984720)
+
+Basis for maps [here](https://www.nicklitten.com/how-to-display-multiple-google-maps-in-html/)
+
+Custom colored map marker inspiration from [here](https://medium.com/free-code-camp/how-to-change-javascript-google-map-marker-color-8a72131d1207)
 
 
 ### Media

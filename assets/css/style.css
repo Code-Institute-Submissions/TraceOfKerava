@@ -351,6 +351,9 @@ strong {
 .bottom{
     position: relative;
 }
+.game {
+    margin-bottom: 2vmin;
+}
 }
 
 /* MQ mobile horizontal screen width 550px to 767px */

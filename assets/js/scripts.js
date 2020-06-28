@@ -114,17 +114,17 @@ $(document).one("click", "#cricket", function() {
     $("#nature")
         .hide()
         .replaceWith(
-            "<div><p>Walk over to the Kerava National Cricket Ground Pavilion and take a picture of yourself infront of the building. For additional challenge sign up for session of Cricket with KCC<span class=mobile-hidden> to test your skills</span>!</p></div>"
+            "<div><p>Walk to the Kerava National Cricket Ground Pavilion and take a picture of yourself in front of the building. For additional challenge sign up for a cricket session <span class=mobile-hidden>with KCC to test your skills</span>!</p></div>"
         )
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");
     $(".introduction").replaceWith(
-        "<p>Finland's <strong>National Cricket Ground</strong> in Kerava, located about two kilometers from central station, is available for use under reservation. Make sure to register and pay if you wish to use these grounds!</p>"
+        "<p>Finland's <strong>National Cricket Ground</strong><span class=mobile-hidden> in Kerava, located about</span> two kilometers from central station, is available for use under reservation. Make sure to register and pay<span class=mobile-hidden> if you wish to use these grounds</span>!</p>"
     );
     $(".lets-play-final").text("Get active for cricket!");
     $("#cricket")
         .removeClass("cricket")
-        .removeClass("maps-btn")
+        .removeClass("map-btns")
         .addClass("map")
         .appendTo(".game-final");
 });
@@ -148,13 +148,13 @@ $(document).one("click", "#manor", function() {
     $("#nature")
         .hide()
         .replaceWith(
-            "<div><p>Support the manor and buy <span class=mobile-hidden>yourself </span>a <span class = mobile-hidden>snack or a </span>drink from the cafe <span class=mobile-hidden>located </span>on ground floor. Take a walk inside to view the art on display. For additional challange write and post a review on social media.</p></div>"
+            "<div><p>Support the manor and buy <span class=mobile-hidden>yourself </span>a <span class = hidden>snack or a </span>drink from the cafe <span class=hidden>located </span>on ground floor. Take a walk inside to view the art on display. For additional challange write and post a review on social media.</p></div>"
         )
         .appendTo(".middle");
     $(".introduction").replaceWith(
-        "<p>While housing in this hill dates much further back<span class=mobile-hidden> in hilibrary</span>, the current look of <strong>Kerava Manor</strong> is from 1928. Since 1991 the Manor <span class=mobile-hidden>has been under the town ownership and </span>is used to host various <span class = hidden>cultural </span>events.</p>"
+        "<p>While housing on this hill dates much further back<span class=mobile-hidden> in history</span>, the current look of <strong>Kerava Manor</strong> is from 1928. Since 1991 the Manor <span class=hidden>has been under the town ownership and </span>is used to host various <span class = hidden>cultural </span>events.</p>"
     );
-    $(".lets-play-final").text("Enjoy the beauty of Kerava Manor!");
+    $(".lets-play-final").text("Enjoy the Kerava Manor!");
     $("#manor")
         .removeClass("manor")
         .removeClass("map-btns")
@@ -212,12 +212,12 @@ $(document).one("click", "#nature", function() {
     $("#stables")
         .hide()
         .replaceWith(
-            "<div><p>Go for the full 2.8 kilometer <span class=mobile-hidden>circular </span>walk on the marked nature path and take a picture of the views. For additional challenge try to spot a Pelloporus leporinus growing on a tree<span class=mobile-hidden> trunk</span>.</p></div>"
+            "<div><p>Go for the full 2.8 kilometer <span class=hidden>circular </span>walk on the marked <span class=hidden>nature</span> path and take a picture of the views. For additional challenge <span class=hidden>try to </span>spot a Pelloporus leporinus growing on a tree<span class=mobile-hidden> trunk</span>.</p></div>"
         )
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");
     $(".introduction").replaceWith(
-        "<p><strong>Haukkavuori</strong> nature reserve offers a great walk along the nature and is easy reach. As this is a protected environmnent do stay on the marked path. <span class=mobile-hidden>Wildlife in the area like their homes undisturbed!</span></p>"
+        "<p><strong>Haukkavuori</strong> nature reserve offers a great walk along the nature and is easy reach. Since this is a protected environment do stay on the marked path. <span class=hidden>Wildlife in the area like their homes undisturbed!</span></p>"
     );
     $(".lets-play-final").text("Lets start being active!");
     $("#nature")
@@ -246,7 +246,7 @@ $(document).one("click", "#grocery", function() {
     $("#cafe")
         .hide()
         .replaceWith(
-            "<div><p>Google recipes starting with the first letter of your first name. Go to Prisma to buy the required ingredients and start cooking.For extra challange post a review of the recipe<span class=hidden> on social media</span>.</p></div>"
+            "<div><p>Google recipes starting with the first letter of your first name. Go to Prisma to buy the required ingredients and start cooking. For extra challange post a review of the recipe<span class=hidden> on social media</span>.</p></div>"
         )
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");
@@ -279,7 +279,7 @@ $(document).one("click", "#library", function() {
     $("#grocery")
         .hide()
         .replaceWith(
-            "<div><p>Find and read the first book available from first author whose last name begins with the same letter as yours.For an extra challenge write and post a review of the book online</p></div>"
+            "<div><p>Find and read the first book available from first author whose last name begins with the same letter as yours. For an extra challenge write and post a review of the book online</p></div>"
         )
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");
@@ -312,7 +312,7 @@ $(document).one("click", "#cafe", function() {
     $("#grocery")
         .hide()
         .replaceWith(
-            "<div><p>Buy yourself a coffee and sit down at a table. Write a small made up library about the next customer to walk in this cafe. For extra challenge post your library on social media.</p></div>"
+            "<div><p>Buy yourself a coffee and sit down at a table. Write a small made up story about the next customer to walk into this cafe. For extra challenge post your story on social media.</p></div>"
         )
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");
@@ -345,7 +345,7 @@ $(document).one("click", "#thrift", function() {
     $("#grocery")
         .hide()
         .replaceWith(
-            "<div><p>Buy an item in color green closest <span class=mobile-hidden>possible</span>to the one used in this site. <span class=hidden>Spend no more than five euro on your purchase!</span> For additional challange post a picture of your item in it's new home on social media.</p></div>"
+            "<div><p>Buy an item in color green closest <span class=mobile-hidden>possible </span>to the one used in this site. <span class=hidden>Spend no more than five euro on your purchase!</span> For additional challange post a picture of your item in it's new home on social media.</p></div>"
         )
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");

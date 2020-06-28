@@ -126,8 +126,8 @@ p {
 }
 
 .initial-btns {
-  margin-top: 2vh;
-  margin-bottom: 2vh;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 }
 
 button.btn-suburbs {
@@ -347,12 +347,19 @@ strong {
 
 /* MQ extra small mobile vertical */
 
-@media only screen and (max-height: 570px) {
+@media only screen and (max-height: 530px) {
 .bottom{
     position: relative;
 }
 .game {
     margin-bottom: 2vmin;
+}
+.lets-play {
+  margin-top: 4vh;
+}
+
+.initial-btns {
+  margin-bottom: 4vh;
 }
 }
 

@@ -355,6 +355,9 @@ strong {
 .game {
   padding: 0;
 }
+.game-border {
+border-style: none;
+}
   .get-ready {
     font-size: 3.5vmin;
   }
@@ -372,16 +375,20 @@ strong {
     height: 20vmin;
   }
   .map-btns {
-  width: 21vmin;
-  border: .5px solid #6083cd;
-  margin-bottom: 2vmin;
-  height: 19vmin;
-  margin-left: 2vmin;
-  margin-right: 2vmin;
-}
+    width: 17vmin;
+    margin-bottom: 5vmin;
+    height: 17vmin;
+    margin-left: 0;
+    margin-right: 1vmin;
+    margin-top: 2vmin;
+  }
 
 .site-title {
   font-size: 5.3vmin;
+}
+.bottom-text-final {
+  /* height: 6vh; */
+  height: 7.5vh;
 }
 
 }
@@ -449,7 +456,6 @@ strong {
 /* MQ larger mobile horizontal screen width over 767px */
 
 @media only screen and (min-width: 768px) and (max-height: 499px) {
-}
 
 .top {
   margin-bottom: 0;
@@ -491,6 +497,7 @@ button.btn-city {
 
 .map-btns {
   margin-bottom: 2vmin;
+}
 }
 
 /* MQ tablets and small laptops */

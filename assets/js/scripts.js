@@ -31,7 +31,7 @@ $(document).ready(function() {
             "<p>We have selected a few for this route but suggest you take a look at the official Kerava website for more inspiration.</p>"
         ).addClass("hidden");
         $(".introduction").replaceWith(
-            "<p class=introduction><span class=mobile-hidden>Congratulations for having taken the first step!</span> Get ready to explore <strong>the suburbs </strong>with us..</p>"
+            "<p class=introduction><span class=hidden>Congratulations for having taken the first step!</span> Get ready to explore <strong>the suburbs </strong>with us..</p>"
         );
         $(".lets-play").replaceWith(
             "<h2 class=lets-play>Just one more choice to make:</h2>"
@@ -68,7 +68,7 @@ $(document).ready(function() {
             "<p>We will explore some of these here but be sure to check out others as well later on.</p>"
         ).addClass("hidden");
         $(".introduction").replaceWith(
-            "<p class=introduction>Congratulations for having taken the first step! Get ready to explore the center<span class=mobile-hidden> with us</span>..</p>"
+            "<p class=introduction><span class=hidden>Congratulations for having taken the first step!</span> Get ready to explore <strong>the center</strong> with us..</p>"
         );
         $(".lets-play").replaceWith(
             "<h2 class=lets-play>Just one more choice to make:</h2>"
@@ -114,12 +114,12 @@ $(document).one("click", "#cricket", function() {
     $("#nature")
         .hide()
         .replaceWith(
-            "<div><p>Walk to the Kerava National Cricket Ground Pavilion and take a picture of yourself in front of the building. For additional challenge sign up for a cricket session <span class=mobile-hidden>with KCC to test your skills</span>!</p></div>"
+            "<div><p>Walk to the <span class=hidden>Kerava </span>National Cricket Ground Pavilion and take a picture of yourself in front of the building. For additional challenge sign up for a cricket session<span class=hidden> with KCC to test your skills</span>!</p></div>"
         )
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");
     $(".introduction").replaceWith(
-        "<p>Finland's <strong>National Cricket Ground</strong><span class=mobile-hidden> in Kerava, located about</span> two kilometers from central station, is available for use under reservation. Make sure to register and pay<span class=mobile-hidden> if you wish to use these grounds</span>!</p>"
+        "<p>Finland's <strong>National Cricket Ground</strong><span class=mobile-hidden> in Kerava, located about</span> two kilometers from central station, is available<span class=hidden> for use</span> under reservation. Make sure to register and pay<span class=mobile-hidden> if you wish to use these grounds</span>!</p>"
     );
     $(".lets-play-final").text("Get active for cricket!");
     $("#cricket")
@@ -180,7 +180,7 @@ $(document).one("click", "#stables", function() {
     $("#nature")
         .hide()
         .replaceWith(
-            "<div><p>Walk over to the fields next to the school to take a selfie with a horse on the background and post it online. For additional challenge sign up for a riding lesson<span class=hidden> with the school</span>.</p></div>"
+            "<div><p>Walk over to the fields next to the school to take a selfie with a horse on the background<span class=hidden> and post it online</span>. For additional challenge sign up for a riding lesson<span class=hidden> with the school</span>.</p></div>"
         );
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");
     $(".introduction").replaceWith(
@@ -212,7 +212,7 @@ $(document).one("click", "#nature", function() {
     $("#stables")
         .hide()
         .replaceWith(
-            "<div><p>Go for the full 2.8 kilometer <span class=hidden>circular </span>walk on the marked <span class=hidden>nature</span> path and take a picture of the views. For additional challenge <span class=hidden>try to </span>spot a Pelloporus leporinus growing on a tree<span class=mobile-hidden> trunk</span>.</p></div>"
+            "<div><p>Go for the full 2.8 kilometer <span class=hidden>circular </span>walk <span class=hidden>on the marked nature path </span>and take a picture of the views. For additional challenge <span class=hidden>try to </span>spot a Pelloporus leporinus growing on a tree<span class=mobile-hidden> trunk</span>.</p></div>"
         )
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");
@@ -279,7 +279,7 @@ $(document).one("click", "#library", function() {
     $("#grocery")
         .hide()
         .replaceWith(
-            "<div><p>Find and read the first book available from first author whose name begins with the same letter as yours. For an extra challenge write and post a review of the book<span class=mobile-hidden> online</span>.</p></div>"
+            "<div><p>Find and read the first book available from first author whose name begins with the same letter as yours. For an extra challenge write and post a review<span class=hidden> of the book</span><span class=mobile-hidden> online</span>.</p></div>"
         )
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");

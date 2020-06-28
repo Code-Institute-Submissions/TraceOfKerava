@@ -34,7 +34,7 @@ body {
 }
 
 .top-text {
-  padding-bottom: 1vh;
+  padding-top: 1vh;
 }
 
 h1,
@@ -58,14 +58,14 @@ p {
   display: block;
   border-radius: 0 0 0 10px;
   transform: rotateY(180deg);
-  height: 27vh;
+  height: 25vh;
   position: inherit;
 }
 
 .site-title {
   text-align: center;
   margin-top: 4vh;
-  margin-bottom: 4vh;
+  margin-bottom: 2vh;
   color: #77b800;
   font-size: 5vmin;
 }
@@ -91,7 +91,7 @@ p {
 
 .middle {
   text-align: center;
-  margin: 2vmin;
+  margin: auto 2vmin;
   height: auto;
 }
 
@@ -162,11 +162,11 @@ button.btn-city {
 }
 
 .bottom-text {
-  padding-bottom: 1.5vh;
+  padding-top: 1.5vh;
   justify-content: center;
   align-items: end;
   display: grid;
-  height: 9vh;
+  height: 6vh;
 }
 
 strong {
@@ -188,7 +188,7 @@ strong {
   background-size: cover;
   display: block;
   border-radius: 10px 0 0 0;
-  height: 27vh;
+  height: 25vh;
   width: auto;
   position: inherit;
 }
@@ -203,16 +203,16 @@ strong {
 }
 
 .map-btns {
-  width: 17vmin;
-  height: 17vmin;
+  width: 22vmin;
+  height: 22vmin;
   border-radius: 5px;
   border: 3px solid #6083cd;
   display: inline-block;
   color: rgba(0, 0, 0, 0);
   margin-top: 1vmin;
-  margin-right: 0.5vmin;
-  margin-bottom: 2vmin;
-  margin-left: 0.5vmin;
+  margin-right: 1.5vmin;
+  margin-bottom: 1vmin;
+  margin-left: 1.5vmin;
 }
 
 .stables {
@@ -256,7 +256,7 @@ strong {
 }
 
 .map {
-  height: 17vh;
+  height: 20vh;
   margin-top: 2vh;
   border: 1vmin solid #6083cd;
   width: 100%;
@@ -314,7 +314,7 @@ strong {
   justify-content: center;
   align-items: end;
   display: grid;
-  height: 7.5vh;
+  height: 5.5vh;
   bottom: 0;
   position: relative;
   margin-top: 1vh;
@@ -413,7 +413,7 @@ strong {
   }
   .bottom-text {
     padding-bottom: 1vh;
-    height: 8.5vh;
+    height: 6.5vh;
     padding-top: 1vh;
   }
   .bottom-text-final {

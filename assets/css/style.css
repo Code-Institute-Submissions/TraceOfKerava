@@ -343,51 +343,14 @@ strong {
 
 /* Media queries */
 
+
+
 /* MQ extra small mobile vertical */
 
-@media only screen and (max-width: 320px) {
-    .top-text {
-  padding-bottom: 1vh;
+@media only screen and (max-height: 330px) {
+.bottom{
+    position: relative;
 }
-.game {
-  padding: 0;
-}
-.game-border {
-border-style: none;
-}
-  .get-ready {
-    font-size: 3.5vmin;
-  }
-  .lets-play {
-    font-size: 4vmin;
-    margin-bottom: 1vh;
-    margin-top: 2vh;
-  }
-    button.btn-suburbs {
-    width: 20vmin;
-    height: 20vmin;
-  }
-  button.btn-city {
-    width: 20vmin;
-    height: 20vmin;
-  }
-  .map-btns {
-    width: 17vmin;
-    margin-bottom: 5vmin;
-    height: 17vmin;
-    margin-left: 0;
-    margin-right: 1vmin;
-    margin-top: 2vmin;
-  }
-
-.site-title {
-  font-size: 5.3vmin;
-}
-.bottom-text-final {
-  /* height: 6vh; */
-  height: 7.5vh;
-}
-
 }
 
 /* MQ mobile horizontal screen width 550px to 767px */

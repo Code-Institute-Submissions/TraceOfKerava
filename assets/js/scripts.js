@@ -31,7 +31,7 @@ $(document).ready(function() {
             "<p>We have selected a few for this route but suggest you take a look at the official Kerava website for more inspiration.</p>"
         ).addClass("hidden");
         $(".introduction").replaceWith(
-            "<p class=introduction>Congratulations for having taken the first step! Get ready to explore the suburbs<span class=mobile-hidden> with us</span>..</p>"
+            "<p class=introduction><span class=mobile-hidden>Congratulations for having taken the first step!</span> Get ready to explore <strong>the suburbs </strong>with us..</p>"
         );
         $(".lets-play").replaceWith(
             "<h2 class=lets-play>Just one more choice to make:</h2>"
@@ -148,7 +148,7 @@ $(document).one("click", "#manor", function() {
     $("#nature")
         .hide()
         .replaceWith(
-            "<div><p>Support the manor and buy <span class=mobile-hidden>yourself </span>a <span class = hidden>snack or a </span>drink from the cafe <span class=hidden>located </span>on ground floor. Take a walk inside to view the art on display. For additional challange write and post a review on social media.</p></div>"
+            "<div><p>Support the manor and buy <span class=mobile-hidden>yourself </span>a <span class = hidden>snack or a </span>drink from the cafe <span class=hidden>located </span>on ground floor. Take a walk inside to view the art on display. For additional challange write a review online.</p></div>"
         )
         .appendTo(".middle");
     $(".introduction").replaceWith(
@@ -180,11 +180,11 @@ $(document).one("click", "#stables", function() {
     $("#nature")
         .hide()
         .replaceWith(
-            "<div><p>Walk over to the fields next to the school to take a selfie with a horse on the background and post it on social media. For additional challenge sign up for a riding lesson<span class=hidden> with the school</span>.</p></div>"
+            "<div><p>Walk over to the fields next to the school to take a selfie with a horse on the background and post it online. For additional challenge sign up for a riding lesson<span class=hidden> with the school</span>.</p></div>"
         );
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");
     $(".introduction").replaceWith(
-        "<p><strong>Kerava Riding School</strong> <span class =hidden> has been operating in Ahjo, Kerava since 1975. The school</span> offers lessons for all levels and ages. The grounds include a riding hall, two riding fields and a cafe for those looking for refreshments.</p>"
+        "<p><strong>Kerava Riding School</strong> <span class =hidden> has been operating in Ahjo, Kerava since 1975. The school</span> offers lessons for all levels and ages. The grounds include a riding hall, two riding fields and a cafe<span class=mobile-hidden> for those looking for refreshments</span>.</p>"
     );
     $(".lets-play-final").text("Time to see some animal friends!");
     $("#stables")
@@ -246,7 +246,7 @@ $(document).one("click", "#grocery", function() {
     $("#cafe")
         .hide()
         .replaceWith(
-            "<div><p>Google recipes starting with the first letter of your first name. Go to Prisma to buy the required ingredients and start cooking. For extra challange post a review of the recipe<span class=hidden> on social media</span>.</p></div>"
+            "<div><p>Google recipes starting with the first letter of your first name. Go to Prisma to buy the <span class= mobile-hidden>required</span> ingredients and start cooking. For extra challange post a review of the recipe<span class=hidden> on social media</span>.</p></div>"
         )
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");
@@ -279,12 +279,12 @@ $(document).one("click", "#library", function() {
     $("#grocery")
         .hide()
         .replaceWith(
-            "<div><p>Find and read the first book available from first author whose last name begins with the same letter as yours. For an extra challenge write and post a review of the book online</p></div>"
+            "<div><p>Find and read the first book available from first author whose name begins with the same letter as yours. For an extra challenge write and post a review of the book<span class=mobile-hidden> online</span>.</p></div>"
         )
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");
     $(".introduction").replaceWith(
-        "<p>Founded back in 1925, <strong>Kerava library</strong> situated close to the railway station is a perfect destination for book lovers. So get your library card and head over there..</p>"
+        "<p>Founded back in 1925, <strong>Kerava library</strong> situated close to the railway station is a perfect destination for book lovers. So get your library card and head over<span class=mobile-hidden> there</span>..</p>"
     );
     $(".lets-play-final").text("Let's find a book!");
     $("#library")
@@ -312,7 +312,7 @@ $(document).one("click", "#cafe", function() {
     $("#grocery")
         .hide()
         .replaceWith(
-            "<div><p>Buy yourself a coffee and sit down at a table. Write a small made up story about the next customer to walk into this cafe. For extra challenge post your story on social media.</p></div>"
+            "<div><p>Buy yourself a coffee and sit down at a table. Write a small made up story about the next customer to walk into this cafe. For extra challenge post your story online.</p></div>"
         )
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");
@@ -350,7 +350,7 @@ $(document).one("click", "#thrift", function() {
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");
     $(".introduction").replaceWith(
-        "<p>Next to various department stores, Kerava also has a number of secondhand stores with interesting collections of used items. Today we will visit <strong>Fida secondhand</strong>.</p>"
+        "<p>Next to various department stores, Kerava also has a number of secondhand stores with interesting <span class=mobile-hidden>collections of </span>used items. Today we will visit <strong>Fida secondhand</strong>.</p>"
     );
     $(".lets-play-final").text("Treasure hunting time!");
     $("#thrift")

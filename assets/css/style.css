@@ -58,7 +58,7 @@ p {
   display: block;
   border-radius: 0 0 0 10px;
   transform: rotateY(180deg);
-  height: 30vh;
+  height: 27vh;
   position: inherit;
 }
 
@@ -166,7 +166,7 @@ button.btn-city {
   justify-content: center;
   align-items: end;
   display: grid;
-  height: 10vh;
+  height: 9vh;
 }
 
 strong {
@@ -188,7 +188,7 @@ strong {
   background-size: cover;
   display: block;
   border-radius: 10px 0 0 0;
-  height: 30vh;
+  height: 27vh;
   width: auto;
   position: inherit;
 }
@@ -347,7 +347,7 @@ strong {
 
 /* MQ extra small mobile vertical */
 
-@media only screen and (max-height: 330px) {
+@media only screen and (max-height: 570px) {
 .bottom{
     position: relative;
 }

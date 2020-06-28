@@ -30,11 +30,11 @@ body {
 
 .top {
   padding-right: 20px;
-  margin-bottom: 5vmin;
+  margin-bottom: 3vmin;
 }
 
 .top-text {
-  padding-bottom: 1.5vh;
+  padding-bottom: 1vh;
 }
 
 h1,
@@ -67,7 +67,7 @@ p {
   margin-top: 4vh;
   margin-bottom: 4vh;
   color: #77b800;
-  font-size: 6vmin;
+  font-size: 5vmin;
 }
 .row {
   margin-right: 0px;
@@ -77,7 +77,10 @@ p {
   padding: 0;
   margin: 0;
 }
-
+.col-10.game {
+  padding: 0;
+  margin: 0;
+}
 .get-started {
   margin-bottom: 2vh;
 }
@@ -108,19 +111,13 @@ p {
 .get-ready {
   color: #77b800;
   font-size: 3vmin;
-  margin-bottom: 0;
+  margin-bottom: 2vmin;
 }
 
 .explore {
   color: #2f4f4f;
   font-size: 3vmin;
   margin-bottom: 3vmin;
-}
-
-.game {
-  border-style: double;
-  border-color: #6083cd;
-  padding: 10px;
 }
 
 .game-border {
@@ -206,16 +203,16 @@ strong {
 }
 
 .map-btns {
-  width: 16vmin;
-  height: 16vmin;
+  width: 17vmin;
+  height: 17vmin;
   border-radius: 5px;
   border: 3px solid #6083cd;
   display: inline-block;
   color: rgba(0, 0, 0, 0);
   margin-top: 1vmin;
-  margin-right: 1vmin;
-  margin-bottom: 6vmin;
-  margin-left: 1vmin;
+  margin-right: 0.5vmin;
+  margin-bottom: 2vmin;
+  margin-left: 0.5vmin;
 }
 
 .stables {
@@ -317,7 +314,7 @@ strong {
   justify-content: center;
   align-items: end;
   display: grid;
-  height: 6vh;
+  height: 7.5vh;
   bottom: 0;
   position: relative;
   margin-top: 1vh;
@@ -491,10 +488,6 @@ button.btn-city {
   height: 15vmin;
 }
 
-.game {
-  border: none;
-}
-
 .map-btns {
   margin-bottom: 2vmin;
 }
@@ -503,6 +496,13 @@ button.btn-city {
 /* MQ tablets and small laptops */
 
 @media only screen and (min-width: 768px) and (min-height: 500px) {
+
+.game {
+  border-style: double;
+  border-color: #6083cd;
+  padding: 1.5vmin;
+}
+
   .banner-top {
     width: initial;
     height: 26vh;

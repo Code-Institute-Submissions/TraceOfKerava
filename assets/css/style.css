@@ -395,12 +395,12 @@ border-style: none;
 @media only screen and (min-width: 550px) and (max-width: 767px) {
   .banner-top {
     width: auto;
-    height: 27vh;
+    height: 26vh;
   }
   .banner-bottom {
     position: initial;
     bottom: 0;
-    height: 27vh;
+    height: 26vh;
   }
   .site-title {
     margin-bottom: 3vh;
@@ -417,6 +417,9 @@ border-style: none;
     padding: 0;
     border: none;
   }
+  .get-ready {
+  margin-bottom: 0vmin;
+}
   button.btn-suburbs {
     width: 15vmin;
     height: 15vmin;
@@ -432,13 +435,16 @@ border-style: none;
   .lets-play-final {
     font-size: 3.5vmin;
   }
+  .bottom {
+      margin-left: 0;
+  }
   .bottom-text {
     padding-bottom: 1vh;
-    height: 7vh;
+    height: 8.5vh;
     padding-top: 1vh;
   }
   .bottom-text-final {
-    height: 8vh;
+    height: 7.6vh;
   }
   .mobile-hidden {
     display: none;

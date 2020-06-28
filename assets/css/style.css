@@ -9,6 +9,9 @@ html {
   box-sizing: inherit;
 }
 
+ul, menu, dir {
+    padding-inline-start: 0;
+}
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   position: relative;
@@ -99,6 +102,8 @@ p {
 .show-text {
   background-color: #6083cd;
   color: #fafafa;
+  display: inline;
+  padding: 0;
 }
 .get-ready {
   color: #77b800;
@@ -136,6 +141,7 @@ button.btn-suburbs {
   border-radius: 5px;
   border: 3px solid #6083cd;
   display: inline-block;
+  color: rgba(0, 0, 0, 0);
 }
 
 button.btn-city {
@@ -146,6 +152,7 @@ button.btn-city {
   border-radius: 5px;
   border: 3px solid #6083cd;
   display: inline-block;
+  color: rgba(0, 0, 0, 0);
 }
 
 .bottom {
@@ -342,6 +349,12 @@ strong {
 /* MQ extra small mobile vertical */
 
 @media only screen and (max-width: 320px) {
+    .top-text {
+  padding-bottom: 1vh;
+}
+.game {
+  padding: 0;
+}
   .get-ready {
     font-size: 3.5vmin;
   }
@@ -350,6 +363,27 @@ strong {
     margin-bottom: 1vh;
     margin-top: 2vh;
   }
+    button.btn-suburbs {
+    width: 20vmin;
+    height: 20vmin;
+  }
+  button.btn-city {
+    width: 20vmin;
+    height: 20vmin;
+  }
+  .map-btns {
+  width: 21vmin;
+  border: .5px solid #6083cd;
+  margin-bottom: 2vmin;
+  height: 19vmin;
+  margin-left: 2vmin;
+  margin-right: 2vmin;
+}
+
+.site-title {
+  font-size: 5.3vmin;
+}
+
 }
 
 /* MQ mobile horizontal screen width 550px to 767px */

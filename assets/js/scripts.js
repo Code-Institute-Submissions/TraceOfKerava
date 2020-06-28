@@ -3,7 +3,7 @@
 $(document).ready(function() {
     $(".btn-city").hover(
         function() {
-            $(".btn-city").append($("<span class = show-text>Town Center</span>"));
+            $(".btn-city").append($("<span class = show-text>Center</span>"));
         },
         function() {
             $(".btn-city").find("span").last().remove();

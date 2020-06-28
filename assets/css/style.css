@@ -162,11 +162,11 @@ button.btn-city {
 }
 
 .bottom-text {
-  padding-top: 1.5vh;
   justify-content: center;
   align-items: end;
   display: grid;
   height: 6vh;
+  padding-top:0.5vh;
 }
 
 strong {

@@ -357,7 +357,9 @@ strong {
 .lets-play {
   margin-top: 4vh;
 }
-
+.bottom {
+    margin-top:2vh;
+}
 .initial-btns {
   margin-bottom: 4vh;
 }

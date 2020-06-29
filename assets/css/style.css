@@ -353,7 +353,6 @@ button.btn-city {
   .lets-play {
     margin-top: 4vh;
   }
-}
 
 .initial-btns {
   margin-bottom: 4vh;
@@ -363,7 +362,7 @@ button.btn-city {
   margin-top: 2vh;
   position: relative;
 }
-
+}
 /* MQ mobile horizontal screen width 550px to 767px */
 
 @media only screen and (min-width: 550px) and (max-width: 767px) {
@@ -486,6 +485,7 @@ button.btn-city {
   .top-text {
     padding-right: 2vw;
     padding-left: 2vw;
+    padding-bottom: 0;
   }
   .site-title {
     margin-bottom: 2.5vh;
@@ -505,11 +505,18 @@ button.btn-city {
   .lets-play-final {
     font-size: 3vmin;
   }
+  .get-ready {
+    margin-bottom: 1vmin;
+    font-size: 2vmin;
+  }
   .game {
     border-style: double;
     border-color: #6083cd;
     padding: 1.5vmin;
   }
+.initial-btns {
+  margin-bottom: 2vh;
+}
   button.btn-suburbs {
     width: 15vmin;
     height: 15vmin;
@@ -520,17 +527,19 @@ button.btn-city {
   }
   .bottom {
     padding-left: 0;
+    bottom: 0;
+    position: absolute;
   }
   .banner-bottom {
     width: initial;
-    height: 24vh;
+    height: 26vh;
   }
   .banner-bottom-final {
-    height: 24vh;
+    height: 26vh;
   }
   .bottom-text {
     display: flex;
-    height: 6vh;
+    height: 6.5vh;
     padding-bottom: 0;
     padding-right: 2vw;
     padding-left: 2vw;
@@ -544,8 +553,11 @@ button.btn-city {
     font-size: 2.5vmin;
   }
   .map-btns {
-    width: 15vmin;
-    height: 15vmin;
+    width: 14vmin;
+    height: 14vmin;
+    margin-bottom: 2vmin;
+    margin-left:0.5vmin;
+    margin-right:0.5vmin;
   }
   #map {
     height: 20vh;
@@ -560,6 +572,7 @@ button.btn-city {
 @media only screen and (min-width: 1200px) {
   .top {
     padding-right: 0;
+    margin-bottom: 3vmin;
   }
   .top-text {
     padding-left: 1vw;
@@ -596,7 +609,11 @@ button.btn-city {
     height: 14vmin;
   }
   .bottom {
+    margin-top: 3vh;  
     padding-left: 0;
+  }
+    .social {
+    font-size: 2vmin;
   }
   .bottom-text {
     padding-right: 1vw;

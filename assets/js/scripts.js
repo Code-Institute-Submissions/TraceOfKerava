@@ -150,7 +150,7 @@ $(document).one("click", "#manor", function() {
     $("#nature")
         .hide()
         .replaceWith(
-            "<div><p>Support the manor and buy <span class=mobile-hidden>yourself </span>a <span class = hidden>snack or a </span>drink from the cafe <span class=hidden>located </span>on ground floor. Take a walk inside to view the art on display. For additional challange write a review online.</p></div>"
+            "<div><p>Support the manor and buy <span class=hidden>yourself a snack or </span>a drink from the cafe <span class=hidden>located </span>on ground floor. Take a walk inside to view the art on display. For additional challange write a review online.</p></div>"
         )
         .appendTo(".middle");
     $(".introduction").replaceWith(
@@ -229,7 +229,7 @@ $(document).one("click", "#nature", function() {
         .appendTo(".game-final");
 });
 // Actions for City route buttons
-//Grocery story challenge click actions
+//Grocery store challenge click actions
 $(document).one("click", "#grocery", function() {
     $(".banner-top").addClass("banner-top-final").removeClass("banner-top");
     $(".top").addClass("top-final").removeClass("top");
@@ -248,7 +248,7 @@ $(document).one("click", "#grocery", function() {
     $("#cafe")
         .hide()
         .replaceWith(
-            "<div><p>Google recipes starting with the first letter of your first name. Go to Prisma to buy the <span class= mobile-hidden>required</span> ingredients and start cooking. For extra challange post a review of the recipe<span class=hidden> on social media</span>.</p></div>"
+            "<div><p>Google recipes starting with the first letter of your <span class=hidden>first </span>name. Go to Prisma to buy the <span class= hidden>required</span> ingredients and start cooking. For extra challange post a review of the recipe<span class=hidden> on social media</span>.</p></div>"
         )
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");
@@ -314,7 +314,7 @@ $(document).one("click", "#cafe", function() {
     $("#grocery")
         .hide()
         .replaceWith(
-            "<div><p>Buy yourself a coffee and sit down at a table. Write a small made up story about the next customer to walk into this cafe. For extra challenge post your story online.</p></div>"
+            "<div><p>Buy <span class=hidden>yourself </span>a coffee and sit down at a table. Write a small made up story about the next customer to walk into this cafe. For extra challenge post your story online.</p></div>"
         )
         .appendTo(".middle");
     $(".get-started").hide().closest("section.top-text").removeClass("top-text");

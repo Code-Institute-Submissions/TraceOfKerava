@@ -35,6 +35,7 @@ body {
 
 .top-text {
   padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
 h1,
@@ -58,7 +59,7 @@ p {
   display: block;
   border-radius: 0 0 0 10px;
   transform: rotateY(180deg);
-  height: 25vh;
+  height: 24vh;
   position: inherit;
 }
 
@@ -78,8 +79,8 @@ p {
   margin: 0;
 }
 .col-10.game {
-  padding: 0;
   margin: 0;
+  padding: 1vmin;
 }
 .get-started {
   margin-bottom: 2vh;
@@ -98,8 +99,8 @@ p {
 .lets-play {
   color: #6083cd;
   font-size: 4vmin;
-  margin-bottom: 2vh;
-  margin-top: 2.5vh;
+  margin-bottom: 1.5vh;
+  margin-top: 2vh;
 }
 
 .show-text {
@@ -117,12 +118,13 @@ p {
 .explore {
   color: #2f4f4f;
   font-size: 3vmin;
-  margin-bottom: 3vmin;
+  margin-bottom: 0;
 }
 
 .game-border {
   border-style: double;
   border-color: #77b800;
+  margin: 1vmin;
 }
 
 .initial-btns {
@@ -133,8 +135,8 @@ p {
 button.btn-suburbs {
   background-image: url(../images/worms-eyeview-of-green-trees-957024.jpg);
   background-size: cover;
-  width: 20vmin;
-  height: 20vmin;
+  width: 22vmin;
+  height: 22vmin;
   border-radius: 5px;
   border: 3px solid #6083cd;
   display: inline-block;
@@ -144,8 +146,8 @@ button.btn-suburbs {
 button.btn-city {
   background-image: url(../images/bakery-1868925_1920.jpg);
   background-size: cover;
-  width: 20vmin;
-  height: 20vmin;
+  width: 22vmin;
+  height: 22vmin;
   border-radius: 5px;
   border: 3px solid #6083cd;
   display: inline-block;
@@ -188,31 +190,22 @@ strong {
   background-size: cover;
   display: block;
   border-radius: 10px 0 0 0;
-  height: 25vh;
+  height: 24vh;
   width: auto;
   position: inherit;
 }
 
-.footer {
-  font-size: 2vmin;
-  padding: 1vmin 4vmin 0 1vmin;
-  margin-bottom: 1vmin;
-  height: 5vh;
-  display: flex;
-  align-items: end;
-}
-
 .map-btns {
-  width: 22vmin;
-  height: 22vmin;
+  width: 20vmin;
+  height: 20vmin;
   border-radius: 5px;
   border: 3px solid #6083cd;
   display: inline-block;
   color: rgba(0, 0, 0, 0);
   margin-top: 1vmin;
-  margin-right: 1.5vmin;
+  margin-right: 2vmin;
   margin-bottom: 1vmin;
-  margin-left: 1.5vmin;
+  margin-left: 2vmin;
 }
 
 .stables {
@@ -288,13 +281,13 @@ strong {
   display: block;
   border-radius: 0 0 0 10px;
   transform: rotateY(180deg);
-  height: 26vh;
+  height: 24vh;
   position: inherit;
 }
 
 .top-final {
   padding-right: 20px;
-  margin-bottom: 1vh;
+  margin-bottom: 2vh;
 }
 
 .game-final {
@@ -314,10 +307,9 @@ strong {
   justify-content: center;
   align-items: end;
   display: grid;
-  height: 5.5vh;
+  height: 6vh;
   bottom: 0;
   position: relative;
-  margin-top: 1vh;
 }
 
 .footer-final {
@@ -336,7 +328,7 @@ strong {
   background-size: cover;
   display: block;
   border-radius: 10px 0 0 0;
-  height: 26vh;
+  height: 24vh;
   width: auto;
   position: inherit;
 }
@@ -502,14 +494,13 @@ button.btn-city {
   }
   .bottom-text {
     display: flex;
-    height: 8vh;
-    padding-top: 1.5vh;
+    height: 6vh;
     padding-bottom: 0;
     padding-right: 2vw;
     padding-left: 2vw;
   }
   .top {
-    margin-bottom: 2vh;
+    margin-bottom: 2vmin;
     padding-right: 0;
   }
   .middle {
@@ -519,11 +510,7 @@ button.btn-city {
     font-size: 3vmin;
     margin-top: 2vh;
   }
-  .footer {
-    margin-bottom: 0;
-    display: flex;
-    height: 3vh;
-  }
+
   p {
     font-size: 1.8vmin;
     line-height: 3vh;
@@ -542,14 +529,14 @@ button.btn-city {
     height: 24vh;
   }
   .get-ready {
-    font-size: 2.5vmin;
+    font-size: 0;
   }
   .banner-bottom-final {
     height: 24vh;
   }
   .bottom-text-final {
     margin-right: 2vw;
-    height: 8vh;
+    height: 6vh;
     margin-top: 0;
   }
   .lets-play-final {
@@ -572,6 +559,18 @@ button.btn-city {
   .hidden {
     display: initial;
   }
+  button.btn-suburbs {
+  width: 15vmin;
+  height: 15vmin;
+}
+button.btn-city {
+  width: 15vmin;
+  height: 15vmin;
+}
+.map-btns {
+  width: 15vmin;
+  height: 15vmin;
+}
 }
 
 /* MQ laptops and monitors*/
@@ -607,15 +606,6 @@ button.btn-city {
   }
   .get-started {
     margin-bottom: 0;
-  }
-  .footer {
-    font-size: 1vmin;
-    padding: 1vmin 1vmin 0 1vmin;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 0px;
-    padding-left: 5px;
-    margin-bottom: 2px;
   }
   .game {
     border: double;

@@ -37,6 +37,7 @@ $(document).ready(function() {
             "<h2 class=lets-play>Just one more choice to make:</h2>"
         );
         $(".btn-suburbs").hide();
+        $(".initial-btns").removeClass();
         $("#stables")
             .removeClass("hide")
             .addClass("map-btns")
@@ -74,6 +75,7 @@ $(document).ready(function() {
             "<h2 class=lets-play>Just one more choice to make:</h2>"
         );
         $(".btn-city").hide();
+        $(".initial-btns").removeClass();
         $("#grocery")
             .removeClass("hide")
             .addClass("map-btns")

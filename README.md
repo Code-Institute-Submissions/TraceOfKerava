@@ -36,15 +36,15 @@ Design documents are located [here](documents/wireframes)
 
 The site uses bottoms that allow users to access chosen options. These are presented as pictures to allow for a bit of mystery behind each selection.
 
-The footer is sticky, placed at the bottom of the page for more balanced look accross different screen sizes.
+The bottom section is sticky, placed at the bottom of the page for more balanced look accross different screen sizes. To allow readable font size and no overlap between the element the sticky bottom does not apply to devices wiht view hight less than 530px.
 
 There are links to the various social media accounts in the bottom of the page to allow users to quickly access official Kerava social media as well as a hyper link to the official website.
 
 Due to the nature of the site, a navigation bar is not included but a link back to start is accessable at every stage.
 
-The bottons on the site reflect the options presented to the users:
+The buttons on the site reflect the options presented to the users:
 
--Landing page has 2 buttons:
+- Landing page has 2 buttons:
     - Visitor can select a botton representing center or 
     - Visitor can select a botton representing more outskirts location
 - Each selection leads to 4 bottons from which the user should select one to see the challange chosen for this item.
@@ -54,10 +54,13 @@ The bottons on the site reflect the options presented to the users:
 ### Features Left to Implement
 
 A few features that were excluded from the current version:
- This was skipped due to lack of time.
+- Direction service for the maps, allowing mobile phone users to get route directions from their current location.
 - Adding alternative options in each challenge so that returning users can opt for a new version of the challenge and users with travel limitations have an option to choose something closer to them.
 - An image gallery of the pictures posted in social media with tag
-- The botton with a link to contact in case a company wants to be included in the site whereby visitors can leave their contact request, by clicking on "here" and hyperlink and filling out the form.
+- The button with a link to contact in case a company wants to be included in the site whereby visitors can leave their contact request, by clicking on "here" and hyperlink and filling out the form.
+
+Some improvements for text size should be implemented in the future, especially for Edge. Also a fix for maps not fully rendering assumably due to low internet connections would be needed, potentially by allowing a fix map to be displayed in such cases instead.
+
 
 ## Technologies Used
 -	Bootstrapcdn
@@ -87,7 +90,9 @@ The follow tests were made to ensure the buttons are working properly:
 
 In addition, social media links and the link to official town website at the bottom were all tested to make sure they work as expected.
 
-The site was reviewed on laptop, mobile phone and a large monitor using 1E11, Chrome, Edge and FireFox.
+The site was reviewed on laptop, mobile phone and a large monitor using IE11, Chrome, Edge and FireFox. It should be noted that the site does not render well on Internet Explorer versions older than IE10. Also Firefox 2-18 and Chrome 4-19 browsers are not compatible.
+
+During final testing some users reported issues with map rendering which they attributed to slow internet speed. This has not been fully solved and should be still investigated for future releases.
 
 ## Deployment
 
@@ -107,16 +112,18 @@ Basis for maps [here](https://www.nicklitten.com/how-to-display-multiple-google-
 
 Custom colored map marker inspiration from [here](https://medium.com/free-code-camp/how-to-change-javascript-google-map-marker-color-8a72131d1207)
 
+Browser compatibility for vmin and vh taken from [here](https://caniuse.com/#feat=viewport-units)
 
 ### Media
 
 The photos used in this site roaylty free photos obtained from:
-- pexels.com 
-- pixabay.com and 
+- pexels.com and
+- pixabay.com 
 
 
 ### Acknowledgements
 
 I want to say special thank you to the following parties for making this project possible:
 - Code Institute by providing me the training materials and support
+- Stella M, Liisa L and Justyna M for helping to test the site on different mobile phones
 - And a special thank you to my menter seun_mentor

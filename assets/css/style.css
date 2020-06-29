@@ -354,14 +354,14 @@ button.btn-city {
     margin-top: 4vh;
   }
 
-.initial-btns {
-  margin-bottom: 4vh;
-}
+  .initial-btns {
+    margin-bottom: 4vh;
+  }
 
-.bottom {
-  margin-top: 2vh;
-  position: relative;
-}
+  .bottom {
+    margin-top: 2vh;
+    position: relative;
+  }
 }
 /* MQ mobile horizontal screen width 550px to 767px */
 
@@ -514,9 +514,9 @@ button.btn-city {
     border-color: #6083cd;
     padding: 1.5vmin;
   }
-.initial-btns {
-  margin-bottom: 2vh;
-}
+  .initial-btns {
+    margin-bottom: 2vh;
+  }
   button.btn-suburbs {
     width: 15vmin;
     height: 15vmin;
@@ -556,8 +556,8 @@ button.btn-city {
     width: 14vmin;
     height: 14vmin;
     margin-bottom: 2vmin;
-    margin-left:0.5vmin;
-    margin-right:0.5vmin;
+    margin-left: 0.5vmin;
+    margin-right: 0.5vmin;
   }
   #map {
     height: 20vh;
@@ -609,10 +609,10 @@ button.btn-city {
     height: 14vmin;
   }
   .bottom {
-    margin-top: 3vh;  
+    margin-top: 3vh;
     padding-left: 0;
   }
-    .social {
+  .social {
     font-size: 2vmin;
   }
   .bottom-text {

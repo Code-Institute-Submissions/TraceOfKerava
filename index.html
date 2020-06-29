@@ -1,124 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <!-- Bootstrap font awesome -->
-      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-      <title>MileSoneProject2</title>
-   </head>
-   <body>
-      <div class="top">
-         <div class="row">
-            <div class="col-2 col-sm-1">
-               <div class= "banner-top"></div>
-            </div>
-            <div class="col-10">
-               <h1 class="site-title">
-                  ~ TRACE OF KERAVA ~
-               </h1>
-               <section class="top-text">
-                  <p class="introduction">
-                     Welcome to Trace of Kerava, a site to visit to get to know our town<span class="hidden">in a fun way</span>!<span class= "hidden"><br>We have put together a few fun activities to try while getting familiar with the different areas of our town.</span>
-                  </p>
-               </section>
-               <section class="top-text">
-                  <p class="get-started">
-                     Couple of clicks and an open mind is all you need<span class="hidden"> to discover your mission for the day</span>.
-                     So without further delay, let's get started:
-                  </p>
-               </section>
-            </div>
-            <div class="col-sm-1"></div>
-         </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Bootstrap font awesome -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>MileSoneProject2</title>
+  </head>
+  <body>
+    <div class="top">
+      <div class="row">
+        <div class="col-2 col-sm-1">
+          <div class="banner-top"></div>
+        </div>
+        <div class="col-10">
+          <h1 class="site-title">
+            ~ TRACE OF KERAVA ~
+          </h1>
+          <section class="top-text">
+            <p class="introduction">
+              Welcome to Trace of Kerava, a site to visit to get to know our
+              town<span class="hidden">in a fun way</span>!<span class="hidden"
+                ><br />We have put together a few fun activities to try while
+                getting familiar with the different areas of our town.</span
+              >
+            </p>
+          </section>
+          <section class="top-text">
+            <p class="get-started">
+              Couple of clicks and an open mind is all you need<span
+                class="hidden"
+              >
+                to discover your mission for the day</span
+              >. So without further delay, let's get started:
+            </p>
+          </section>
+        </div>
+        <div class="col-sm-1"></div>
       </div>
-      <div class="middle">
-         <div>
-            <div class="row">
-               <div class="col-1 col-lg-2"></div>
-               <div class="col-10 col-lg-8 game">
-                  <div class="game-border">
-                     <h2 class="lets-play">Let's Play!</h2>
-                     <h3 class="get-ready">
-                        Make your choice below and get ready!
-                     </h3>
-                     <h4 class="explore">
-                        What do you want to explore today?
-                     </h4>
-                     <div class= "initial-btns">
-                        <button class= "btn-suburbs">I</button>
-                        <button class= "btn-city">I</button>
-                     </div>
-                     <button id="stables" class= "stables hide"></button>
-                     <button id="nature" class="nature hide"></button>
-                     <button id="manor" class="manor hide"></button>
-                     <button id="cricket" class="cricket hide"></button>
-                     <button id="grocery" class="grocery hide"></button>
-                     <button id="library" class="library hide"></button>
-                     <button id="cafe" class="cafe hide"></button>
-                     <button id="thrift" class="thrift hide"></button>
-                  </div>
-               </div>
-               <div class="col-1 col-lg-2"></div>
+    </div>
+    <div class="middle">
+      <div>
+        <div class="row">
+          <div class="col-1 col-lg-2"></div>
+          <div class="col-10 col-lg-8 game">
+            <div class="game-border">
+              <h2 class="lets-play">Let's Play!</h2>
+              <h3 class="get-ready">
+                Make your choice below and get ready!
+              </h3>
+              <h4 class="explore">
+                What do you want to explore today?
+              </h4>
+              <div class="initial-btns">
+                <button class="btn-suburbs">I</button>
+                <button class="btn-city">I</button>
+              </div>
+              <button id="stables" class="stables hide"></button>
+              <button id="nature" class="nature hide"></button>
+              <button id="manor" class="manor hide"></button>
+              <button id="cricket" class="cricket hide"></button>
+              <button id="grocery" class="grocery hide"></button>
+              <button id="library" class="library hide"></button>
+              <button id="cafe" class="cafe hide"></button>
+              <button id="thrift" class="thrift hide"></button>
             </div>
-         </div>
+          </div>
+          <div class="col-1 col-lg-2"></div>
+        </div>
       </div>
-      <div class ="bottom">
-         <div class="row">
-            <div class="col-sm-1"></div>
-            <div class ="col-10">
-               <section class="bottom-text">
-                  <p>Post pictures of your <span class="hidden"> steps and </span> challenges on social media with <strong>#traceofkerava</strong>!
-                     <span class = "hidden"><br>We are looking forwards to seeing your comments and suggestions.</span> 
-                  </p>
-               </section>
-               <section class="bottom-text">
-                  <p>For more information about Kerava <span class="hidden">please</span> visit the official city website <strong><a target="_blank" class="hyperlink" href="https://www.kerava.fi/">here.</a></strong></p>
-    
-               </section>
-               <section class="bottom-text"><p>To go back to start click <strong><a class="hyperlink" href="index.html">here</a></strong>.</p></section>
+    </div>
+    <div class="bottom">
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-10">
+          <section class="bottom-text">
+            <p>
+              Post pictures of your
+              <span class="hidden"> steps and </span> challenges on social media
+              with <strong>#traceofkerava</strong>!
+              <span class="hidden"
+                ><br />We are looking forwards to seeing your comments and
+                suggestions.</span
+              >
+            </p>
+          </section>
+          <section class="bottom-text">
+            <p>
+              For more information about Kerava
+              <span class="hidden">please</span> visit the official city website
+              <strong
+                ><a
+                  target="_blank"
+                  class="hyperlink"
+                  href="https://www.kerava.fi/"
+                  >here.</a
+                ></strong
+              >
+            </p>
+          </section>
+          <section class="bottom-text">
+            <p>
+              To go back to start click
+              <strong><a class="hyperlink" href="index.html">here</a></strong
+              >.
+            </p>
+          </section>
 
-               <section class="bottom-text">
-                  <ul class= "social">
-                     <li class="list-inline-item">Find us on social media:</li>
-                     <li class="list-inline-item">
-                        <a target="_blank" href="https://twitter.com/keravankaupunki?lang=en">
-                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
-                        <span class="sr-only">Twitter</span>
-                        </a>
-                     </li>
-                     <li class="list-inline-item">
-                        <a target="_blank" href="https://www.facebook.com/Keravankaupunki/">
-                        <i class="fa fa-facebook-official" aria-hidden="true"></i>
-                        <span class="sr-only">Facebook</span>
-                        </a>
-                     </li>
-                     <li class="list-inline-item">
-                        <a target="_blank" href="https://www.instagram.com/cityofkerava/">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                        <span class="sr-only">Instagram</span>
-                        </a>
-                     </li>
-                  </ul>
-               </section>
-            </div>
-            <div class="col-2 col-sm-1">
-               <div class="banner-bottom"></div>
-            </div>
-         </div>
+          <section class="bottom-text">
+            <ul class="social">
+              <li class="list-inline-item">Find us on social media:</li>
+              <li class="list-inline-item">
+                <a
+                  target="_blank"
+                  href="https://twitter.com/keravankaupunki?lang=en"
+                >
+                  <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                  <span class="sr-only">Twitter</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  target="_blank"
+                  href="https://www.facebook.com/Keravankaupunki/"
+                >
+                  <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                  <span class="sr-only">Facebook</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a
+                  target="_blank"
+                  href="https://www.instagram.com/cityofkerava/"
+                >
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                  <span class="sr-only">Instagram</span>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div class="col-2 col-sm-1">
+          <div class="banner-bottom"></div>
+        </div>
       </div>
-      <!-- JQuery -->
-      <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-      <!-- Script -->
-      <script src="assets/js/scripts.js"></script>
-      <!-- Maps script -->
-      <script src="assets/js/maps.js"></script>
-      <script async defer
-         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5SwquYg0zASQss6CU9H5Ja1A4AVoEvtE&callback=initMap&libraries=&v=weekly"
-         ></script>
-   </body>
+    </div>
+    <!-- JQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Script -->
+    <script src="assets/js/scripts.js"></script>
+    <!-- Maps script -->
+    <script src="assets/js/maps.js"></script>
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5SwquYg0zASQss6CU9H5Ja1A4AVoEvtE&callback=initMap&libraries=&v=weekly"
+    ></script>
+  </body>
 </html>
